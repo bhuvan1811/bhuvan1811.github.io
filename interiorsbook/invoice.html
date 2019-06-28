@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon/favicon.ico" type="image/ico" sizes="16x16">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet" type="text/css" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Interiorsbook | Invoices</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="css/hamburgers.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/nice-select.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <section class="header boxs">
+        <div class="head boxs">
+            <div class="logodiv">
+                <h1>Interiorsbook</h1>
+            </div>
+            <div class="head_rht boxs">
+                <p>Total credits</p>
+                <a href="javascript:void(0)">₹ 10000</a>
+            </div>
+        </div>
+    </section>
+    <section class="topbar boxs">
+        <div class="top_bar boxs">
+            <ul>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="lead.html">My Leads</a></li>
+                <li><a href="invoice.html">Invoices</a></li>
+                <li><a href="javascript:void(0)">Billing</a></li>
+            </ul>
+        </div>
+    </section>
+    
+    <section class="main boxs">
+        <div class="nav_side boxs">
+            <div class="userPic">
+                <img src="img/banner.png" alt="user image" class="img-responsive">
+                <p>User Name</p>
+            </div>
+            <a href="profile.html">Profile<i class="fa fa-user" aria-hidden="true"></i></a>
+            <a href="lead.html">My Leads</a>
+            <a class="active" href="invoice.html">Invoices<i class="far fa-file-alt"></i></a>
+            <a href="javascript:void(0)">Billing<i class="fas fa-wallet"></i></a>
+        </div>
+        <div class="main_rht boxs">
+            <div class="rht_top boxs">
+                <div class="rht_heading">
+                    <h2>All Invoices</h2>
+                </div>
+<!--            <div class="exportall">
+                    <a href="javacsript:void()"><span><img class="greyimg" src="img/download.svg" alt="Download Image"></span><img class="whiteimg" src="img/download2.svg" alt="Download Image">Export All</a>
+                </div>-->
+
+                <div class="date_sort">
+                        <label>Sort by </label>
+                    <div id="datepicker" class="input-group date" data-date-format="dd-mm-yyyy" >
+                        <input class="form-control" type="text" placeholder="Date" readonly />
+                        <span class="input-group-addon"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+            </div> 
+            <div class="rht_bottom invoice">
+                <table>
+                    <tr>
+                        <th>Select All</th>
+                        <th>Date</th>
+                        <th>Name</th>
+                        <th>Transaction id</th>
+                        <th>Amount</th>  
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox"/><span class="fake-checkbox"></span></label></td>
+                        <td>25-05-2019</td>
+                        <td>John doe</td>
+                        <td>axis23289328302</td>
+                        <td>1000000</td>
+                        <td><a href="javacsript:void()"><span><img class="greyimg" src="img/download.svg" alt="Download Image"></span><img class="whiteimg" src="img/download2.svg" alt="Download Image">Export</a></td>                        
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox"/><span class="fake-checkbox"></span></label></td>
+                        <td>25-05-2019</td>
+                        <td>John doe</td>
+                        <td>axis23289328302</td>
+                        <td>1000000</td>
+                        <td><a href="javacsript:void()"><span><img class="greyimg" src="img/download.svg" alt="Download Image"></span><img class="whiteimg" src="img/download2.svg" alt="Download Image">Export</a></td>                        
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox"/><span class="fake-checkbox"></span></label></td>
+                        <td>25-05-2019</td>
+                        <td>John doe</td>
+                        <td>axis23289328302</td>
+                        <td>1000000</td>
+                        <td><a href="javacsript:void()"><span><img class="greyimg" src="img/download.svg" alt="Download Image"></span><img class="whiteimg" src="img/download2.svg" alt="Download Image">Export</a></td>                        
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox"/><span class="fake-checkbox"></span></label></td>
+                        <td>25-05-2019</td>
+                        <td>John doe</td>
+                        <td>axis23289328302</td>
+                        <td>1000000</td>
+                        <td><a href="javacsript:void()"><span><img class="greyimg" src="img/download.svg" alt="Download Image"></span><img class="whiteimg" src="img/download2.svg" alt="Download Image">Export</a></td>                        
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="rht_bottom rht_btm_mob invoice">
+                <table>
+                    <tr>
+                        <td><label><input type="checkbox"/><span class="fake-checkbox"></span></label></td>
+                        <td><a href="javacsript:void()"><span><img class="greyimg" src="img/download.svg" alt="Download Image"></span><img class="whiteimg" src="img/download2.svg" alt="Download Image">Export</a></td>
+                    
+                        <th>Date</th>
+                        <td>25-05-2019</td>
+                    
+                        <th>Name</th>
+                        <td>John doe</td>
+                    
+                        <th>Transaction id</th>
+                        <td>axis23289328302</td>
+                    
+                        <th>Amount</th>
+                        <td>1000000</td>
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox"/><span class="fake-checkbox"></span></label></td>
+                        <td><a href="javacsript:void()"><span><img class="greyimg" src="img/download.svg" alt="Download Image"></span><img class="whiteimg" src="img/download2.svg" alt="Download Image">Export</a></td>
+                    
+                        <th>Date</th>
+                        <td>25-05-2019</td>
+                    
+                        <th>Name</th>
+                        <td>John doe</td>
+                    
+                        <th>Transaction id</th>
+                        <td>axis23289328302</td>
+                    
+                        <th>Amount</th>
+                        <td>1000000</td>
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox"/><span class="fake-checkbox"></span></label></td>
+                        <td><a href="javacsript:void()"><span><img class="greyimg" src="img/download.svg" alt="Download Image"></span><img class="whiteimg" src="img/download2.svg" alt="Download Image">Export</a></td>
+                    
+                        <th>Date</th>
+                        <td>25-05-2019</td>
+                    
+                        <th>Name</th>
+                        <td>John doe</td>
+                    
+                        <th>Transaction id</th>
+                        <td>axis23289328302</td>
+                    
+                        <th>Amount</th>
+                        <td>1000000</td>
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox"/><span class="fake-checkbox"></span></label></td>
+                        <td><a href="javacsript:void()"><span><img class="greyimg" src="img/download.svg" alt="Download Image"></span><img class="whiteimg" src="img/download2.svg" alt="Download Image">Export</a></td>
+                    
+                        <th>Date</th>
+                        <td>25-05-2019</td>
+                    
+                        <th>Name</th>
+                        <td>John doe</td>
+                    
+                        <th>Transaction id</th>
+                        <td>axis23289328302</td>
+                    
+                        <th>Amount</th>
+                        <td>1000000</td>
+                    </tr>
+                    
+                    
+                    
+                </table>
+            </div>
+            
+            
+                              
+        </div>
+    </section>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/jquery.nice-select.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

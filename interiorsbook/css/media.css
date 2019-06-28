@@ -1,0 +1,855 @@
+
+    @media(max-width:1367px){
+  
+/*    Profile- Company Info*/
+
+        .sign_body .form-control
+        {
+            width: 250px;
+        }
+        .sign_body li a
+        {
+            width: 175px;
+        }
+
+/*    Profile- Company Info End*/
+       
+    }
+    @media(max-width:1199px){
+       .enqu_lft ul li
+       {
+           width: 34%;
+       }
+       .enqu_lft ul li:nth-child(3)
+       {
+           margin-top: 10px;
+       }
+
+    /*   Invoice*/
+
+        .rht_bottom.invoice table td a
+        {
+            padding: 10px 20px;
+        }
+
+    /*     Invoice End*/
+    
+/*    Profile- Company Info*/
+
+        .sign_body .form-control
+        {
+            width: 64%;
+        }
+        .sign_body li:last-child
+        {
+            width: 30%;
+        }
+        .award li span
+        {
+            /*margin-left: 48px;*/
+        }
+        .award li a
+        {
+            width: 50px;
+        }
+        .award li input.form-control
+        {
+            width: 95%;
+        }
+
+/*    Profile- Company Info End*/
+
+/*    Profile- Lead*/
+
+        .multicheck
+        {
+            width: 170px;
+        }
+        .multichoice label
+        {
+            display: block;
+        }
+        .multichoice .form-control
+        {
+            width: 90%;
+        }
+        .nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus
+        {
+            width: 100%;
+        }
+
+/*    Profile- Lead End*/
+        .Personal_form form .form-group.comp_detail input
+        {
+            width: 100%;
+        }
+    
+    }
+    @media(max-width:991px){
+        .lft_content p
+        {
+            padding-right: 20px;
+        }
+        .enqu_right .nice-select span
+        {
+            /*padding-right: 10px;*/
+        }
+        .enqu_lft ul li 
+        {
+            width: 29%;
+        }
+        .enqu_lft ul li:nth-child(3)
+        {
+           margin-top: 10px;
+        }
+       .enqu_right .nice-select
+        {
+            position: absolute;
+            top: 0;
+            margin-top: 0;
+            right: 15px;
+        }
+        .rht_bottom.invoice
+        {
+            display: none;
+        }
+        .rht_bottom.rht_btm_mob.invoice
+        {
+            display: block;
+        }
+
+        
+/*    Profile- Personal Info*/
+
+        .sign_body
+        {
+            padding: 25px 20px;
+        }
+        .sign_body li
+        {
+            margin: 0px 3px;
+        }
+        .sign_body li a
+        {
+            padding: 10px 0px;
+            font-size: 20px;
+        }
+        .save_btn button
+        {
+            margin-left: 20px;
+        }
+
+/*    Profile- Personal Info End*/
+
+/*    Profile- Company Info*/
+
+        .atc textarea.form-control, .ca textarea.form-control
+        {
+            width: 100%;
+        }
+        .award li a
+        {
+            width: 38%;
+            margin-left: 20px;
+        }
+
+/*    Profile- Company Info End*/
+
+/*    Profile- Lead*/
+
+        .multicheck
+        {
+            width: 50%;
+            margin-bottom: 10px;
+        }
+        .multichoice .form-group
+        {
+            width: 49%;
+            margin-right: 0;
+        }
+
+/*    Profile- Lead End*/
+
+/*Index Page*/
+
+        .signup.indexs .Personal_form .form-group
+        {
+            width: 46%;
+            margin: 0;
+        }
+        .signup.indexs .Personal_form .form-group .form-control
+        {
+            width: 100%;
+        }
+        .signup.indexs .Personal_form .form-group.comp_detail
+        {
+            width: 300px;
+        }
+        .signup.indexs .Personal_form .form-group.comp_detail .form-control
+        {
+            width: 100%;
+        }
+        .signup.indexs .Personal_form .form-group:nth-child(2)
+        {
+            margin-left: 40px;
+        }
+        .signup.indexs .Personal_form button
+        {
+            display: inline-block;
+            margin-top: 30px;
+        }        
+
+/*Index Page*/
+
+/*Index Company*/
+
+        .signup.indexs .Personal_form .form-group
+        {
+            margin-bottom: 25px;
+        }        
+
+/*Index Company*/
+        
+
+    }
+    @media(max-width:767px){
+        .enqu_lft ul li
+        {
+            width: 24%;
+        }
+        .enquiry .row
+        {
+            display: block;
+        }
+        .nice-select
+        {
+            margin-top: 15px;
+        }
+        .lft_content p
+        {
+            padding-right: 0;
+        }
+        .nav_side a
+        {
+            padding: 13px 9px;
+        }
+        .main_rht
+        {
+            padding: 30px 20px 100px;
+        }
+        .enqu_lft ul li
+        {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .enqu_lft ul li span
+        {
+            display: inline-block;
+            margin-left: 20px;
+        }
+        .enqu_lft ul li:nth-child(3)
+        {
+           margin-top: 0px;
+        }
+        .nav_side
+        {
+            width: 15%;
+        }
+        .main_rht
+        {
+            margin-left: 15%;
+        }
+
+    /*Invoice*/
+
+        .rht_bottom.rht_btm_mob.invoice table tr th, .rht_bottom.rht_btm_mob.invoice table tr td
+       {
+           width: 49.4% !important;
+       }
+
+    /*Invoices*/
+
+    /*    Profile- Personal Info*/
+    
+        .sign_body li
+        {
+            display: block;
+            margin: 0;
+            margin-top: 10px;
+        }
+        .sign_body li:first-child
+        {
+            margin-top: 0;
+        }
+        .profile_per label
+        {
+            width: 35%;
+        }
+        .sign_body .form-control
+        {
+            width: 64%;
+            /*height: 40px;*/
+        }    
+    
+    /*    Profile- Personal Info*/
+    
+    /*    Profile- Personal Info*/
+            
+         .award li
+         {
+             width: 65%;
+         }
+         .award li label
+         {
+             margin: 15px 0 5px;
+         }
+         .award li:last-child
+         {
+             width: 100%;
+         }    
+    
+    /*    Profile- Personal Info End*/
+    
+     /*    Profile- Company Info*/
+     
+        .multichoice .form-group.resident .nice-select, .multichoice .form-group.commerc .nice-select
+        {
+            width: 80%;
+        }
+        
+    /*    Profile- Company Info End*/
+    
+/*Index Page    */
+
+        .sign
+        {
+            padding: 0 80px 80px;
+        }
+        .signup.indexs .Personal_form .form-group
+        {
+            width: 160px;
+        }
+        .signup.indexs .Personal_form .form-group.comp_dtl
+        {
+            width: 53%;
+        }
+        .signup.indexs .Personal_form .form-group.comp_detail
+        {
+            width: 83%;
+        }
+
+/*Index Page End*/
+
+/*        Lead Page*/
+        .enqu_lft ul li
+        {
+            margin-right: 0px;
+        }
+
+/*        Lead Page End*/
+    
+    }
+    @media(max-width:560px){
+       .nav_side
+       {
+            width: 20%;
+            top: 60px;
+       }
+       .main_rht
+       {
+            width: 100%;
+            margin-left: 0;
+       }
+       .date_sort #datepicker input.form-control
+       {
+           padding: 5px;
+       }
+       .date_sort #datepicker span
+       {
+           padding: 5px;
+       }
+       #datepicker
+       {
+           width: 107px;
+       }
+       .enqu_lft ul li
+       {
+           width: 100%;
+       }
+       .enqu_lft ul li:nth-child(3)
+       {
+           margin-top: 0;
+       }
+       .enqu_lft ul li
+       {
+           margin-bottom: 10px;
+       }
+       .enqu_lft ul li
+       {
+           margin-right: 0;
+       }
+       .date_sort label
+       {
+           margin-right: 10px;
+       }
+       #datepicker
+       {
+           margin-left: 10px;
+       }
+       .main_rht .rht_heading h1
+       {
+           font-size: 27px;
+       }
+       .header
+       {
+           padding: 10px 20px;       
+       }
+       .head_rht a
+       {
+           padding: 5px 10px;
+       }
+    
+       .main
+       {
+           margin-top: 5px;
+       }
+       .main_rht
+       {
+           padding: 20px 20px 100px;
+       }
+       .rht_bottom.rht_btm_mob.invoice table tr th, .rht_bottom.rht_btm_mob.invoice table tr td
+       {
+           width: 49% !important;
+       }
+       .rht_bottom.rht_btm_mob.invoice table td a span
+       {
+            margin-right: 10px;
+       }
+       .rht_bottom.rht_btm_mob.invoice table td a span img
+       {
+           width: 20%;
+       }
+       .rht_bottom.rht_btm_mob.invoice table td a
+       {
+           padding: 10px;
+       }
+       .rht_bottom.rht_btm_mob.invoice table td a:focus img
+       {
+           width: 20%;
+           margin-right: 10px;
+       }
+       .rht_bottom.rht_btm_mob.invoice table td a:focus span
+       {
+           margin-right: 0;
+       }
+       .rht_bottom.rht_btm_mob.invoice table tr
+       {
+           padding: 20px;
+       }
+       .main_rht .rht_heading
+       {
+           /*display: block;*/
+           text-align: center;
+       }
+/*       .main_rht .date_sort
+       {
+            width: 100%;
+            margin-bottom: 20px;
+            display: block;
+            float: unset;
+            text-align: center;
+       }*/
+       .main_rht .rht_heading h1
+       {
+           padding-bottom: 10px;
+       }
+       #datepicker
+       {
+           margin: 0 auto;
+       }
+       .main_rht .rht_heading h1{
+           padding-bottom: 0;
+       }
+       
+/*    Profile- Personal Info*/
+        
+        .profile_per label
+        {
+            width: 100px;
+        }
+        .sign_body .form-control
+        {
+            width: 148px;
+            /*height: 40px;*/
+            font-size: 15px;
+        }
+        .sign_body .form-group
+        {
+            width: 100%;
+            height: auto;
+        }
+
+/*    Profile- Personal Info End*/
+
+/*    Profile- Company Info*/
+
+        .Personal_form .upload
+        {
+            width: 100%;
+        }
+        .award
+        {
+            padding: 25px;
+        }
+        .award li
+        {
+            width: 100%;
+        }
+        .award li input.form-control
+        {
+            margin: 0;
+            width: 100%;
+        }
+        .sign_body .form-control
+        {
+            width: 100%;
+        }
+        .award ul li a
+        {
+            display: inline-block;
+            height: auto;
+        }        
+
+/*    Profile- Company Info End*/
+
+/*    Profile- Lead*/
+
+        .multicheck
+        {
+            width: 100%;
+        }
+        .multichoice .form-control
+        {
+            margin-top: 0
+        }
+        .multichoice h5
+        {
+            padding-bottom: 10px;
+        }
+        .multichoice .form-group.commerc
+        {
+            margin-top: 15px;
+        }
+
+/*    Profile- Lead End*/
+
+/*Index Page*/
+
+        .signup.indexs .Personal_form .form-group:nth-child(2)
+        {
+            margin-left: 0;
+        }
+        .sign
+        {
+            padding: 0 60px 60px;
+        }
+
+/*Index Page End*/
+
+/*Index Company*/
+
+        .signup.indexs .Personal_form .form-group
+        {
+            width: 100%;
+        }
+        
+/*Index Company*/
+.signup.indexs .Personal_form .form-group.comp_detail
+        {
+            width: 100%;
+        }
+        .nav_side
+        {
+            display: none;
+        }
+        .topbar .top_bar
+        {
+            display: block;
+        }
+        .profile_per label
+        {
+            width: 39%;
+        }
+        .Personal_form input.form-control
+        {
+            width: 59%;
+        }
+/*        .panel
+        {
+            max-height: 45px ;
+        }*/
+        .main_rht .rht_top
+        {
+            margin-bottom: 20px;
+        }
+        .rht_bottom.invoice table tr:first-child
+        {
+            margin-top: 0;
+        }
+        .enqu_right .nice-select
+        {
+            line-height: 35px;
+        }
+        .container .content
+        {
+            max-height: 45px;
+        }
+        
+    }
+    @media(max-width:414px){
+        .logodiv h1
+        {
+            line-height: 35px;
+        }
+        .head_rht a
+       {
+           padding: 5px 10px;
+           font-size: 17px;
+       }
+       .header .head
+       {
+           display: block;
+       }
+       .head_rht p
+       {
+           font-size: 14px;
+       }
+       .head_rht a
+       {
+           margin-left: 5px;
+       }
+       .nav_side a
+       {
+           padding: 8px 5px;
+           font-size: 15px;
+       }
+       .head_rht
+       {
+           justify-content: flex-end;
+           width: 72%;
+       }
+       .logodiv
+       {
+           float: left;
+           width: 28%;
+       }
+       .nav_side 
+       {
+            top: 56px;
+       }
+       .main
+       {
+           margin-top: 0px;
+       }
+
+       .main_rht
+       {
+           padding: 20px 10px 100px;
+       }
+       .enquiry
+       {
+           padding: 20px 15px;
+       }
+       .nice-select
+       {
+           padding-left: 10px;
+       }
+       .enqu_lft ul li, .enqu_lft ul li span, .lft_content h2, .lft_content p
+       {
+           font-size: 14px;
+       }
+       .rht_bottom.rht_btm_mob.invoice table td a
+       {
+           padding: 5px 10px;
+       }
+       .rht_bottom.rht_btm_mob.invoice table th, .rht_bottom.rht_btm_mob.invoice table td
+       {
+           font-size: 14px;
+       }
+       .rht_bottom td label .fake-checkbox
+       {
+           width: 24px;
+           height: 24px;
+       }
+       .rht_bottom.rht_btm_mob.invoice table tr td
+       {
+           /*width: 100% !important;*/
+       }
+       .rht_bottom.rht_btm_mob.invoice table tr td:nth-child(1), .rht_bottom.rht_btm_mob.invoice table tr td:nth-child(2)
+       {
+           width: 49% !important;
+       }
+       .rht_bottom.rht_btm_mob.invoice table tr th
+       {
+           /*margin-top: 8px;*/
+       }
+       .nice-select
+       {
+           line-height: 35px;
+       }
+       
+/*    Profile- Personal Info*/
+
+        .profile_per label, .sign_body .form-control
+        {
+            height: auto;
+            width: 39%;
+        }
+        .main_rht h1
+        {
+            text-align: center;
+            font-size: 27px;
+        }
+        .sign_body li a
+        {
+            font-size: 18px;
+            /*height: 45px;*/
+        }
+        
+/*    Profile- Personal Info End*/
+
+/*    Profile- Company Info*/
+    
+        .Personal_form .upload
+        {
+            padding: 20px 15px;
+        }
+        .Personal_form .upload p
+        {
+            margin-left: 20px;
+        }
+        .award
+        {
+            padding: 25px 15px;
+        }
+        .sign_body
+        {
+            padding: 25px 15px;
+        }
+        .award h4
+        {
+            font-size: 17px;
+        }
+
+/*    Profile- Company Info End*/
+
+/*    Profile- Lead*/
+
+        .multichoice .form-control
+        {
+            height: 35px;
+        }
+        .styled-checkbox+label:before
+        {
+            width: 24px;
+            height: 24px;
+        }
+        .styled-checkbox+label
+        {
+            font-size: 16px;
+        }
+        .Personal_form
+        {
+            padding: 25px 0;
+        }
+       
+        
+
+/*    Profile- Lead End*/
+
+/*Index Page*/
+
+    .sign
+        {
+            padding: 0 40px 40px;
+        }
+        .signup.indexs .Personal_form .form-group
+        {
+            width: 100%;
+        }
+        .logo
+        {
+            padding: 20px 0px;
+        }
+        .sign_head
+        {
+            padding: 20px 40px;
+        }
+        .signup.indexs .Personal_form .form-group
+        {
+            margin-bottom: 15px;
+        }
+
+/*Index Page End*/
+        .topbar .top_bar ul li
+        {
+            padding: 8px 15px;
+        }
+        .date_sort #datepicker input.form-control
+        {
+            height: auto;
+        }
+        .main_rht .rht_heading
+        {
+            margin-bottom: 10px;
+        }
+        .main_rht .rht_top
+        {
+            margin-bottom: 10px;
+        }
+        .enqu_lft ul li 
+        {
+            margin-bottom: 5px;
+        }
+        .enqu_right .nice-select
+        {
+            line-height: 30px;
+        }
+        .enqu_right .nice-select span
+        {
+            font-size: 14px;
+        }
+        .enqu_right .nice-select:after
+        {
+        right: 10%;
+        width: 16%;
+        height: 28%;
+        }
+
+    }
+    
+ @media(max-width: 344px){
+      .main_rht .rht_heading
+      {
+          display: block;
+      }
+      .main_rht .date_sort
+      {
+          width: 100%;
+      }
+      #datepicker
+      {
+          margin: 0;
+      }
+      
+      .topbar .top_bar ul li a
+      {
+          font-size: 16px;
+      }
+      .enqu_lft ul li span
+       {
+           display: block;
+           margin-left: 0;
+       }
+ }
