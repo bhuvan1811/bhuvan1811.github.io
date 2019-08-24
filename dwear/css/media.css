@@ -1,0 +1,2288 @@
+@media(max-width:1367px) {
+
+    /*    Index Page Start*/
+    .header .headBtm ul li {
+        padding: 0 44px;
+    }
+
+    .custService .servInner ul li {
+        padding: 0 98px;
+    }
+
+    .repDetail {
+        height: 461px;
+    }
+
+    /*    Index Page End*/
+
+    /*    Designers Page Start*/
+
+    .hightoLow select {
+        padding: 7px 14px;
+    }
+
+    .hightoLow a {
+        padding: 7px 11px;
+    }
+
+    /*    Designers Page End*/
+
+}
+
+@media(max-width:1199px) {
+
+    /*    Index Page Start*/
+    .header .headSearch form {
+        width: 480px;
+    }
+
+    .header .headSearch form input {
+        width: 400px;
+    }
+
+    .header .headBtm {
+        padding: 30px 50px 0px;
+    }
+
+    .custService .servInner ul li {
+        padding: 0 60px;
+    }
+
+    .banner .bannercontent {
+        padding: 45px 90px;
+    }
+
+    .banner .bannercontent h1 {
+        font-size: 75px;
+    }
+
+    .fDesigner .topimage img {
+        position: relative;
+        z-index: -1;
+    }
+
+    .repDetail {
+        height: 400px;
+    }
+
+    .fDesigner .designInner .designRgt .designleft {
+        margin-right: 13px;
+    }
+
+    /*    Index Page End*/
+
+    /*    Designers Page Start*/
+
+    .pro_menu li a {
+        font-size: 15px;
+    }
+
+    .clo_main .topHeading h2 {
+        font-size: 22px;
+    }
+
+    .pro_list .chk_sec {
+        padding: 15px;
+    }
+
+    .hightoLow select {
+        padding: 6px 7px;
+    }
+
+    .hightoLow a {
+        padding: 6px 9px;
+    }
+
+    .related_prod_in .pdt_pr h3 {
+        font-size: 15px;
+    }
+
+    .related_prod_in .pdt_pr h4 {
+        font-size: 16px;
+    }
+
+    /*    Designers Page End*/
+
+    /*    My Account Page Start*/
+
+    .accountSec .account_inner .col-sm-3 {
+        width: 32%;
+    }
+
+    .accountSec .account_inner .col-sm-9 {
+        width: 68%;
+    }
+
+    /*    My Account Page End*/
+
+    /*    billing page start*/
+
+    .addressSelect {
+        padding-right: 300px;
+    }
+
+    /*    billing page end*/
+
+    /*    Order Detail Page Start*/
+
+    .myOrder.orderDetail .orderdetailTop .deliveryOrder {
+        /*        width: 48%;*/
+    }
+
+    .order_in {
+        padding-right: 0;
+    }
+
+    .myOrder .orderBox {
+        padding: 20px 15px;
+    }
+
+    .myOrder .orderBox .orderLeft {
+        margin-left: 15px;
+    }
+
+    .myOrder.orderDetail .orderdetailTop .deliveryOrder:nth-child(even) {
+        margin-left: 30px;
+    }
+
+    /*    Order Detail Page End*/
+
+    /*    Product Detail Page Start*/
+
+    .addCartBox a {
+        padding: 14px 30px;
+    }
+
+    /*    Product Detail Page End*/
+
+    .footer .footInner {
+        padding: 50px 0 50px;
+    }
+
+    .slides .innerSlide a img {
+        width: 80%;
+    }
+
+    .breadcrumb_m ul li a {
+        font-size: 15px;
+    }
+
+    .product_main .col-sm-3 {
+        width: 28%;
+    }
+
+    .product_main .col-sm-9 {
+        width: 72%;
+    }
+
+    .header .headSearch form input {
+        width: 400px;
+    }
+
+    .clo_main .spclOffer img {
+        height: 60px;
+    }
+
+    .spclOffer h4 {
+        font-size: 19px;
+    }
+
+    .listDetail .scroll {
+        max-height: 257px;
+        overflow-y: scroll;
+    }
+
+    .header .headBtm .droplist .listDetail ul li {
+        width: 32.5%;
+    }
+
+    /*Payment Modal*/
+
+    .register.payModal .modal-body .PaySuccess {
+        padding: 50px 0 70px;
+    }
+
+    /*Payment Modal End*/
+
+    /*    Payment Success/Failed Page Start*/
+
+    .paymentStatus .container {
+        width: 740px;
+    }
+
+    /*    Payment Success/Failed Page End*/
+
+    /*    add designer*/
+    .form_container {
+        padding: 0 100px;
+    }
+
+    .addDes_in h2 {
+        font-size: 48px;
+        margin-bottom: 70px;
+    }
+
+    /*    add designer end*/
+
+}
+
+@media(max-width:991px) {
+
+    /*    Index Page Start*/
+
+    .header .headSearch form {
+        width: 280px;
+    }
+
+    .header .headSearch form input {
+        width: 200px;
+    }
+
+    .header .headBtm {
+        padding: 30px 0 0px;
+    }
+
+    .header .headBtm ul li {
+        padding: 0 32px;
+    }
+
+    .custService .servInner ul li {
+        padding: 0 26px;
+    }
+
+    .footer .footInner .col-sm-3 {
+        width: 100%;
+    }
+
+    .footer .footLogo p {
+        padding-right: 0;
+    }
+
+    .footer .footInner .col-sm-9 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer .footInner .col-sm-9 .col-sm-3:first-child {
+        padding-left: 0;
+    }
+
+    .footer .footInner .col-sm-9 .col-sm-3:last-child {
+        /*        padding-right: 0;*/
+    }
+
+    .footer .footInner .col-sm-9 .footerRgt {
+        margin-top: 30px;
+    }
+
+    .footer .footInner .col-sm-9 .col-sm-3 {
+        width: 25%;
+    }
+
+    .repDetail {
+        height: 300px;
+    }
+
+    .companyInfo {
+        padding: 50px 0;
+    }
+
+    .companyInfo .infoInner.midbox p {
+        padding: 0px 0px;
+    }
+
+    .companyInfo .infoInner h3 {
+        font-size: 19px;
+    }
+
+    .banner .bannercontent {
+        padding: 19px 90px;
+    }
+
+    .banner .bannercontent h1 {
+        font-size: 60px;
+        margin-bottom: 15px;
+    }
+
+    .banner .bannercontent p {
+        margin-bottom: 19px;
+    }
+
+    .products .prodInner .prodDetail p {
+        font-size: 14px;
+    }
+
+    .products .prodInner .prodDetail p span {
+        font-size: 15px;
+    }
+
+    .fDesigner .designInner .designRgt ul li {
+        width: 49%;
+    }
+
+    .fDesigner .designInner .designRgt {
+        margin-bottom: 20px;
+    }
+
+    /*    Index Page End*/
+
+    /*    clothing Page Start*/
+
+    .product_main .col-sm-3 {
+        width: 30%;
+    }
+
+    .product_main .col-sm-9 {
+        width: 70%;
+    }
+
+    .pdt_sec .col-sm-4 {
+        width: 50%;
+    }
+
+    .hightoLow select {
+        width: 30%;
+        text-align: center;
+    }
+
+    .hightoLow a {
+        width: 18%;
+    }
+
+    /*    clothing Page End*/
+
+    /*    My Account Page Start*/
+
+    .accountSec .account_inner .col-sm-3 {
+        width: 41%;
+    }
+
+    .accountSec .account_inner .col-sm-9 {
+        width: 59%;
+    }
+
+    .account_rht .form_wraper .col-sm-6 {
+        width: 100%;
+    }
+
+    /*    My Account Page End*/
+
+    /*    cart Page Start*/
+
+    .tabel_wrp table p {
+        font-size: 14px;
+    }
+
+    .tabel_wrp table .itmdetails p {
+        font-size: 16px;
+    }
+
+    .subtotl_in h3 {
+        font-size: 16px;
+    }
+
+    .scharge h5 {
+        font-size: 16px;
+    }
+
+    .subtotal {
+        width: 330px;
+    }
+
+    .placeordr_btn {
+        margin-top: 30px;
+        padding: 14px 77px;
+    }
+
+    /*    cart Page End*/
+
+    /*    billing page start*/
+
+    .addressSelect {
+        padding-right: 0px;
+    }
+
+    /*    billing page end*/
+
+    /*    Order Detail Page Start*/
+
+    .myOrder.orderDetail .orderdetailTop .deliveryOrder {
+        width: 500px;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .myOrder.orderDetail .orderdetailTop .deliveryOrder:last-child {
+        margin-bottom: 0;
+    }
+
+    .myOrder.orderDetail .orderdetailTop .deliveryOrder:nth-child(even) {
+        margin-left: 0;
+    }
+
+    /*    Order Detail Page End*/
+    .slider2 .slick-prev {
+        left: 80%;
+    }
+
+    .products .prodTop h2,
+    .fDesigner .reviewTop h2,
+    .reviews .reviewTop h2,
+    .companyInfo .infoTop h2 {
+        font-size: 32px;
+    }
+
+    .slick-initialized .slick-slide {
+        margin: 0 0px;
+    }
+
+    /*    order return page*/
+    .myOrder.orderDetail .orderdetailTop .deliveryOrder {
+        width: 100%;
+    }
+
+    .order_in {
+        padding-right: 0;
+    }
+
+    .unline {
+        width: 100%;
+    }
+
+    .myOrder .orderBox .orderImg img {
+        margin-bottom: 15px;
+    }
+
+    .progress_s {
+        margin: 0 20px;
+    }
+
+    /*    order return page end*/
+
+    .myOrder.orderDetail .orderBox.summary .summaryDetail .orderPrice {
+        width: 100%;
+    }
+
+    .vaulebox {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .addCartBox a.addtoCart {
+        margin-left: 0;
+    }
+
+    .color_opt a .num_div {
+        width: 47px;
+        height: 47px;
+        margin-right: 6px;
+    }
+
+    .color_opt a span {
+        width: 47px;
+        height: 47px;
+        margin-right: 6px;
+    }
+
+    .product_main {
+        margin-top: 141px;
+        padding: 40px 0px 30px;
+    }
+
+    .spclOffer h4 {
+        font-size: 16px;
+    }
+
+    .clo_main .spclOffer img {
+        height: 50px;
+    }
+
+    .product_main .col-sm-9 {
+        width: 65%;
+    }
+
+    .product_main .col-sm-3 {
+        width: 35%;
+    }
+
+    .clo_main .pdt_sec .productInner {
+        margin-bottom: 40px;
+    }
+
+    .header .headBtm .droplist .listing.designList {
+        padding: 10px 10px 20px 10px;
+    }
+
+    .header .headBtm .droplist {
+        margin: 0 50px;
+    }
+
+    .header .headBtm .droplist .listDetail ul li {
+        width: 49%;
+    }
+
+    .listDetail .scroll {
+        max-height: 257px;
+        overflow-y: scroll;
+    }
+
+    /*    Payment Success/Failed Page Start*/
+
+    .paymentStatus .container {
+        width: 550px;
+    }
+
+    .paymentStatus .topImage img {
+        width: 55px;
+    }
+
+    .paymentStatus .btmContent h2,
+    .paymentStatus .btmContent h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .paymentStatus .btmContent p {
+        font-size: 17px;
+    }
+
+    .paymentStatus .innerPay {
+        padding: 35px 30px 55px;
+    }
+
+    .paymentStatus .btmButton a {
+        width: 220px;
+    }
+
+    /*    Payment Success/Failed Page End*/
+
+    /*    add designer*/
+    .form_container {
+        padding: 0 50px;
+    }
+
+    .addDes_in h2 {
+        font-size: 45px;
+        margin-bottom: 60px;
+    }
+
+    .addDes {
+        padding: 50px 0 70px;
+    }
+
+    /*    add designer end*/
+
+}
+
+@media(max-width:767px) {
+
+    /*    Index Page Start*/
+
+    .header .hamburger {
+        display: block;
+    }
+
+    .header .headBtm ul {
+        display: none;
+    }
+
+    .header .headRight .topBtn {
+        display: none;
+    }
+
+    .header .headRight .cartBox {
+        display: none;
+    }
+
+    .header {
+        padding: 20px 0;
+        /*        border-bottom: none;*/
+    }
+
+    .header .headBtm {
+        padding: 0;
+    }
+
+    .banner {
+        margin-top: 80px;
+    }
+
+    .mainSec {
+        margin-top: 80px;
+        padding: 30px 0 70px;
+    }
+
+    .custService .servInner ul li {
+        width: 45%;
+        display: inline-block;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #c1c4ce;
+        padding: 10px;
+        margin: 0 10px 10px;
+    }
+
+    .custService .servInner ul li:after {
+        display: none;
+    }
+
+    .footer .footInner .col-sm-9 .col-sm-3 {
+        width: 50%;
+        display: inline-block;
+        float: left;
+        padding: 0;
+    }
+
+    .bottom .bottomInner .bottomLeft {
+        display: inline-block;
+        float: left;
+    }
+
+    .bottom .bottomInner .bottomRgt {
+        display: inline-block;
+    }
+
+    .bottom .bottomLeft p {
+        line-height: 41px;
+    }
+
+    .header {
+        border-bottom: none;
+    }
+
+    .banner .bannercontent h1 {
+        font-size: 45px;
+    }
+
+    .banner .bannercontent p br {
+        display: none;
+    }
+
+    .bannerInnner img {
+        height: 275px;
+        object-fit: cover;
+    }
+
+    .companyInfo .infoInner h3 {
+        font-size: 24px;
+    }
+
+    .infoInner {
+        margin-bottom: 20px;
+    }
+
+    .fDesigner .topList ul li {
+        padding-right: 15px;
+    }
+
+    .fDesigner .topList ul li a {
+        font-size: 20px;
+    }
+
+    .fDesigner .designInner .designRgt ul li a {
+        font-size: 14px;
+    }
+
+    .prodInner .col-sm-4:last-child .topProduct {
+        margin-bottom: 0px;
+    }
+
+    .products .col-sm-4 {
+        width: 49%;
+        display: inline-block;
+    }
+
+    .fDesigner .designInner .designRgt .designleft {
+        margin-bottom: 10px;
+    }
+
+    /*    Index Page End*/
+
+    /*    My Account Page Start*/
+
+    .accountSec .account_inner .col-sm-3 {
+        width: 320px;
+    }
+
+    .accountSec .account_inner .col-sm-9 {
+        display: inline-block;
+        margin-top: 30px;
+        width: 520px;
+    }
+
+    /*    My Account Page End*/
+
+    /*    clothing Page Start*/
+
+    .product_main {
+        margin-top: 80px;
+    }
+
+    .product_main {
+        padding: 30px 0 50px;
+    }
+
+    .product_main .col-sm-3 {
+        width: 40%;
+        display: inline-block;
+        float: left;
+    }
+
+    .product_main .col-sm-9 {
+        width: 60%;
+        display: inline-block;
+    }
+
+    .product_main .col-sm-9 .col-sm-4 {
+        width: 100%;
+    }
+
+    /*    clothing Page End*/
+
+    /*Add New Address Page Start*/
+    .editaddrs {
+        padding: 0;
+    }
+
+    .editaddrs .col-sm-6 {
+        width: 445px;
+    }
+
+    .footer .footInner {
+        padding: 50px 0;
+    }
+
+    /*Add New Address Page End*/
+
+    /*    cart Page Start*/
+
+    .account_lft h2,
+    .head h2 {
+        font-size: 20px;
+    }
+
+    .tabel_wrp table .itmdetails p {
+        font-size: 15px;
+    }
+
+    .subtotl_in h3 {
+        font-size: 15px;
+    }
+
+    .scharge h5 {
+        font-size: 15px;
+    }
+
+    .placeordr_btn {
+        padding: 14px 68px;
+    }
+
+    .subtotal {
+        width: 280px;
+    }
+
+    .subtotl_in {
+        width: 55%;
+    }
+
+    .scharge {
+        width: 45%;
+    }
+
+    /*    cart Page End*/
+
+    /*    billing page start*/
+
+    .billing_top {
+        display: block;
+    }
+
+    .addAddress_btn {
+        display: inline-flex;
+        float: right;
+        margin: 15px 0;
+    }
+
+    .address_com {
+        margin-bottom: 20px;
+    }
+
+    .cpayment_btn.form_btns {
+        padding: 15px 30px;
+    }
+
+    .cpayment_btn {
+        margin-top: 30px;
+    }
+
+    /*    billing page end*/
+
+    /*    My Orders Page Start*/
+
+    .myOrder {
+        padding: 30px 0 50px;
+    }
+
+    .myOrder .orderBox {
+        padding: 25px 20px;
+    }
+
+    .myOrder .orderBox .order_rgt {
+        right: -10px;
+    }
+
+    /*    My Orders Page End*/
+
+    /*    Order Detail Page Start*/
+
+    .myOrder.orderDetail .orderdetailTop .deliveryOrder {
+        width: 490px;
+    }
+
+    /*    Order Detail Page End*/
+
+    /*    Payment Page Start*/
+
+    .accountSec {
+        padding: 30px 0 50px;
+    }
+
+    .tamountbox .col-sm-4 {
+        width: 32.7%;
+        display: inline-block;
+    }
+
+    /*    Payment Page Start*/
+
+    /*    Product Detail Page Start*/
+
+    .productDetails {
+        margin-top: 80px;
+        padding: 30px 0 30px;
+    }
+
+    .slide_sec .slide_sec_in .col-sm-5 {
+        width: 520px;
+    }
+
+    .addCartBox a {
+        padding: 14px 25px;
+    }
+
+    .id_lft1 h4 {
+        font-size: 22px;
+    }
+
+    .related_prod_in .col-sm-3 {
+        width: 49%;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+
+    .related_prod_in .col-sm-3 img {
+        display: inline-block;
+    }
+
+    .related_prod_in .col-sm-3 .pdt_img_sec img.pd_img {
+        width: 100%;
+    }
+
+    .related_prod {
+        padding-bottom: 0;
+    }
+
+
+    /*    Product Detail Page End*/
+
+    .slider2 .slick-prev {
+        left: 68%;
+    }
+
+    .slider2 .slick-next {
+        right: 9%;
+    }
+
+    .signInImg {
+        display: none;
+    }
+
+    .register .modal-dialog {
+        width: 350px;
+    }
+
+    .infoInner {
+        margin-bottom: 40px;
+    }
+
+    .infoInner2 {
+        margin-bottom: 0;
+    }
+
+    .footer .footInner {
+        padding: 40px 0 20px;
+    }
+
+    .bottom .bottomInner {
+        padding: 20px 25px 20px;
+    }
+
+    .custService {
+        padding: 30px 0;
+
+    }
+
+    .onlineShop {
+        padding-top: 30px;
+    }
+
+    .products {
+        padding-bottom: 10px;
+    }
+
+    .products .prodTop h2,
+    .fDesigner .reviewTop h2,
+    .reviews .reviewTop h2,
+    .companyInfo .infoTop h2 {
+        font-size: 30px;
+    }
+
+    .reviews .rgtCircle {
+        top: 50px;
+    }
+
+    .reviews {
+        padding-top: 20px;
+    }
+
+    .rgtCircle img {
+        width: 70px;
+    }
+
+    /*    order return page*/
+    .myOrder.orderDetail .orderdetailTop .deliveryOrder {
+        width: 100%;
+    }
+
+    .myOrder .orderBox {
+        margin-bottom: 22px;
+    }
+
+    .order_btnbx a {
+        margin-top: 0;
+        padding: 10px 20px 10px;
+    }
+
+    /*    order return page end*/
+    .vaulebox {
+        display: inline-block;
+        margin-bottom: 0;
+    }
+
+    .addCartBox a.addtoCart {
+        margin-left: 30px;
+    }
+
+    .slide_sec {
+        padding: 30px 0 30px;
+    }
+
+    .related_prod_in h3 {
+        margin-bottom: 35px;
+    }
+
+    .clo_main .topHeading h2 {
+        font-size: 20px;
+    }
+
+    .header.header2 {
+        padding-bottom: 20px;
+    }
+
+    .product_main .col-sm-9,
+    .product_main .col-sm-3 {
+        width: 100%;
+    }
+
+    .product_main .col-sm-9 .col-sm-4 {
+        width: 50%;
+        float: left;
+    }
+
+    .products_var {
+        padding-top: 30px;
+    }
+
+    .pdt_img_sec img.pd_img {
+        width: 100%;
+    }
+
+    .header.btmHeader {
+        border-bottom: 1px solid #e5e6ea;
+    }
+
+    .designList_inner {
+        max-height: 190px;
+        overflow-y: scroll;
+        padding-bottom: 20px;
+        /*        border-bottom: 1px solid #e5e6ea;*/
+        border-top: 1px solid #e5e6ea;
+    }
+
+    /*    Payment Success/Failed Page Start*/
+    .paymentStatus {
+        margin-top: 80px;
+    }
+
+    .paymentStatus .container {
+        width: 75%;
+    }
+
+    .paymentStatus .topImage img {
+        width: 50px;
+    }
+
+    .paymentStatus .btmContent h2,
+    .paymentStatus .btmContent h3 {
+        font-size: 18px;
+    }
+
+    .paymentStatus .btmContent p {
+        font-size: 16px;
+    }
+
+    /*    Payment Success/Failed Page End*/
+
+    /*    add designer page*/
+    .form_container {
+        padding: 0 0;
+    }
+
+    .addDes {
+        padding: 40px 0 50px;
+    }
+
+    .addDes_in h2 {
+        font-size: 42px;
+        margin-bottom: 50px;
+    }
+
+    /*    add designer page end*/
+
+    /*    Terms Page Start*/
+
+    .terms {
+        margin-top: 80px;
+        padding: 30px 0 50px;
+    }
+
+    .terms h2,
+    .terms h3 {
+        padding: 10px 0 20px;
+    }
+
+    .terms h2 {
+        font-size: 22px;
+    }
+
+    .terms h3 {
+        font-size: 18px;
+    }
+
+    .terms p:after {
+        font-size: 17px;
+    }
+
+    /*    Terms Page End*/
+    
+    .product_main .rightCrcl {
+        width: 17%;
+    }
+
+    .descipt button.btn_submit {
+        width: 230px;
+    }
+
+    .reviewBox {
+        margin-top: 20px;
+    }
+
+    .cartBoxs {
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+
+    .cartBoxs ul li a {
+        padding: 0 5px;
+    }
+
+}
+
+@media(max-width:560px) {
+
+    /*    Index Page Start*/
+
+    .container-fluid {
+        padding: 0 20px;
+    }
+
+    .header .headLeft {}
+
+    .header .logo {
+        margin-right: 10px;
+    }
+
+    .header .headSearch form {
+        width: 215px;
+    }
+
+    .header .headSearch form input {
+        width: 152px;
+    }
+
+    .header .headSearch form button {
+        width: 63px;
+    }
+
+    .breadcrumb_m ul li a {
+        font-size: 14px;
+    }
+
+    .banner .bannercontent {
+        padding: 19px 50px;
+    }
+
+    .slider2 .slick-prev {
+        left: 74%;
+    }
+
+    .custService .servInner ul li {
+        width: 65%;
+    }
+
+    .products .col-sm-4 {
+        width: 100%;
+    }
+
+    /*    Index Page End*/
+
+    /*    clothing Page Start*/
+
+    .product_main .col-sm-3,
+    .product_main .col-sm-9 {
+        width: 100%;
+        display: inline-block;
+        float: left;
+    }
+
+        {
+        width: 100%;
+        display: inline-block;
+    }
+
+    /*    clothing Page End*/
+
+    /*Add New Address Page Start*/
+
+    .editaddrs .col-sm-6 {
+        width: 100%;
+    }
+
+    .editaddrs .form_wraper {
+        padding: 10px 0px 10px 0;
+    }
+
+    .bottom .bottomInner .bottomLeft {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .bottom .bottomInner .bottomRgt {
+        display: block;
+        width: 100%;
+        text-align: center
+    }
+
+    .bottom .bottomRgt p {
+        margin-right: 10px;
+    }
+
+    .bottom .bottomInner {
+        padding: 20px;
+    }
+
+    .account_lft h2,
+    .head h2 {
+        font-size: 22px;
+    }
+
+    .form_wraper form .form-group {
+        margin-bottom: 20px;
+    }
+
+    .form_wraper form label {
+        font-size: 15px;
+    }
+
+    .form_wraper form .form-control {
+        font-size: 15px;
+    }
+
+    .accountSec {
+        padding: 20px 0 50px;
+    }
+
+    .form_wraper form .form_grp img {
+        top: 45px;
+    }
+
+    /*Add New Address Page End*/
+
+    /*    My Account Page Start*/
+
+    .accountSec .account_inner .col-sm-3 {
+        width: 320px;
+    }
+
+    .accountSec .account_inner .col-sm-9 {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .accountSec .form_wraper {
+        padding-right: 30px;
+    }
+
+
+    /*    My Account Page End*/
+
+    /*    cart Page Start*/
+
+    .subtotal {
+        width: 250px;
+    }
+
+    .placeordr_btn {
+        padding: 14px 59px;
+    }
+
+
+    /*    cart Page End*/
+
+    /*    billing page start*/
+
+    .addAddress_btn {
+        font-size: 13px;
+    }
+
+    .addAddress_btn img {
+        width: 12px;
+    }
+
+    /*    billing page end*/
+
+    /*    My Orders Page Start*/
+
+    .myOrder .orderBox .orderLeft {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .orderImg {
+        display: block;
+        width: 100%;
+    }
+
+    /*    My Orders Page End*/
+
+    /*    Order Detail Page Start*/
+
+    .myOrder.orderDetail .orderdetailTop .deliveryOrder {
+        width: 100%;
+    }
+
+    .myOrder.orderDetail .orderBox.summary .summaryDetail .orderPrice {
+        width: 65%;
+    }
+
+    .myOrder.orderDetail .orderBox.summary .listPrice .priceLeft {
+        width: 130px;
+    }
+
+    .myOrder.orderDetail .orderBox.summary .listPrice .priceRgt {
+        width: 85px;
+    }
+
+    .myOrder .orderBox .orderLeft.detailOrder {
+        margin-top: 0;
+    }
+
+    /*    Order Detail Page End*/
+
+
+    /*    Payment Page Start*/
+
+    .tamountbox .amount form {
+        width: 374px;
+    }
+
+    .tamountbox .col-sm-4 {
+        width: 32.6%;
+        padding: 0 15px;
+    }
+
+    .pay_btn.form_btns {
+        padding: 15px 56px;
+    }
+
+    /*    Payment Page Start*/
+
+    /*    Product Detail Page Start*/
+
+    .slide_sec .slide_sec_in .col-sm-5 {
+        width: 405px;
+    }
+
+    .color_opt a span {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .color_opt a .num_div {
+        margin-right: 10px;
+    }
+
+    .color_opt a span {
+        margin-right: 10px;
+    }
+
+    .color_opt a .num_div {
+        width: 40px;
+        height: 40px;
+    }
+
+    .color_opt a .num_div p {
+        font-size: 17px;
+    }
+
+    .slides {
+        padding: 30px 20px;
+    }
+
+    /*    Product Detail Page End*/
+    .prodButtons {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .prodButtons a {
+        padding: 12px 25px;
+    }
+
+    .prodButtons a:first-child {
+        margin-left: 0;
+    }
+
+    .related_prod_in .pdt_pr h3 {
+        font-size: 14px;
+    }
+
+    /*    return order modal*/
+    .sub_btn {
+        padding: 11px 48px 11px;
+    }
+
+    .cancl_btn {
+        padding: 10px 50px;
+    }
+
+    .return_mdl form .form-control {
+        padding: 9px 15px;
+        font-size: 14px;
+    }
+
+    .return_mdl form .form-group {
+        margin-bottom: 25px;
+    }
+
+    .return_mdl form textarea.form-control {
+        height: 100px;
+    }
+
+    /*    return order modal end*/
+    .slider2 .slick-prev {
+        left: 60%;
+    }
+
+    .slider2 .slick-next {
+        right: 12%;
+    }
+
+    .banner .bannercontent a {
+        font-size: 16px;
+        padding: 11px 35px;
+    }
+
+    .products .prodTop h2,
+    .fDesigner .reviewTop h2,
+    .reviews .reviewTop h2,
+    .companyInfo .infoTop h2 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .products {
+        padding-top: 35px;
+    }
+
+    .topProduct {
+        margin-bottom: 20px;
+    }
+
+    .products .prodInner .prodDetail h2 {
+        font-size: 20px;
+    }
+
+    .companyInfo .infoInner h3 {
+        font-size: 22px;
+    }
+
+    .companyInfo {
+        padding: 40px 0;
+    }
+
+    .infoInner {
+        margin-bottom: 30px;
+    }
+
+    /*    return order modal*/
+    .sub_btn {
+        padding: 11px 48px 11px;
+    }
+
+    .cancl_btn {
+        padding: 10px 50px;
+    }
+
+    .return_mdl form .form-control {
+        padding: 9px 15px;
+        font-size: 14px;
+    }
+
+    .return_mdl form .form-group {
+        margin-bottom: 25px;
+    }
+
+    .return_mdl form textarea.form-control {
+        height: 100px;
+    }
+
+    /*    return order modal end*/
+
+    .pro_menu li a {
+        font-size: 14px;
+    }
+
+    .saveAdd_btn {
+        padding: 15px 20px;
+    }
+
+    .account_lft h2,
+    .head h2 {
+        margin: 20px 0;
+    }
+
+    .mainSec {
+        padding: 20px 0 70px;
+    }
+
+    .product_main {
+        padding: 20px 0 50px;
+    }
+
+    .simple-pagination {
+        padding: 0;
+    }
+
+    .simple-pagination li a,
+    .simple-pagination li span {
+        padding: 8px 11px;
+    }
+
+    .productDetails {
+        padding: 20px 0 30px;
+    }
+
+    .id_lft1 h4 {
+        font-size: 20px;
+    }
+
+    .color_opt {
+        padding-top: 5px;
+    }
+
+    .addCartBox {
+        margin-top: 25px;
+    }
+
+    .id_lft1 h4 {
+        line-height: 26px;
+    }
+
+    .review_sec {
+        padding: 5px 0 15px;
+    }
+
+    .txt_bot2 h4 {
+        font-size: 22px;
+    }
+
+    .txt_bot h5 {
+        margin: 10px 0;
+    }
+
+    /*    Payment Success/Failed Page Start*/
+
+    .paymentStatus .container {
+        width: 85%;
+    }
+
+    .paymentStatus .innerPay {
+        padding: 25px 20px 40px
+    }
+
+    .paymentStatus .topImage img {
+        width: 50px;
+    }
+
+    .paymentStatus .btmContent h2,
+    .paymentStatus .btmContent h3 {
+        font-size: 18px;
+    }
+
+    .paymentStatus .btmContent p,
+    .paymentStatus .btmContent p span {
+        font-size: 15px;
+    }
+
+    .paymentStatus .btmButton a {
+        padding: 12px 0px;
+    }
+
+    /*    Payment Success/Failed Page End*/
+
+    /*    add designer page*/
+    .form_wraper {
+        padding: 30px 25px;
+    }
+
+    .addDes_in h2 {
+        margin-bottom: 40px;
+        font-size: 38px;
+    }
+
+    .addDes {
+        padding: 40px 0 40px;
+    }
+
+    .form_wraper form .form-group {
+        margin-bottom: 15px;
+    }
+
+    /*    add designer page end*/
+
+    /*    Terms Page Start*/
+
+    .terms {
+        margin-top: 80px;
+        padding: 30px 0 50px;
+    }
+
+    .terms h2,
+    .terms h3 {
+        padding: 10px 0 15px;
+    }
+
+    .terms h2 {
+        font-size: 20px;
+    }
+
+    .terms h3 {
+        font-size: 16px;
+    }
+
+    .terms p:after {
+        font-size: 16px;
+    }
+
+    .terms p {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    /*    Terms Page End*/
+
+    .descipt button.btn_submit {
+        width: 170px;
+        padding: 13px 0;
+    }
+
+}
+
+@media(max-width:414px) {
+
+    /*    Index Page Start*/
+
+    .header .headSearch {
+        display: none;
+    }
+
+    .header .searchHead {
+        display: block;
+    }
+
+    .header {
+        padding: 20px 0;
+    }
+
+    .header .hamburger {
+        margin-top: 8px;
+    }
+
+    .footer .footInner .col-sm-9 .footerRgt {
+        margin-top: 20px;
+    }
+
+    .banner .bannercontent h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .banner .bannercontent p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .banner .bannercontent a {
+        font-size: 15px;
+        padding: 10px 30px;
+    }
+
+    .products,
+    .companyInfo,
+    .reviews {
+        padding: 30px 0;
+    }
+
+    .products .prodTop h2,
+    .companyInfo .infoTop h2,
+    .fDesigner .reviewTop h2,
+    .reviews .reviewTop h2 {
+        font-size: 25px;
+    }
+
+    .topProduct {
+        margin-bottom: 20px;
+    }
+
+    .fDesigner {
+        padding-top: 30px;
+    }
+
+    .reviews .reviewSlide {
+        margin: 0 1px;
+    }
+
+    .onlineShop .searchPop p {
+        font-size: 14px;
+    }
+
+    .onlineShop .searchPop h2 {
+        font-size: 20px;
+    }
+
+    .slider .slick-prev {
+        left: -1%;
+    }
+
+    .custService .servInner ul li {
+        width: 85%;
+    }
+
+    .custService {
+        padding: 30px 0;
+    }
+
+    .bottom .col-sm-6 {
+        padding: 0;
+    }
+
+    .fDesigner .designInner .designRgt .designleft {
+        margin-bottom: 6px;
+    }
+
+    .fDesigner .designInner .designRgt .col-sm-1 {
+        width: 100%;
+        display: block;
+    }
+
+    .fDesigner .designInner .designRgt .col-sm-11 {
+        width: 100%;
+        display: block;
+    }
+
+    /*    Index Page End*/
+
+    /*    clothing Page Start*/
+
+    .product_main .col-sm-3 {
+        width: 100%;
+        display: inline-block;
+        float: left;
+    }
+
+    .product_main .col-sm-9 {
+        width: 100%;
+        display: inline-block;
+        margin-top: 30px;
+    }
+
+    .clo_main .pdt_sec .productInner {
+        margin-bottom: 25px;
+    }
+
+    .pro_menu li a {
+        font-size: 13px;
+    }
+
+    /*    clothing Page End*/
+
+    /*Add New Address Page Start*/
+
+    .mainSec {
+        margin-top: 120px;
+    }
+
+    .accountSec {
+        padding: 20px 0;
+    }
+
+    .footer .footLogo p {
+        font-size: 15px;
+    }
+
+    .footer .footInner .col-sm-9 .col-sm-3 {
+        padding: 0px;
+
+    }
+
+    .footer .footerRgt ul a {
+        font-size: 14px;
+    }
+
+    .footer .footerRgt h2 {
+        margin: 10px 0 15px;
+        font-size: 14px;
+    }
+
+    .footer .footerRgt ul li {
+        margin-bottom: 12px;
+    }
+
+    .footer .footInner {
+        padding: 25px 0;
+    }
+
+    .bottom .bottomInner {
+        padding: 10px 0;
+    }
+
+    .account_lft h2,
+    .head h2 {
+        margin: 15px 0 15px;
+    }
+
+    .breadcrumb_m ul li a {
+        font-size: 13px;
+    }
+
+    .account_lft h2,
+    .head h2 {
+        font-size: 20px;
+        margin: 15px 0 15px;
+    }
+
+    .form_wraper form label {
+        font-size: 14px;
+    }
+
+    .form_wraper form .form-control {
+        font-size: 14px;
+    }
+
+    .form_wraper form .form-control {
+        padding: 10px 15px;
+    }
+
+    .saveAdd_btn {
+        padding: 12px 15px;
+        font-size: 13px;
+    }
+
+    .cancel_btn {
+        padding: 12px 34px;
+        margin-left: 15px;
+        font-size: 13px;
+    }
+
+    .update_btn {
+        padding: 12px 10px;
+        font-size: 13px;
+    }
+
+    .form_wraper form .form_grp img {
+        top: 43px;
+    }
+
+    /*Add New Address Page End*/
+
+    /*    My Account Page Start*/
+
+    .profilebox {
+        padding: 30px;
+    }
+
+    .account_rht {
+        padding: 5px 10px;
+    }
+
+    .accountSec .form_wraper {
+        padding-right: 0;
+    }
+
+    .accountSec .edit_btn.form_btns {
+        padding: 11px 58px;
+    }
+
+    /*    My Account Page Start*/
+
+    .accountSec .account_inner .col-sm-3 {
+        width: 100%;
+    }
+
+    .acnt_btm {
+        padding-top: 10px;
+    }
+
+    /*    My Account Page End*/
+
+    /*    cart Page Start*/
+
+    .addAddress_btn {
+        margin: 10px 0;
+    }
+
+    .cpayment_btn {
+        margin-top: 20px;
+    }
+
+    .billingsec {
+        padding: 20px 0 50px;
+    }
+
+    /*    cart Page End*/
+
+    /*    My Orders Page start*/
+
+    .myOrder .orderBox .orderInner .orderLeft .orderType p {
+        margin-right: 20px;
+    }
+
+    .myOrder .orderBox .orderInner .orderPrice .listPrice .priceLeft {
+        width: 40%;
+    }
+
+    .myOrder .orderBox .orderInner .orderPrice .listPrice .priceRgt {
+        width: 40%;
+    }
+
+    /*    My Orders Page End*/
+
+    /*    Order Detail Page Start*/
+
+    .myOrder .orderBox .orderInner .orderPrice.innerOrder .listPrice .priceLeft {
+        /*        width: 52%;*/
+        width: 130px;
+    }
+
+    .myOrder.orderDetail .orderBox.summary .summaryDetail .orderPrice {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .myOrder.orderDetail .orderBox.summary .listPrice .priceLeft {
+        width: 134px;
+    }
+
+    /*    Order Detail Page End*/
+
+    /*    Payment Page Start*/
+
+    .paypal {
+        margin-left: 15px;
+    }
+
+    .tamountbox .amount form {
+        width: 100%;
+    }
+
+    .tamountbox .col-sm-4 {
+        width: 49%;
+    }
+
+    .pay_btn.form_btns {
+        padding: 11px 37px;
+    }
+
+    .payment_opt label {
+        font-size: 15px;
+    }
+
+    .payment_opt label:before {
+        width: 18px;
+        height: 18px;
+    }
+
+    .payment_opt input[type="radio"]:checked + label:after {
+        width: 10px;
+        height: 10px;
+    }
+
+    .tamountbox {
+        padding-top: 15px;
+    }
+
+    .tamountbox .amount h4 {
+        margin: 10px 0 20px;
+    }
+
+    /*    Payment Page End*/
+
+    /*    Designer Page Start*/
+
+    .clo_main .pdt_sec .productInner .pdt_img_sec img.pd_img {
+        width: 100%;
+    }
+
+
+    /*    Designer Page End*/
+
+    /*    Product Detail Page Start*/
+
+    .slide_sec .slide_sec_in .col-sm-5 {
+        width: 100%;
+    }
+
+    .prodButtons a {
+        padding: 8px 16px;
+    }
+
+    .slides .innerSlide a img {
+        margin: 0 auto;
+    }
+
+
+    /*    Product Detail Page End*/
+    .banner {
+        margin-top: 120px;
+    }
+
+    .product_main {
+        margin-top: 120px;
+    }
+
+    .productDetails {
+        margin-top: 120px;
+    }
+
+    .descr_sec p:last-child {
+        margin-bottom: 0;
+    }
+
+    .slide_sec {
+        padding: 30px 0;
+    }
+
+    .related_prod_in h3 {
+        margin-bottom: 30px;
+    }
+
+    /*    return modal*/
+    .return_mdl .modal-body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .sub_btn {
+        padding: 11px 36px 11px;
+    }
+
+    .cancl_btn {
+        padding: 10px 35px;
+        margin-left: 20px;
+    }
+
+    /*    return modal end*/
+    .register .modal-dialog {
+        width: 95%;
+    }
+
+    .regis .registerform .modalbtn {
+        /*        margin: 10px 0;*/
+    }
+
+    .regis .registerform {
+        padding: 0 20px;
+    }
+
+    .sidenav {
+        padding-top: 50px;
+    }
+
+    .onlineShop {
+        padding: 35px 0;
+    }
+
+    .productDetails {
+        padding: 20px 0 20px;
+    }
+
+    /*    return modal*/
+    .return_mdl .modal-body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .sub_btn {
+        padding: 11px 36px 11px;
+    }
+
+    .cancl_btn {
+        padding: 10px 35px;
+        margin-left: 20px;
+    }
+
+    /*    return modal end*/
+
+    /*    order return page*/
+    .myOrder {
+        padding: 20px 0 20px;
+    }
+
+    .myOrder.orderDetail .orderdetailTop {
+        margin-bottom: 0px;
+    }
+
+    .myOrder .orderBox .orderImg img {
+        margin-bottom: 0;
+    }
+
+    .bottom .bottomRgt ul li a i {
+        font-size: 14px;
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+    }
+
+    /*    order return page end*/
+    .descr_sec h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .descr_sec p {
+        font-size: 14px;
+    }
+
+    .related_prod_in h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .id_lft1 h4 {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .txt_bot2 h4 {
+        font-size: 20px;
+    }
+
+    .address_com h5,
+    .address_com p,
+    .address_com a {
+        font-size: 15px;
+    }
+
+    .tabel_wrp table tr th {
+        font-size: 14px;
+    }
+
+    .scharge h5 {
+        font-size: 14px;
+    }
+
+    .subtotl_in h3 {
+        font-size: 14px;
+    }
+
+    .product_main {
+        padding: 20px 0;
+    }
+
+    .bottom .bottomRgt ul li {
+        margin-left: 0px;
+    }
+
+    .tamountbox .amount h3,
+    .tamountbox .amount h4 {
+        font-size: 20px;
+    }
+
+    .amount form .form-control {
+        height: 43px;
+    }
+
+    .banner .bannercontent p {
+        line-height: 23px;
+    }
+
+    .color_opt a .num_div,
+    .color_opt a span {
+        margin-right: 3px;
+    }
+
+    .product_main .col-sm-9 {
+        margin-top: 20px;
+    }
+
+    .products_var {
+        padding-top: 0;
+    }
+
+    .product_main .col-sm-9 .col-sm-4 {
+        width: 100%;
+    }
+
+    /*    Payment Modal*/
+
+    .register.payModal .modal-body .PaySuccess .topImage img {
+        width: 45px;
+    }
+
+    .register.payModal .modal-body .PaySuccess h2,
+    .register.payModal .modal-body .PaySuccess h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .register.payModal .modal-body .PaySuccess p {
+        font-size: 15px;
+    }
+
+    /*    Payment Modal End*/
+
+    /*    Payment Success/Failed Page Start*/
+
+    .paymentStatus .topImage img {
+        width: 45px;
+    }
+
+    .paymentStatus .btmContent h2,
+    .paymentStatus .btmContent h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .paymentStatus .innerPay {
+        padding: 25px 15px 40px;
+    }
+
+    .paymentStatus {
+        margin-top: 120px;
+    }
+
+    .paymentStatus .innerPay {
+        margin: 30px 0;
+    }
+
+    .paymentStatus .btmButton a {
+        width: 180px;
+        font-size: 13px;
+    }
+
+    /*    Payment Success/Failed Page End*/
+
+    /*    add designer page*/
+    .form_wraper {
+        padding: 20px 15px;
+    }
+
+    .addDes_in h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .dsubmit_btn {
+        padding: 11px 44px;
+    }
+
+    /*    add designer page end*/
+
+    /*    Terms Page Start*/
+
+    .terms {
+        margin-top: 120px;
+        padding: 20px 0 30px;
+    }
+
+    .terms h2,
+    .terms h3 {
+        padding: 10px 0 13px;
+    }
+
+    .terms h2 {
+        font-size: 19px;
+    }
+
+    .terms h3 {
+        font-size: 15px;
+    }
+
+    .terms p:after {
+        font-size: 15px;
+    }
+
+    .terms p {
+        font-size: 14px;
+        padding-left: 20px;
+        margin-bottom: 10px;
+        line-height: 22px
+    }
+
+    /*    Terms Page End*/
+
+    .product_main .rightCrcl {
+        width: 30%;
+    }
+
+    .descipt button.btn_submit {
+        width: 130px;
+        padding: 9px 0;
+    }
+
+    .descipt {
+        padding: 15px;
+    }
+
+}

@@ -1,0 +1,4636 @@
+@font-face {
+    font-family: 'GothaProMed';
+    src: url(../fonts/GothaProMed.otf);
+}
+
+@font-face {
+    font-family: 'GothaProBold';
+    src: url(../fonts/GothaProBold.otf);
+}
+
+@font-face {
+    font-family: 'SFUITextLight';
+    src: url(../fonts/SFUITextLight.ttf);
+}
+
+@font-face {
+    font-family: 'SFUITextRegular';
+    src: url(../fonts/SFUITextRegular.ttf);
+}
+
+@font-face {
+    font-family: 'SFUITextMedium';
+    src: url(../fonts/SFUITextMedium.ttf);
+}
+
+@font-face {
+    font-family: 'SFUITextBold';
+    src: url(../fonts/SFUITextBold.ttf);
+}
+
+@font-face {
+    font-family: 'SFUITextSemibold';
+    src: url(../fonts/SFUITextSemibold.ttf);
+}
+
+@font-face {
+    font-family: 'avenirLTblack';
+    src: url(../fonts/avenirLTblack.ttf);
+}
+
+@font-face {
+    font-family: 'AvenirLTStdBook';
+    src: url(../fonts/AvenirLTStdBook.otf);
+}
+
+@font-face {
+    font-family: 'AvenirLTStdMedium';
+    src: url(../fonts/AvenirLTStdMedium.otf);
+}
+
+@font-face {
+    font-family: 'AvenirLTStdHeavy';
+    src: url(../fonts/AvenirLTStdHeavy.otf);
+}
+
+@font-face {
+    font-family: 'AvenirLTStdRoman';
+    src: url(../fonts/AvenirLTStdRoman.otf);
+}
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url(../fonts/OpenSansRegular.ttf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.noleft {
+    padding-left: 0;
+}
+
+.noright {
+    padding-right: 0;
+}
+
+.nopadding {
+    padding: 0 !important;
+}
+
+.boxs {
+    width: 100%;
+    display: inline-block;
+    float: left;
+}
+
+.container-fluid {
+    padding: 0 35px;
+}
+
+/*Header Start*/
+
+.fixed_header {
+    position: fixed;
+    background: #fff;
+    z-index: 999;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+    border-bottom: 2px solid #e1e1e1;
+    padding: 25px 0 20px;
+    position: fixed;
+    background: #fff;
+    z-index: 999;
+}
+
+.header.header2 {
+    border-bottom: 1px solid #e5e6ea;
+    /*    padding-bottom: 25px;*/
+}
+
+.header.header2 .headRight {
+    margin-top: 12px;
+}
+
+.headRight.head_right {
+    margin-top: 10px;
+}
+
+.header .logo a {
+    font-family: 'GothaProMed';
+    font-size: 23px;
+    color: #019fb0;
+}
+
+.header .logo a:hover {
+    text-decoration: none;
+}
+
+.header .searchHead {
+    display: none;
+    /*    margin-top: 10px;*/
+}
+
+
+.header .searchHead form {
+    position: relative;
+    width: 100%;
+
+    background: #f7f7f7;
+    border-radius: 4px;
+}
+
+.header .searchHead form input {
+    border: none;
+    background: transparent;
+    width: 75%;
+    padding: 9px 8px;
+    font-family: 'SFUITextRegular';
+    font-size: 14px;
+    color: #000;
+    border: 1px solid #c9cbd5;
+    border-radius: 4px 0 0 4px;
+}
+
+.header .searchHead form input:focus {
+    outline: none;
+}
+
+.header .searchHead form input::placeholder {
+    font-family: 'SFUITextRegular';
+    font-size: 14px;
+    color: #9398ac;
+}
+
+.header .searchHead form button {
+    position: absolute;
+    font-family: 'SFUITextRegular';
+    font-size: 15px;
+    color: #fff;
+    right: 0;
+    width: 25%;
+    border: none;
+    height: 100%;
+    border-radius: 0 4px 4px 0;
+    background-image: linear-gradient(to right, #00bba1, #00b5a9, #00afaf, #00a9b2, #00a2b4);
+}
+
+.header .headSearch form {
+    position: relative;
+
+    width: 570px;
+    background: #f7f7f7;
+    border-radius: 4px;
+}
+
+.header .headSearch form input {
+    border: none;
+    background: transparent;
+    width: 490px;
+    padding: 9px 8px;
+    font-family: 'SFUITextRegular';
+    font-size: 14px;
+    color: #000;
+    border: 1px solid #c9cbd5;
+    border-radius: 4px 0 0 4px;
+}
+
+.header .headSearch form input::placeholder {
+    font-family: 'SFUITextRegular';
+    font-size: 14px;
+    color: #9398ac;
+}
+
+.header .headSearch form input:focus {
+    outline: none;
+}
+
+.header .headSearch form button {
+    position: absolute;
+    font-family: 'SFUITextRegular';
+    font-size: 15px;
+    color: #fff;
+    right: 0;
+    width: 80px;
+    border: none;
+    height: 100%;
+    border-radius: 0 4px 4px 0;
+    background-image: linear-gradient(to right, #00bba1, #00b5a9, #00afaf, #00a9b2, #00a2b4);
+}
+
+.header .headSearch form button:focus {
+    outline: none;
+}
+
+.header .headLeft {
+    display: inline-block;
+}
+
+.header .logo {
+    display: inline-block;
+    margin-right: 40px;
+    margin: 4px 40px 4px 0;
+}
+
+.header .headSearch {
+    display: inline-block;
+    float: right;
+}
+
+.header .headRight {
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.header .topBtn {
+    float: left;
+    margin-right: 20px;
+}
+
+.header .topBtn a {
+    border: 1px solid #c9cbd5;
+    display: block;
+    padding: 9px 20px;
+    background: linear-gradient(to right, #019fb0 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .3s ease-out;
+    font-family: 'SFUITextRegular';
+    font-size: 14px;
+    color: #9398ac;
+}
+
+.header .topBtn a:hover,
+.header .topBtn a:focus {
+    background-position: left bottom;
+    color: #fff;
+    border: 1px solid #019fb0;
+    text-decoration: none;
+    outline: none;
+}
+
+.header .cartBox ul {
+    list-style: none;
+}
+
+.header .cartBox ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.header .cartBox ul li {
+    position: relative;
+}
+
+.header .cartBox ul li:first-child:after {
+    content: none;
+}
+
+.header .cartBox ul li:after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 2px;
+    background: #dee0e6;
+    top: 0;
+    left: -3px;
+}
+
+.header .headBtm {
+    padding: 30px 155px 0px;
+}
+
+.header .headBtm ul {
+    list-style: none;
+    text-align: center;
+}
+
+.header .headBtm ul li {
+    display: inline-block;
+    padding: 0 59px;
+    position: relative;
+}
+
+.header .headBtm ul li a {
+    padding: 0 10px 22px;
+    font-family: 'SFUITextMedium';
+    font-size: 13px;
+    color: #9398ac;
+}
+
+.header .headBtm ul li a:hover {
+    color: #019fb1;
+    text-decoration: none;
+    border-bottom: 2px solid #019fb1;
+}
+
+.header .headBtm ul li a:focus {
+    text-decoration: none;
+}
+
+.header .headBtm ul li a.active {
+    color: #019fb1;
+    border-bottom: 2px solid #019fb1;
+}
+
+.header .headBtm .droplist {
+    position: absolute;
+    /*    background-color: #fff;*/
+    left: 0;
+    right: 0;
+    top: 137px;
+    z-index: 9;
+    margin: 0 100px;
+    display: none;
+    /*    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);*/
+}
+
+.header .headBtm .droplist .listing {
+    width: 35%;
+    display: inline-block;
+    float: left;
+    padding: 10px 0 20px;
+    text-align: left;
+    background: #fff;
+    height: 287px;
+}
+
+.header .headBtm .droplist .listDetail {
+    /*    display: inline-block;*/
+    width: 65%;
+    padding: 10px 15px 20px 30px;
+    border-left: 1px solid #e1e1e1;
+    display: none;
+    background: #fff;
+    float: left;
+}
+
+.header .headBtm .droplist .listDetail h3 {
+    color: #019fb0;
+    font-size: 16px;
+    font-family: 'SFUITextMedium';
+    padding: 15px 0;
+    text-align: left;
+}
+
+.header .headBtm .droplist .listDetail ul {
+    text-align: left;
+}
+
+.header .headBtm .droplist .listDetail ul li {
+    width: 24%;
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 15px !important;
+}
+
+.header .headBtm .droplist .listDetail ul li a {
+    padding: 0;
+    color: #9398ac;
+    font-size: 13px;
+    font-family: 'SFUITextLight';
+}
+
+.header .headBtm .droplist .listDetail ul li a:hover,
+.header .headBtm .droplist .listDetail ul li a:focus {
+    color: #33353f !important;
+    text-decoration: none !important;
+    border-bottom: none;
+}
+
+.header .headBtm .droplist .listing li {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 1px;
+}
+
+.header .headBtm .droplist .listing li:hover {
+    background: #019fb0;
+}
+
+.header .headBtm .droplist .listing li:hover a {
+    color: #fff;
+}
+
+.header .headBtm .droplist .listing li a {
+    width: 100%;
+    display: block;
+    padding: 14px 15px 14px 30px;
+    color: #33353f;
+    font-family: 'SFUITextRegular';
+    font-size: 13px;
+}
+
+.header .headBtm .droplist .listing li.allcloth a {
+    font-family: 'SFUITextMedium';
+    font-size: 15px;
+}
+
+.header .headBtm .droplist .listing li.allcloth a img {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.header .headBtm .droplist .listing li.allcloth:hover {
+    background: none;
+}
+
+.header .headBtm .droplist .listing li.allcloth:hover a {
+    color: #33353f;
+}
+
+.header .headBtm .droplist .listing li a:hover {
+    border-bottom: none !important;
+}
+
+.header .headBtm .droplist .listing li a.active {
+    border-bottom: none;
+}
+
+.header .headBtm .droplist .listing li a i {
+    float: right;
+    font-size: 17px;
+}
+
+.header .headBtm .droplist .listing.designList {
+    padding: 10px 15px 20px 30px;
+    text-align: left;
+}
+
+.header .headBtm .droplist .listing.designList li {
+    display: inline-block;
+    width: initial;
+    text-align: center;
+}
+
+.header .headBtm .droplist .listing.designList li.allcloth {
+    width: 100% !important;
+}
+
+.header .headBtm .droplist .listing.designList li.allcloth a {
+    width: 100%;
+    color: #33353f;
+    font-size: 15px;
+    font-family: 'SFUITextMedium';
+    text-align: left;
+}
+
+.header .headBtm .droplist .listing.designList li a {
+    padding: 10px;
+    width: 30px;
+    color: #9398ac;
+    font-size: 15px;
+    font-family: 'SFUITextRegular';
+}
+
+.header .headBtm .droplist .listing.designList li:hover {
+    background: none;
+}
+
+.header .headBtm .droplist .listing.designList li a:hover,
+.header .headBtm .droplist .listing.designList li a:focus {
+    color: #33353f;
+}
+
+.header .headBtm .droplist .listing.designList li a.active {
+    color: #33353f;
+}
+
+
+.header .headBtm .droplist .listing.clothListing li a.active {
+    background: #019fb1;
+    color: #fff;
+}
+
+.rightDesigner .scroll2 {
+    overflow-y: hidden;
+}
+
+.rightDesigner .scroll {
+    overflow-x: hidden;
+    /*    max-height: 500px;*/
+}
+
+/*Hamburger Start*/
+
+.header .hamburger {
+    display: none;
+    float: right;
+    width: 25px;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.header .header_logo a {
+    display: none;
+}
+
+.hamburger:hover {
+    opacity: 1;
+}
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+    background: #9097a8;
+    width: 25px;
+    height: 2px;
+    border-radius: 0px;
+}
+
+.hamburger-inner::after {
+    bottom: -6px;
+}
+
+.header button:focus {
+    outline: 0px;
+}
+
+.hamburger-box {
+    width: 25px;
+    height: 15px;
+    top: 2px;
+    right: 0px;
+}
+
+.hamburger-inner::before {
+    top: -6px;
+}
+
+.sidenav {
+    background-color: #fff;
+    height: 88%;
+    left: -255px;
+    overflow-x: hidden;
+    padding-top: 10px;
+    position: fixed;
+    top: 80px;
+    transition: all .3s;
+    width: 250px;
+    z-index: 99;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+    overflow-y: scroll;
+    padding-bottom: 25px;
+}
+
+
+.sidenav::-webkit-scrollbar {
+    width: 3px;
+}
+
+.sidenav::-webkit-scrollbar-thumb {
+    background-color: #019fb0;
+}
+
+.sidenav .navbar-brand {
+    margin-bottom: 20px;
+}
+
+.sidenav .navbar-brand img {
+    width: 80%;
+}
+
+.sidenav a {
+    display: block;
+    padding: 5px 10px 5px 25px;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-family: 'SFUITextMedium';
+    font-size: 15px;
+    color: #9398ac;
+    cursor: pointer;
+}
+
+.sidenav a:hover,
+.sidenav a:focus {
+    color: rgb(254, 210, 81);
+    color: #019fb1;
+}
+
+.sidenav ul {
+    list-style: none;
+    width: 100%;
+}
+
+.sidenav ul li {
+    display: inline-block;
+}
+
+.header .sidenav ul li a img {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    padding-left: 10px;
+}
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+    background: #019fb0;
+}
+
+.signupBtn {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.signupBtn a {
+    border: 1px solid #9398ac;
+    padding: 10px 15px;
+    font-family: 'SFUITextMedium';
+    font-size: 15px;
+    color: #9398ac;
+}
+
+.signupBtn a:focus {
+    border: 1px solid #019fb0;
+    color: #fff;
+    background: #019fb0;
+}
+
+.cartBoxs {
+    padding: 10px 0;
+}
+
+.cartBoxs ul li a {
+    display: inline-block;
+}
+
+.sidenav .navTop {
+    padding: 10px 10px 10px 25px;
+    border-bottom: 1px solid #e5e6ea;
+}
+
+.sidenav .navTop ul li {
+    display: block;
+    font-family: 'SFUITextMedium';
+    font-size: 15px;
+    color: #9398ac;
+    padding: 5px 0;
+}
+
+.sidenav .navTop ul li img {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    width: 13px;
+}
+
+.sidenav .navMidbar {
+    padding: 10px 0;
+}
+
+.sidenav .navBottom {
+    border-top: 1px solid #e5e6ea;
+    padding: 7px 0;
+}
+
+.sidenav .navBottom ul li {
+    display: block;
+}
+
+.sidenav .navBottom ul li a span {
+    margin-right: 10px;
+    display: inline-block;
+    width: 17px;
+}
+
+.sidenav .navBottom ul li span img {
+    display: inline-block;
+    padding-left: 0;
+}
+
+.sidenav #clothingsInner {
+    display: none;
+}
+
+.sidenav .innerMenu span {
+    float: right;
+}
+
+.sidenav .clothingBox ul li {
+    display: block;
+    margin-left: 10px;
+}
+
+.sidenav .inner_menu span {
+    float: right;
+}
+
+.sidenav .w_Cloth,
+.sidenav .men_Cloth {
+    display: none;
+}
+
+.sidenav .w_Cloth ul li a {
+    margin-left: 10px;
+}
+
+.sidenav .men_Cloth ul li a {
+    margin-left: 10px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    opacity: 1;
+}
+
+/*Hamburger End*/
+
+#myInputautocomplete-list, #myInput2autocomplete-list
+{
+    position: absolute;
+    padding: 5px 0px;
+    background: #fff;
+    width: 100%;
+    z-index: 99999;
+    border: 1px solid #e6e6e8;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+}
+.autocomplete-items div:hover {
+  background-color: #e9e9e9; 
+}
+.autocomplete-active {
+  background-color: #e6e6e8 !important; 
+  color: #000; 
+}
+
+/*Header End*/
+
+/*Banner Start*/
+
+.banner .slick-slide img {
+    width: 100%;
+}
+
+.banner {
+    margin-top: 137px;
+}
+
+.banner .bannerInnner {
+    position: relative;
+    outline: none;
+}
+
+.banner .bannercontent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 90px 115px;
+    width: 100%;
+    height: 100%;
+}
+
+.banner .bannercontent h1 {
+    font-family: 'avenirLTblack';
+    font-size: 87px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.banner .bannercontent p {
+    font-family: 'SFUITextRegular';
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+
+.banner .bannercontent a {
+    font-family: 'SFUITextMedium';
+    font-size: 17px;
+    color: #fff;
+    padding: 14px 37px;
+    display: inline-block;
+    background-image: linear-gradient(to right, #00bba1, #00b5a9, #00afaf, #00a9b2, #00a2b4);
+}
+
+.banner .bannercontent a:hover,
+.banner .bannercontent a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+/*Slider Start*/
+
+.banner,
+.banner .slider:focus {
+    outline: none;
+}
+
+.slider .slick-prev {
+    left: 3%;
+    display: block;
+    top: 50%;
+    z-index: 9;
+}
+
+.slider .slick-prev:before {
+    content: url('../img/rightarrow.png');
+    position: absolute;
+    z-index: 9;
+}
+
+.slider .slick-next {
+    display: block;
+    right: 3%;
+    top: 50%;
+}
+
+.slider .slick-next:before {
+    content: url('../img/rightw.png');
+    position: absolute;
+}
+
+/*Slider End*/
+
+/*Banner End*/
+
+.products {
+    padding: 50px 0;
+    position: relative;
+}
+
+.products:before {
+    position: absolute;
+    content: '';
+    background-image: url('../img/circle1.png');
+    background-repeat: no-repeat;
+    background-size: 95px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.products .col-sm-4 {
+    padding: 0 20px;
+}
+
+.products .prodTop h2 {
+    padding-bottom: 20px;
+    text-align: center;
+    position: relative;
+    font-family: 'SFUITextSemibold';
+    font-size: 34px;
+    color: #33353f;
+    margin-bottom: 50px
+}
+
+.products .prodTop h2:before {
+    position: absolute;
+    content: '';
+    background: #33353f;
+    width: 100px;
+    height: 2px;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.products .prodImage img {
+    width: 100%;
+    border: 2px solid transparent;
+}
+
+.products .prodInner a {
+    text-decoration: none;
+}
+
+.products .prodInner a:hover .prodImage img {
+    border: 2px solid #8fd5dd;
+}
+
+.products .prodInner .prodDetail {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.products .prodInner .prodDetail h2 {
+    font-family: 'SFUITextRegular';
+    font-size: 22px;
+    color: #33353f;
+    margin-bottom: 10px;
+}
+
+.products .prodInner .prodDetail p {
+    font-family: 'SFUITextRegular';
+    font-size: 16px;
+    color: #9398ac;
+    margin-bottom: 10px;
+}
+
+.products .prodInner .prodDetail p span {
+    font-family: 'SFUITextRegular';
+    font-size: 18px;
+    color: #565a6c;
+}
+
+.products .prodInner .prodDetail h4 {
+    font-family: 'SFUITextMedium';
+    font-size: 16px;
+    color: #f89e36;
+}
+
+.topProduct {
+    margin-bottom: 30px;
+}
+
+.companyInfo {
+    background: url('../img/infoBanner.png') no-repeat center center;
+    background-size: cover;
+    height: auto;
+    padding: 90px 0;
+}
+
+.companyInfo .infoTop h2 {
+    padding-bottom: 20px;
+    text-align: center;
+    position: relative;
+    font-family: 'SFUITextSemibold';
+    font-size: 34px;
+    color: #33353f;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.companyInfo .infoTop h2:before {
+    position: absolute;
+    content: '';
+    background: #33353f;
+    width: 100px;
+    height: 2px;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.companyInfo .infoInner {
+    text-align: center;
+}
+
+.companyInfo .infoInner h3 {
+    font-family: 'SFUITextMedium';
+    font-size: 24px;
+    color: #33353f;
+    margin-bottom: 15px;
+    /*    padding: 0 40px;*/
+}
+
+.companyInfo .infoInner p {
+    font-family: 'SFUITextRegular';
+    font-size: 16px;
+    color: #9398ac;
+    line-height: 25px;
+}
+
+.companyInfo .infoInner.midbox p {
+    padding: 0 110px;
+}
+
+.fDesigner {
+    padding-top: 50px;
+    position: relative;
+}
+
+.fDesigner .topimage {
+    position: absolute;
+    top: 0;
+}
+
+.fDesigner .topimage img {
+    width: 85%;
+}
+
+.fDesigner .reviewTop h2 {
+    padding-bottom: 20px;
+    text-align: center;
+    position: relative;
+    font-family: 'SFUITextSemibold';
+    font-size: 34px;
+    color: #33353f;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.fDesigner .reviewTop h2:before {
+    position: absolute;
+    content: '';
+    background: #33353f;
+    width: 100px;
+    height: 2px;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.fDesigner .topList ul {
+    list-style: none;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.fDesigner .topList ul li {
+    display: inline-block;
+    padding-right: 24px;
+}
+
+.fDesigner .topList ul li:last-child {
+    padding-right: 0;
+}
+
+.fDesigner .topList ul li a {
+    cursor: pointer;
+    color: #c7c9d1;
+    font-size: 24px;
+    font-family: 'SFUITextMedium';
+}
+
+.fDesigner .topList ul li a:hover,
+.fDesigner .topList ul li a:focus {
+    text-decoration: none;
+    color: #33353f;
+}
+
+.fDesigner .topList ul li a.active {
+    color: #33353f;
+}
+
+.fDesigner .designInner {
+    padding: 30px 0;
+}
+
+.fDesigner .designInner .rightDesigner {
+    margin-top: 30px;
+}
+
+.fDesigner .designInner .designImg img {
+    width: 100%;
+}
+
+.fDesigner .designInner .designRgt {
+    margin-bottom: 50px;
+}
+
+.fDesigner .designInner .designRgt:last-child {
+    margin-bottom: 30px;
+}
+
+.fDesigner .designInner .designRgt .designleft {
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+}
+
+.fDesigner .designInner .designRgt .designleft p {
+    color: #33353f;
+    font-size: 30px;
+    font-family: 'SFUITextMedium';
+    line-height: 100%;
+}
+
+.fDesigner .designInner .designRgt .listAleft {
+    display: inline-block;
+}
+
+.fDesigner .designInner .designRgt ul {
+    list-style: none;
+}
+
+.fDesigner .designInner .designRgt ul li {
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 32%;
+}
+
+.fDesigner .designInner .designRgt ul li:last-child {
+    margin-bottom: 0;
+}
+
+.fDesigner .designInner .designRgt ul li a {
+    color: #9398ac;
+    font-size: 16px;
+    font-family: 'SFUITextRegular';
+    cursor: pointer;
+}
+
+.fDesigner .designInner .designRgt ul li a:hover {
+    text-decoration: none;
+    color: #019fb0;
+}
+
+
+
+.repDetail {
+    background-color: #fff;
+    float: left;
+    height: 528px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+#repScroll::-webkit-scrollbar {
+    width: 8px;
+    background-color: #fff;
+    border: 1px solid #e9edee;
+}
+
+#repScroll::-webkit-scrollbar-thumb {
+    background-color: #019fb0;
+    border-radius: 4px;
+}
+
+#repScroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+    border-radius: 4px;
+}
+
+
+.onlineShop {
+    padding: 50px 0;
+}
+
+.onlineShop .searchPop {
+    margin-bottom: 30px;
+}
+
+.onlineShop .searchPop:last-child {
+    margin-bottom: 0;
+}
+
+.onlineShop .searchPop h2 {
+    font-family: 'SFUITextMedium';
+    font-size: 24px;
+    color: #33353f;
+    margin-bottom: 20px;
+}
+
+.onlineShop .searchPop p {
+    font-family: 'SFUITextRegular';
+    font-size: 16px;
+    color: #9398ac;
+    line-height: 25px;
+}
+
+.reviews {
+    padding: 50px 0;
+    position: relative;
+}
+
+.reviews .rgtCircle {
+    position: absolute;
+    right: 0;
+    top: -40px;
+}
+
+.reviews .reviewTop h2 {
+    padding-bottom: 20px;
+    text-align: center;
+    position: relative;
+    font-family: 'SFUITextSemibold';
+    font-size: 34px;
+    color: #33353f;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.reviews .reviewTop h2:before {
+    position: absolute;
+    content: '';
+    background: #33353f;
+    width: 100px;
+    height: 2px;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.reviews .reviewSlide {
+    position: relative;
+    background: #f3f2f2;
+    padding: 30px 15px;
+    margin: 0 20px;
+    height: 225px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+.reviews .reviewSlide:focus {
+    outline: none;
+}
+
+.reviews .reviewSlide .slideTop img {
+    display: inline-block;
+    float: left;
+}
+
+.reviews .reviewSlide .slideTop .reviewDetail {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.reviews .reviewSlide .slideTop .reviewDetail h2 {
+    font-family: 'SFUITextMedium';
+    font-size: 18px;
+    color: #33353f;
+    margin-bottom: 5px;
+}
+
+.reviews .reviewSlide .slideTop span {
+    font-family: 'SFUITextRegular';
+    font-size: 17px;
+    color: #33353f;
+}
+
+.reviews .reviewSlide .slideTop p {
+    font-family: 'SFUITextRegular';
+    font-size: 16px;
+    color: #9398ac;
+    margin-top: 15px;
+    float: left;
+    width: 100%;
+}
+
+.reviews .reviewSlide .btmStar {
+    position: absolute;
+    bottom: 0;
+    margin: 20px 0 20px;
+}
+
+.reviews .reviewSlide .btmStar ul {
+    list-style: none;
+}
+
+.reviews .reviewSlide .btmStar ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/*Slider2 Start*/
+
+.banner,
+.banner .slider2:focus {
+    outline: none;
+}
+
+.slider2 .slick-prev {
+    left: 85%;
+    display: block;
+    top: 100%;
+    z-index: 99;
+}
+
+.slider2 .slick-prev:before {
+    content: url('../img/arrowrgt.png');
+    position: absolute;
+    z-index: 99;
+}
+
+.slider2 .slick-next {
+    display: block;
+    right: 3%;
+    top: 100%;
+}
+
+.slider2 .slick-next:before {
+    content: url('../img/arrowlft.png');
+    position: absolute;
+}
+
+.slider2 .slick-track {
+    padding-bottom: 40px;
+    padding-top: 5px;
+}
+
+/*Slider2 End*/
+
+.custService {
+    padding: 50px 0;
+    background: #f0f0f0;
+}
+
+.custService .servInner ul {
+    list-style: none;
+}
+
+.custService .servInner {
+    text-align: center;
+}
+
+.custService .servInner ul li {
+    display: inline-block;
+    padding: 0 120px;
+    position: relative;
+    line-height: 46px;
+}
+
+.custService .servInner ul li:after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 1px;
+    background: #c1c4ce;
+    right: 0;
+}
+
+.custService .servInner ul li:last-child:after {
+    display: none;
+}
+
+.custService .servInner ul li img {
+    display: inline-block;
+}
+
+.custService .servInner ul li span {
+    margin-left: 30px;
+    color: #33353f;
+    font-size: 16px;
+    font-family: 'SFUITextMedium';
+}
+
+/*Footer Start*/
+
+.footer .footInner {
+    padding: 50px 0 100px;
+}
+
+.footer .footLogo a {
+    font-family: 'GothaProMed';
+    font-size: 23px;
+    color: #019fb0;
+}
+
+.footer .footLogo a:hover {
+    text-decoration: none;
+}
+
+.footer .footLogo p {
+    font-family: 'SFUITextRegular';
+    font-size: 16px;
+    color: #9398ac;
+    padding-right: 44px;
+    margin-top: 15px;
+}
+
+.footer .footerRgt h2 {
+    font-family: 'SFUITextRegular';
+    font-size: 15px;
+    color: #33353f;
+    margin: 0 0 25px;
+}
+
+.footer .footerRgt ul {
+    list-style: none;
+}
+
+.footer .footerRgt ul li {
+    margin-bottom: 15px;
+}
+
+.footer .footerRgt ul a {
+    font-family: 'SFUITextRegular';
+    font-size: 14px;
+    color: #9398ac;
+    padding-bottom: 3px;
+}
+
+.footer .footerRgt ul a:hover,
+.footer .footerRgt ul a:focus {
+    text-decoration: none;
+    color: #019fb0;
+    border-bottom: 1px solid #019fb0;
+}
+
+.footer .footContact {
+    /*    margin-left: 70px;*/
+}
+
+.footer .footContact img {
+    display: inline-block;
+    margin-right: 10px;
+    height: 100%;
+    margin-top: 5px;
+}
+
+.footer .footContact ul li a {
+    padding-bottom: 0;
+    display: flex;
+}
+
+.footer .footContact ul li a:hover {
+    border-bottom: none;
+}
+
+.footer .footContact ul li a.foot_addr:hover {
+    color: #9398ac;
+}
+
+.footer .footInner .col-sm-9 .col-sm-3:last-child {
+    padding-right: 0;
+}
+
+/*Footer End*/
+
+/*Bottom Start*/
+
+.bottom .bottomInner {
+    padding: 40px 25px 20px;
+    border-top: 1px solid #d8d8d8;
+    line-height: 36px;
+}
+
+.bottom .bottomLeft p {
+    font-family: 'SFUITextRegular';
+    font-size: 14px;
+    color: #a4a8b8;
+}
+
+.bottom .bottomRgt {
+    float: right;
+}
+
+.bottom .bottomRgt p {
+    display: inline-block;
+    color: #33353f;
+    font-family: 'SFUITextRegular';
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.bottom .bottomRgt ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.bottom .bottomRgt ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.bottom .bottomRgt ul li a {
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.bottom .bottomRgt ul li a i {
+    border: 1px solid #ccc;
+    font-size: 17px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    background: #afb2c1;
+    color: #fff;
+}
+
+.bottom .bottomRgt ul li a i:hover {
+    background: #019fb0;
+    border: 1px solid #019fb0;
+}
+
+/*Login/Signup Modal Start*/
+
+.modal-open .modal {
+    padding-right: 0 !important;
+}
+
+.register .modal-dialog {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.register .modal-content {
+    background-color: #fff;
+    padding: 0px;
+    border-radius: 4px;
+}
+
+.register .modal-body {
+    padding: 0px;
+}
+
+.register .modal-body .regis .col-sm-6 {
+    padding: 0;
+}
+
+.register .modal-body .regis .login_box {
+    height: 461px;
+    position: relative;
+}
+
+.register .modal-body .regis .loginBox {
+    margin-top: 30px;
+}
+
+.register .modal-body .regis .login_boxs {
+    height: 461px;
+    position: relative;
+}
+
+.register .modal-body .regis .signUp .login_boxs .loginBox {
+    text-align: center;
+    margin-top: 0;
+}
+
+.register .modal-body .regis .signUp .login_boxs .loginBox h3 {
+    padding: 35px 0 12px;
+    border-bottom: 1px solid #e5e6ea;
+    color: #33353f;
+    font-size: 14px;
+    font-family: 'SFUITextRegular';
+    text-transform: uppercase;
+}
+
+.register .modal-body .regis .signUp .login_boxs .resetPswd {
+    padding: 30px;
+}
+
+.register .modal-body .regis .signUp .login_boxs .resetPswd p {
+    text-align: center;
+    color: #9398ac;
+    font-size: 14px;
+    font-family: 'SFUITextRegular';
+}
+
+.register .modal-body .regis .signUp .login_boxs .resetPswd .modalbtn {
+    margin: 20px 0;
+}
+
+.regis h6 {
+    font-family: 'OpenSansSemiBold';
+    font-size: 14px;
+    color: #181818;
+}
+
+.regis .form-control {
+    height: auto;
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+    border-radius: 4px;
+    font-family: 'SFUITextRegular';
+    font-size: 15px;
+    color: #33353f;
+    padding: 9px 15px;
+    box-shadow: none;
+}
+
+.regis .form-control:focus {
+    border: 1px solid #019fb0;
+}
+
+.regis .form-control::placeholder {
+    color: #9398ac;
+    font-size: 15px;
+    font-family: 'SFUITextRegular';
+}
+
+.regis .form-control:focus {
+    box-shadow: none;
+}
+
+.regis label sup {
+    color: #ff3434;
+    font-size: 22px;
+    top: 0px;
+}
+
+.regis .form-group {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.regis .form-group.nameBox {
+    margin-top: 10px;
+}
+
+.modalbtn button.loginBtn {
+    margin-top: 20px;
+}
+
+.modalbtn button {
+    width: 100%;
+    display: block;
+    font-family: 'AvenirLTStdHeavy';
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #00bba1, #00b5a9, #00afaf, #00a9b2, #00a2b4);
+    outline: none;
+    padding: 11px 0px;
+    border: none;
+}
+
+.modalbtn button:hover {
+    color: #fff;
+}
+
+.regis .row {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.register .modal-body .regis .col-sm-6 ul {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e5e6ea;
+}
+
+.register .modal-body .regis .col-sm-6 ul li {
+    display: inline-block;
+    padding: 0 30px;
+    font-size: 14px;
+    color: #9398ac;
+    font-family: 'SFUITextRegular';
+    padding-bottom: 10px;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+
+.register .modal-body .regis .col-sm-6 ul li.active {
+    border-bottom: 2px solid #019fb0;
+    color: #33353f;
+}
+
+.register .modal-body .regis .col-sm-6 ul li:hover {
+    border-bottom: 2px solid #019fb0;
+    color: #33353f;
+}
+
+.regis .registerform {
+    padding: 0 30px;
+}
+
+.regis .registerform .pro_list {
+    background: #fff;
+    margin-top: 15px;
+}
+
+.regis .registerform .pro_list label {
+    padding-left: 30px;
+    color: #9398ac;
+    font-family: 'SFUITextRegular';
+    font-size: 13px;
+}
+
+.regis .registerform .pro_list .styled-checkbox:checked + label:before {
+    background: #019fb0;
+}
+
+.regis .registerform .pro_list .styled-checkbox:checked + label:after {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 8px;
+    background: white;
+    width: 2px;
+    height: 2px;
+    box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.regis .registerform .pro_list a {
+    color: #9398ac;
+    font-size: 13px;
+    font-family: 'SFUITextRegular';
+    text-decoration: none;
+}
+
+.regis .registerform .fblogin {
+    width: 100%;
+    background: #49639e;
+    margin-top: 10px;
+}
+
+.regis .registerform .fblogin button {
+    width: 100%;
+    padding: 0;
+    border: none;
+    line-height: 38px;
+    background: #49639e;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'SFUITextRegular';
+}
+
+.regis .registerform .fblogin button:focus {
+    outline: none;
+}
+
+.regis .registerform .fblogin button span {
+    background: #5c73a9;
+    display: inline-block;
+    float: left;
+}
+
+.regis .registerform .fblogin button span i {
+    padding: 12px 15px;
+    float: left;
+    color: #fff;
+}
+
+.regis .registerform .addOr {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.regis .registerform .addOr p span {
+    border: 1px solid #ccc;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 8px;
+    color: #9398ac;
+    font-family: 'AvenirLTStdMedium';
+}
+
+.regis .registerform .addOr p {
+    position: relative;
+}
+
+.regis .registerform .addOr p:before {
+    position: absolute;
+    content: '';
+    width: 38%;
+    left: 0;
+    top: 50%;
+    background: #ccc;
+    height: 1px;
+}
+
+.regis .registerform .addOr p:after {
+    position: absolute;
+    content: '';
+    width: 38%;
+    right: 0;
+    top: 50%;
+    background: #ccc;
+    height: 1px;
+}
+
+.regis .registerform .modalbtn {
+    margin: 20px 0;
+}
+
+.regis .registerform .forgtPassword {
+    text-align: center;
+}
+
+.regis .registerform .forgtPassword a {
+    color: #9398ac;
+    font-size: 14px;
+    font-family: 'SFUITextRegular';
+}
+
+.regis .registerform .forgtPassword a:hover,
+.regis .registerform .forgtPassword a:focus {
+    text-decoration: none;
+    color: #49639e;
+}
+
+.regis {
+    position: relative;
+}
+
+.closed {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.closed img {
+    width: 12px;
+}
+
+.resetPassword {
+    display: none;
+}
+
+.signUp {
+    display: none;
+}
+
+/*Login/Signup Modal End*/
+
+/*Bottom End*/
+
+/*Product Detail Page Start*/
+
+.productDetails {
+    margin-top: 137px;
+    padding: 50px 0;
+}
+
+.pro_menu li a span {
+    color: #989898;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.product_slides li {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.slides2 {
+    padding: 0px 55px;
+    text-align: center;
+}
+
+.txt_top2 {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.txt_top2 h3 {
+    color: #181818;
+    font-size: 14px;
+    font-family: 'OpenSansRegular';
+    margin-left: 10px;
+}
+
+.txt_mid2 h2 {
+    font-size: 32px;
+}
+
+.txt_mid2 p {
+    margin-bottom: 15px;
+}
+
+.txt_wraper .productId {
+    margin: 10px 0;
+}
+
+.txt_wraper .productId p {
+    color: #019fb1;
+    font-family: 'SFUITextRegular';
+    font-size: 14px;
+}
+
+.txt_wraper .productId p span {
+    color: #9398ac;
+    margin-left: 30px;
+}
+
+.txt_midInn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.txt_midInn a {
+    font-family: 'OpenSansSemibold';
+    font-size: 14px;
+    color: #fa6304;
+    text-decoration: underline;
+}
+
+.txt_midInn a:hover {
+    text-decoration: none;
+}
+
+.color_opt {
+    padding-top: 10px;
+}
+
+.color_opt a label {
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.color_opt a span {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.txt_bot2 h4 {
+    font-family: 'SFUITextRegular';
+    color: #33353f;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.txt_bot2 h4 strike {
+    font-family: 'SFUITextRegular';
+    font-size: 16px;
+    color: #848589;
+}
+
+.txt_bot2 h4 span {
+    font-family: 'SFUITextLight';
+    color: #fe826d;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.addCart_btn {
+    color: #fff;
+    border: none;
+    font-family: 'SFUITextRegular';
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 14px 37px;
+    text-align: center;
+    margin-left: 40px;
+    border: 1px solid #019fb1;
+    background-image: linear-gradient(to right, #00bba1, #00b5a9, #00afaf, #00a9b2, #00a2b4);
+}
+
+.addCart_btn.custm_btn {
+    border: 1px solid #019fb0;
+    display: block;
+    padding: 14px 37px;
+    background: linear-gradient(to right, #019fb0 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .3s ease-out;
+    font-family: 'SFUITextRegular';
+    font-size: 14px;
+    color: #019fb1;
+}
+
+.addCart_btn.custm_btn:focus,
+.addCart_btn.custm_btn:hover {
+    color: #fff;
+    background-position: left bottom;
+    color: #fff;
+    border: 1px solid #019fb0;
+    text-decoration: none;
+    outline: none;
+}
+
+.addCart_btn:focus {
+    outline: none;
+}
+
+.addCart_btn:hover {
+    color: #fff;
+}
+
+.addCartBox {
+    /*
+    display: flex;
+    align-items: center;
+*/
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.addCartBox a.addtoCart {
+    background-image: linear-gradient(to right, #00bba1, #00a2b4);
+    color: #fff;
+}
+
+.addCartBox a {
+    padding: 14px 43px;
+    background: #fff;
+    border: 1px solid #019fb1;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #019fb1;
+    font-size: 14px;
+    font-family: 'SFUITextRegular';
+    text-transform: uppercase;
+    display: block;
+    background: linear-gradient(to right, #019fb0 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .3s ease-out;
+}
+
+.addCartBox a:hover {
+    background-position: left bottom;
+    color: #fff;
+    border: 1px solid #019fb0;
+    text-decoration: none;
+    outline: none;
+}
+
+.descipt {
+    padding: 0 30px 38px;
+}
+
+.descipt h2 {
+    color: #181818;
+    font-size: 24px;
+    font-family: 'RalewaySemiBold';
+}
+
+.descipt h4 {
+    color: #989796;
+    font-size: 14px;
+    font-family: 'OpenSansSemibold';
+    margin: 26px 0 30px;
+}
+
+.descipt p {
+    font-size: 14px;
+    color: #585858;
+    font-family: 'OpenSansRegular';
+}
+
+.related_prod {
+    padding-bottom: 50px;
+}
+
+.product_main {
+    position: relative;
+}
+
+.product_main .rightCrcl {
+    position: absolute;
+    right: 0;
+    bottom: 285px;
+    z-index: 1;
+    width: 9%;
+}
+
+.pdt_sec .col-sm-4 {
+    z-index: 2;
+}
+
+.related_prod_in h3 {
+    color: #33353f;
+    font-size: 24px;
+    font-family: 'SFUITextMedium';
+    margin-bottom: 50px;
+}
+
+.related_prod_in .pdt_pr {
+    padding: 10px 0 0;
+}
+
+.related_prod_in .pdt_pr h3 {
+    color: #333541;
+    font-size: 16px;
+    font-family: 'SFUITextRegular';
+    margin: 5px 0;
+}
+
+.related_prod_in .pdt_pr ul {
+    list-style: none;
+    margin: 5px 0;
+}
+
+.related_prod_in .pdt_pr ul li {
+    display: inline-block;
+}
+
+.related_prod_in .pdt_pr ul span {
+    color: #969aab;
+    font-size: 12px;
+    font-family: 'SFUITextLight';
+}
+
+.related_prod_in .pdt_pr p img {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.related_prod_in .pdt_pr p {
+    color: #969aab;
+    font-size: 13px;
+    font-family: 'SFUITextRegular';
+    text-decoration: underline;
+    margin: 5px 0;
+}
+
+.related_prod_in .pdt_pr h4 {
+    color: #01a2b4;
+    font-size: 17px;
+    font-family: 'SFUITextRegular';
+}
+
+.related_prod_in .pdt_pr h4 span {
+    color: #fe826d;
+    font-size: 13px;
+    font-family: 'SFUITextLight';
+    margin-left: 5px;
+}
+
+.col_sm {
+    margin-left: 18px;
+    margin-right: 17px;
+    width: 17%;
+    float: left;
+}
+
+.slide_sec .slide_sec_in .slide_img img {
+    width: 100%;
+}
+
+.slides {
+    width: 100%;
+    float: left;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+    padding: 55px 15px;
+    border-radius: 4px;
+}
+
+.slide_img {
+    border-radius: 4px;
+    overflow: hidden;
+    height: auto;
+}
+
+.slide_img img {
+    width: 100%;
+}
+
+.arrow_up img {
+    transform: rotate(180deg);
+}
+
+.slides .innerSlide a img {
+    margin: 0 14px;
+}
+
+.slides .innerSlide a img:focus,
+.slides .innerSlide a:focus {
+    outline: none;
+}
+
+.slides .slick-prev {
+    left: -2%;
+    display: block;
+    top: 47%;
+    z-index: 9;
+}
+
+.slides .slick-prev:before {
+    content: url('../img/sliderLeft.png');
+    position: absolute;
+    z-index: 9;
+}
+
+.slides .slick-next {
+    display: block;
+    right: 0;
+    top: 47%;
+}
+
+.slides .slick-next:before {
+    content: url('../img/sliderRgt.png');
+    position: absolute;
+}
+
+
+.slide_sec {
+    padding: 30px 0 50px;
+}
+
+.txt_mid h2 {
+    font-family: 'RalewaySemiBold';
+    color: #181818;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.txt_mid h2 span {
+    color: #f96869;
+    font-family: 'OpenSansSemibold';
+    font-size: 20px;
+}
+
+.txt_mid p {
+    font-family: 'OpenSansSemibold';
+    color: #989796;
+    font-size: 14px;
+}
+
+.txt_mid p span {
+    color: #181818;
+}
+
+.txt_mid p:nth-child(3) {
+    margin: 10px 0 10px;
+}
+
+.review_sec .review_box li {
+    margin-left: 0;
+    margin-top: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 4px 0;
+    border-radius: 4px;
+    display: block;
+}
+
+.review_sec .review_box li:nth-child(2) {
+    margin-left: 0;
+}
+
+.review_sec {
+    padding: 10px 0 20px;
+}
+
+.review_sec ul {
+    list-style: none;
+}
+
+.review_sec ul li {
+    display: inline-block;
+    background: #fff;
+    font-size: 12px;
+}
+
+.review_sec ul li:nth-child(1) {
+    color: #8f8f8f;
+    font-family: 'SFUITextRegular';
+    color: #019fb1;
+    font-size: 16px;
+}
+
+.review_sec ul li span i {
+    color: #72bfbc;
+}
+
+.review_sec ul li span.starRe {
+    padding-right: 5px;
+}
+
+.review_sec ul li span.rating {
+    padding-left: 8px;
+}
+
+.review_sec ul li:last-child {
+    margin-left: 10px;
+}
+
+.review_sec ul li a:nth-child(1) {
+    color: #019fb1;
+    font-size: 14px;
+    font-family: 'SFUITextRegular';
+    text-decoration: underline;
+}
+
+.review_sec ul li a:nth-child(2) {
+    padding-left: 15px;
+}
+
+.review_sec ul li a:nth-child(3) {
+    padding-left: 15px;
+}
+
+.review_sec ul li a i {
+    font-size: 20px;
+    color: #989898;
+}
+
+.id_lft1 h4 {
+    font-family: 'SFUITextMedium';
+    font-size: 24px;
+    color: #181818;
+    line-height: 30px;
+}
+
+.txt_bot h5 {
+    color: #33353f;
+    margin: 20px 0 10px;
+    font-family: 'SFUITextRegular';
+    font-size: 16px;
+}
+
+.color_opt a {
+    display: inline-block;
+    position: relative;
+}
+
+.color_opt a .num_div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 12px;
+    border: 1px solid #d4d4d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color_opt a .num_div:checked {
+    border: 2px solid #000;
+}
+
+.color_opt a .num_div p {
+    font-family: 'OpenSansRegular';
+    font-size: 20px;
+    color: #181818;
+}
+
+.descr_sec h3 {
+    font-family: 'SFUITextMedium';
+    font-size: 24px;
+    color: #33353f;
+    margin-bottom: 20px;
+}
+
+.descr_sec p {
+    font-family: 'SFUITextRegular';
+    font-size: 16px;
+    color: #9398ac;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.descr_sec p:last-child {
+    margin-bottom: 0;
+}
+
+.or p {
+    font-family: 'OpenSansSemiBold';
+    font-size: 14px;
+    color: #8f8f8f;
+}
+
+.already {
+    margin: 30px 0px;
+}
+
+.already p {
+    font-family: 'OpenSansSemiBold';
+    font-size: 14px;
+    color: #8f8f8f;
+}
+
+.already p a {
+    color: #181818;
+    text-decoration: underline;
+}
+
+.modal_logo {
+    margin-bottom: -110px;
+}
+
+.modal_logo img {
+    margin: 0px auto;
+    width: 200px;
+}
+
+.color_opt input[type=checkbox],
+input[type=radio] {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.color_opt input[type=radio]:checked + label .num_div {
+    background-color: #019fb0;
+}
+
+.color_opt input[type=radio]:checked + label .num_div p {
+    color: #fff;
+}
+
+.color_opt input[type=radio]:checked + label span {
+    border: 4px solid #cca740;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.vaulebox {
+    /*    float: right;*/
+    width: 140px;
+    border: 1px solid #dfe0e5;
+    padding: 5px 0;
+    display: inline-block;
+}
+
+.prodButtons {
+    display: inline-block;
+}
+
+.prodButtons a {
+    display: inline-block;
+}
+
+.vaulebox button {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    font-size: 18px;
+    color: #019fb0;
+    width: 30px;
+    height: 100%;
+    border-left: 1px solid #e5e5ea;
+}
+
+.vaulebox button:focus {
+    outline: none;
+}
+
+.vaulebox button:first-child {
+    border-radius: 4px 0px 0px 4px;
+}
+
+.vaulebox button:last-child {
+    border-radius: 0px 4px 4px 0px;
+}
+
+.vaulebox input {
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    width: 50%;
+    height: 24px;
+    text-align: center;
+    font-family: 'AvenirLTStdBook';
+    font-size: 15px;
+    color: #222222;
+}
+
+.vaulebox input:focus {
+    outline: 0;
+}
+
+.custModal .regis .registerform h3 {
+    color: #33353f;
+    font-size: 16px;
+    font-family: 'SFUITextMedium';
+}
+
+.custModal .regis .registerform form textarea {
+    resize: none;
+    height: 85px;
+}
+
+.custModal .regis .registerform form {
+    margin-top: 30px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.custModal .regis .registerform .modalbtn {
+    margin-top: 40px;
+}
+
+
+/* review & rating start */
+
+.accordion-container {
+    position: relative;
+    height: auto;
+    margin: 10px auto;
+}
+
+.accordion-container > h2 {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.setReview {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #000;
+}
+
+.setReview > a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    font-family: 'SFUITextBold';
+}
+
+.setReview > a i {
+    float: right;
+    margin-top: 2px;
+    color: #fff;
+}
+
+.setReview > a.active {
+    background-color: #019fb0;
+    color: #fff;
+}
+
+.content {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    display: none;
+}
+
+.content p {
+    padding: 10px 15px;
+    margin: 0;
+    color: #333;
+}
+
+.reviewbx h4 img {
+    width: 45px;
+    border-radius: 50%;
+}
+
+.reviewbx h4 {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0;
+}
+
+.descipt h4 {
+    color: #989796;
+    font-size: 14px;
+    font-family: 'SFUITextBold';
+    margin: 26px 0 30px;
+}
+
+.reviewbx h4 span {
+    font-size: 14px;
+    color: #000;
+    font-family: 'SFUITextBold';
+    margin: 0 20px;
+}
+
+.messag_wrp textarea.form-control {
+    height: 195px;
+    padding: 10px 15px;
+    box-shadow: none;
+    resize: none;
+}
+
+.reviewbx h4 span g {
+    color: #cca740;
+    font-size: 24px;
+}
+
+.reviewbx h5 {
+    font-size: 17px;
+    color: #000;
+    font-family: 'SFUITextBold';
+}
+
+.itemDet h6 {
+    margin-top: 10px;
+}
+
+.star-rating label {
+    color: #ddd;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.btn_submit {
+    display: block;
+    width: 100%;
+    background-image: linear-gradient(to right, #00bba1, #00a2b4);
+    border: none;
+    color: #fff;
+    padding: 15px 0;
+    font-family: 'SFUITextBold';
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.rating_pd {
+/*    margin-top: 40px;*/
+}
+
+.desciptrate {
+    padding-top: 30px;
+}
+
+.star-rating :hover ~ label {
+    color: rgb(250, 176, 5);
+}
+
+.star-rating :checked ~ label {
+    color: #ca5f14;
+}
+
+/* review & rating end */
+
+/* rating section start */
+    
+    .rating_sec {
+        background-color: #fff;
+        padding: 50px 0px;
+        text-align: center;
+    }
+    
+    .star-rating {
+        border: 0;
+        display: flex;
+        flex-direction: row-reverse;
+        font-size: 2em;
+        justify-content: auto;
+        text-align: center;
+        width: 5em;
+        margin-left: -43px;
+    }
+    
+    .rate_sec img {
+        margin: 0 auto;
+    }
+        
+    .rate_sec p {
+        color: #616161;
+        font-family: 'SFUITextLight';
+        font-size: 14px;
+        padding: 0px 290px;
+        line-height: 30px;
+    }
+    
+    .rating_row {
+        background-color: #f3f3f3;
+        padding: 0px 80px 40px;
+        text-align: center;
+        margin: 60px 0px;
+    }
+    
+    .rating_row img {
+        margin: 0 auto 40px;
+    }
+    
+    .rating_row p {
+        font-family: 'SFUITextLight';
+        font-size: 16px;
+        color: #616161;
+        line-height: 25px;
+        margin-bottom: 35px;
+    }
+    
+    .rating_row h4 {
+        font-family: 'SFUITextSemibold';
+        font-size: 16px;
+        color: #181818;
+    }
+    /* rating section end */
+
+/*Product Detail Page End*/
+
+/*Product Page Start*/
+
+.product_main .col-sm-3 {
+    width: 22%;
+}
+
+.product_main .col-sm-9 {
+    width: 78%;
+}
+
+.product_main {
+    margin-top: 137px;
+}
+
+.clo_main .pdt_sec .productInner {
+    margin-bottom: 50px;
+}
+
+.clo_main .pdt_sec .productInner .pdt_img_sec img.pd_img {
+    border: 2px solid transparent;
+    width: 100%;
+}
+
+.clo_main .pdt_sec .productInner .pdt_img_sec:hover img.pd_img {
+    border: 2px solid #8fd5dd;
+}
+
+.pro_list .styled-checkbox {
+    position: absolute;
+    opacity: 0;
+}
+
+.clo_main .topHeading h2 {
+    font-size: 24px;
+    color: #333541;
+    font-family: 'SFUITextMedium';
+    padding: 20px 0;
+}
+
+.clo_main1 {
+    display: block;
+}
+
+.pro_var_hd {
+    margin-bottom: 25px;
+}
+
+.product_main {
+    background-color: #fff;
+    padding: 50px 0px 50px;
+}
+
+.pro_menu {
+    list-style: none;
+}
+
+.pro_menu li {
+    display: inline-block;
+}
+
+.pro_menu li span {
+    margin: 0 5px;
+}
+
+.pro_menu li a {
+    font-family: 'SFUITextRegular';
+    font-size: 16px;
+    color: #9398ac;
+    text-decoration: none;
+}
+
+.pro_menu li a.active {
+    color: #191919;
+}
+
+.pro_list {
+    border-radius: 4px;
+    background: #f8f8f8;
+}
+
+.pro_list .styled-checkbox {
+    position: absolute;
+    opacity: 0;
+}
+
+.pro_list .styled-checkbox + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+}
+
+.pro_list .styled-checkbox + label:before {
+    content: '';
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 18px;
+    height: 18px;
+    background: white;
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+
+.pro_list .styled-checkbox:checked + label:before {
+    background: #019fb0;
+}
+
+.pro_list .styled-checkbox:checked + label:after {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 8px;
+    background: white;
+    width: 2px;
+    height: 2px;
+    box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.pro_list .unstyled {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.pro_list ul.unstyled li {
+    margin-bottom: 12px;
+}
+
+.pro_list .unstyled li label {
+    font-family: 'SFUITextRegular';
+    font-size: 12px;
+    color: #83889d;
+    display: block;
+    padding-left: 25px;
+    margin-bottom: 0 !important;
+}
+
+.pro_list .styled-checkbox + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+}
+
+.pro_list .chk_sec {
+    padding: 20px 20px;
+    border: 1px solid #e7e7e7;
+    border-bottom: none;
+}
+
+.pro_list .chk_sec:last-child {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.pro_list .unstyled li label span {
+    font-family: 'OpenSansRegular';
+    font-size: 12px;
+    color: #8f8f8f;
+    float: right
+}
+
+.pro_list a {
+    font-family: 'OpenSansSemibold';
+    font-size: 12px;
+    color: #cca740;
+}
+
+.clo_main .spclOffer img {
+    width: 100%;
+    position: relative;
+}
+
+.clo_main .spclOffer p {
+    position: absolute;
+    top: 0;
+}
+
+.clo_main .pro_list .main_ck ul.topMenu {
+    list-style: none;
+}
+
+.clo_main .pro_list .main_ck ul.topMenu li {
+    width: 100%;
+}
+
+.clo_main .pro_list .main_ck ul.topMenu li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #333541;
+    font-family: 'SFUITextMedium';
+    padding-left: 0;
+    width: 100%;
+    display: block;
+    padding: 5px 0px 5px 0px;
+}
+
+.clo_main .pro_list .main_ck ul.topMenu li a i {
+    float: right;
+    font-size: 12px;
+    color: #8f8f8f;
+    margin-top: 5px;
+}
+
+.clo_main .pro_list .main_ck ul.topMenu {
+    margin: 20px 0 10px;
+}
+
+.clo_main .pro_list .main_ck h2 {
+    font-size: 14px;
+    color: #333541;
+    font-family: 'SFUITextMedium';
+    padding: 10px 0 20px;
+}
+
+.clo_main .pro_list .main_ck h2 span {
+    float: right;
+}
+
+.clo_main .pro_list .main_ck h2 span a {
+    color: #019fb1;
+    font-size: 14px;
+    font-family: 'SFUITextMedium';
+    text-decoration: none;
+}
+
+/*Custom Radio Button Start*/
+
+.chk_sec [type="radio"]:checked,
+.chk_sec [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+.chk_sec [type="radio"]:checked + label,
+.chk_sec [type="radio"]:not(:checked) + label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+    margin-bottom: 0 !important;
+}
+
+.chk_sec [type="radio"]:checked + label:before,
+.chk_sec [type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+
+.chk_sec [type="radio"]:checked + label:after,
+.chk_sec [type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #019fb0;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.chk_sec [type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+.chk_sec [type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+/*Custom Radio Button End*/
+
+/*Pagination Start */
+
+.simple-pagination {
+    padding: 20px;
+    background: #fff;
+    margin-top: 15px;
+}
+
+.simple-pagination ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.simple-pagination li {
+    display: inline-block;
+    border: 1px solid #dadce2;
+    padding: 6px 0;
+}
+
+.simple-pagination li a,
+.simple-pagination li span {
+    color: #333541;
+    padding: 8px 12px;
+    text-decoration: none;
+    background-color: #FFF;
+    font-family: 'SFUITextRegular';
+    font-size: 14px;
+}
+
+.simple-pagination .current {
+    color: #FFF;
+    background-color: #01a2b4;
+}
+
+.simple-pagination .prev.current,
+.simple-pagination .next.current {
+    background: transparent;
+    color: #333541;
+    border: none;
+    font-family: 'SFUITextRegular';
+    font-size: 14px;
+}
+
+.page-link.prev,
+.page-link.next {
+    background: none;
+    border: none;
+}
+
+/*Pagination End */
+
+.pro_list ul.unstyled.priceList ul li {
+    margin: 10px 0;
+}
+
+.chk_sec h2 {
+    color: #3d3d3d;
+    font-size: 14px;
+    font-family: 'SFUITextMedium';
+}
+
+.products_var .pagi_sec {
+    text-align: center;
+}
+
+.hightoLow p {
+    display: inline-block;
+}
+
+.hightoLow select {
+    -webkit-appearance: none;
+    color: #83889d;
+    font-size: 12px;
+    font-family: 'SFUITextRegular';
+    padding: 8px 22px;
+    border-radius: 4px;
+    border: 1px solid #c7c9d1;
+    cursor: pointer;
+    width: 34%;
+}
+
+.hightoLow select:focus {
+    outline: none;
+}
+
+.hightoLow p {
+    color: #333541;
+    font-size: 12px;
+    font-family: 'SFUITextRegular';
+    margin: 0 3px;
+}
+
+.hightoLow a {
+    padding: 8px 12px;
+    border: 1px solid #c7c9d1;
+    border-radius: 4px;
+    margin-left: 4px;
+    float: right;
+    text-align: center;
+}
+
+.hightoLow a img {
+    display: inline-block;
+
+}
+
+/*Product Page End*/
+
+/*my account page*/
+
+.mainSec {
+    margin-top: 90px;
+}
+
+.accountSec {
+    padding: 50px 0 80px;
+}
+
+.maccount_header {
+    border-bottom: none;
+}
+
+.breadcrumb_m ul {
+    list-style: none;
+}
+
+
+.breadcrumb_m ul li {
+    display: inline-block;
+}
+
+.breadcrumb_m ul li a {
+    color: #9398ac;
+    font-size: 16px;
+    font-family: 'SFUITextRegular';
+    text-decoration: none;
+}
+
+.breadcrumb_m ul li a.slash {
+    margin: 0 5px;
+}
+
+.account_lft h2,
+.head h2 {
+    margin: 25px 0;
+    color: #33353f;
+    font-size: 24px;
+    font-family: 'SFUITextMedium';
+}
+
+.profilebox {
+    padding: 30px 30px 58px;
+    background: #e9f2f3;
+    border-radius: 4px;
+}
+
+.profilepic {
+    margin: 0 auto;
+    width: 135px;
+    height: 135px;
+    background: #bfd6d9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.profilebox h2 {
+    margin: 30px 0 10px;
+    text-align: center;
+}
+
+.profilebox p {
+    text-align: center;
+    color: #9398ac;
+    font-size: 14px;
+    font-family: 'SFUITextRegular';
+}
+
+.account_rht {
+    border: 1px solid #e6e6e8;
+    padding: 20px 0 38px 30px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.acnt_top h3 {
+    font-size: 20px;
+    font-family: 'SFUITextMedium';
+    color: #33353f;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #e6e6e8;
+}
+
+.form_wraper {
+    padding: 35px 75px 38px 0;
+}
+
+.form_wraper form label {
+    color: #9398ac;
+    font-size: 16px;
+    font-family: 'SFUITextRegular';
+    font-weight: normal;
+}
+
+.form_wraper form label span {
+    color: #ff5d5d;
+}
+
+.form_wraper form .form-control {
+    color: #33353f;
+    font-size: 16px;
+    font-family: 'SFUITextRegular';
+    box-shadow: none;
+    outline: 0;
+    border: 1px solid #e6e6e8;
+    border-radius: 0;
+    /*    height: 46px;*/
+    height: auto;
+    padding: 11px 15px;
+}
+
+.form_wraper form .form-group {
+    margin-bottom: 35px;
+}
+
+.form_wraper form .form-control:focus {
+    border: 1px solid #019fb0;
+}
+
+.form_wraper form select.form-control {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.form_wraper form .form_grp {
+    position: relative;
+}
+
+.form_wraper form .form_grp img {
+    position: absolute;
+    top: 49px;
+    right: 15px;
+}
+
+.form_btns {
+    background-image: linear-gradient(to right, #00bba1, #00a2b4);
+    border: none;
+    color: #fff;
+    font-family: 'SFUITextRegular';
+    font-size: 14px;
+    padding: 15px 74px;
+    outline: 0;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    box-shadow: 0 3px 17px rgb(0, 187, 161, 0.2);
+}
+
+.form_btns:hover {
+    background-image: linear-gradient(to right, #00a2b4, #00bba1);
+}
+
+.acnt_btm {
+    padding-top: 38px;
+}
+
+.update_btn {
+    padding: 15px 18px;
+}
+
+/*my account page end*/
+
+/*edit mode address page*/
+
+.editaddrs {
+    border: none;
+    padding: 0 145px 0 0;
+}
+
+.editaddrs h3 {
+    border: none;
+    padding: 0;
+}
+
+.editaddrs .form_wraper {
+    /*    padding-top: 0px;*/
+}
+
+.cancel_btn {
+    font-family: 'SFUITextRegular';
+    font-size: 14px;
+    color: #9398ac;
+    border: 1px solid #e6e6e8;
+    background: #fff;
+    padding: 15px 53px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    outline: 0;
+}
+
+.btn_hover span {
+    position: relative;
+    z-index: 9;
+    transition: all 0.3s;
+}
+
+.btn_hover {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn_hover::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #00bba1, #00a2b4);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: all 0.3s;
+}
+
+.btn_hover:hover::before {
+    left: 0;
+}
+
+.btn_hover:hover span {
+    color: #fff;
+}
+
+/*edit mode address page end*/
+
+/*billing pag*/
+
+.billingsec {
+    padding: 50px 0 95px;
+}
+
+.addAddress_btn {
+    font-family: 'AvenirLTStdHeavy';
+    font-size: 15px;
+    color: #00a3b6;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #00a3b6;
+    padding: 12px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.addAddress_btn:focus {
+    text-decoration: none;
+    color: #00a3b6;
+}
+
+.addAddress_btn img {
+    margin-right: 8px;
+}
+
+.addAddress_btn:hover {
+    text-decoration: none;
+}
+
+.billing_top {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.greenPluse {
+    position: relative;
+    z-index: 9;
+}
+
+.addAddress_btn:hover .whitePluse {
+    display: block;
+}
+
+.billingSec_in .head h2 {
+    margin-top: 0;
+}
+
+.addressSelect {
+    padding-right: 450px;
+}
+
+.address_com {
+    padding: 20px 17px 12px 17px;
+    background: #fff;
+    border: 1px solid #e5e6ea;
+}
+
+.address_com h4 {
+    color: #33353f;
+    font-size: 18px;
+    font-family: 'SFUITextRegular';
+    margin-bottom: 15px;
+}
+
+.address_com h5,
+.address_com p,
+.address_com a {
+    color: #9197af;
+    font-size: 16px;
+    font-family: 'SFUITextRegular';
+}
+
+.address_com h5 {
+    margin-bottom: 3px;
+}
+
+.address_com p {
+    line-height: 28px;
+}
+
+.address_com a {
+    text-decoration: none;
+}
+
+.button_bx {
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1px solid #e5e6ea;
+    padding-top: 12px;
+}
+
+.button_bx a {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_bx a img {
+    margin-right: 5px;
+}
+
+.button_bx2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button_bx2 span {
+    display: block;
+    height: 23px;
+    width: 1px;
+    background: #e5e6ea;
+}
+
+.address_com:hover {
+    background: #fffcf7;
+    border: 1px solid #019fb0;
+}
+
+.cpayment_btn {
+    margin-top: 40px;
+}
+
+/*billing pag end*/
+
+/*add new address*/
+
+.saveAdd_btn {
+    padding: 15px 35px 15px;
+}
+
+/*add new address end*/
+
+/*payment page*/
+
+.payment_opt label {
+    position: relative;
+    padding-left: 32px;
+    font-size: 16px;
+    color: #33353f;
+    font-family: 'SFUITextRegular';
+}
+
+.payment_opt label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #9ea2b4;
+    border-radius: 50%;
+}
+
+.payment_opt input[type="radio"]:checked + label:before {
+    border-color: #019fb0;
+}
+
+.payment_opt input[type="radio"]:checked + label:after {
+    width: 12px;
+    height: 12px;
+    background: #019fb0;
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+.paypal {
+    margin-left: 40px;
+}
+
+.tamountbox {
+    padding-top: 42px;
+}
+
+.tamountbox .amount h3,
+.tamountbox .amount h4 {
+    text-align: center;
+}
+
+.tamountbox .amount h3 {
+    color: #9398ac;
+}
+
+.tamountbox .amount h4 {
+    color: #1b1b1b;
+    margin: 15px 0 42px;
+    font-weight: bold;
+}
+
+.tamountbox .amount h3,
+.tamountbox .amount h4 {
+    font-size: 22px;
+    font-family: 'SFUITextRegular';
+}
+
+.tamountbox .amount form {
+    width: 414px;
+    margin: 0 auto;
+}
+
+.amount form .form-control {
+    height: 48px;
+    border-radius: 0;
+    box-shadow: none;
+    color: #33353f;
+    font-size: 16px;
+    font-family: 'SFUITextRegular';
+    border: 1px solid #e5e6ea;
+}
+
+.amount form .form-control:focus {
+    border-color: #019fb0;
+}
+
+.amount form .form-control::placeholder {
+    color: #9398ac;
+}
+
+.buttn_bx {
+    padding-top: 25px;
+}
+
+.amount form .form_grp {
+    position: relative;
+}
+
+.amount form .form_grp img {
+    position: absolute;
+    top: 21px;
+    right: 12px;
+}
+
+.amount form .form_grp select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+
+
+
+/*Order Detail Page Start*/
+
+.myOrder {
+    padding: 50px 0 50px;
+}
+
+.myOrder .orderBox .orderImg img {
+    display: inline-block;
+    float: left;
+}
+
+.myOrder .orderTop h3 {
+    color: #33353f;
+    font-size: 16px;
+    font-family: 'SFUITextRegular';
+}
+
+.myOrder .orderBox {
+    padding: 30px;
+    border: 1px solid #e5e6ea;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.myOrder .orderBox .orderLeft {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.myOrder .orderBox .orderInner {
+    position: relative;
+}
+
+.myOrder .orderBox .order_rgt {
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.myOrder .orderBox .order_rgt a {
+    text-decoration: none;
+    color: #b3b7c5;
+}
+
+.myOrder .orderBox .orderInner .orderLeft .orderType h4 {
+    color: #33353f;
+    font-size: 16px;
+    font-family: 'SFUITextRegular';
+}
+
+.myOrder .orderBox .orderInner .orderLeft .orderType p {
+    color: #9398ac;
+    font-size: 14px;
+    font-family: 'SFUITextRegular';
+    padding: 5px 0;
+}
+
+.myOrder .orderBox .orderInner .orderLeft ul {
+    list-style: none;
+    border-bottom: 1px solid #dee0e6;
+    padding: 5px 0 7px;
+}
+
+.myOrder .orderBox .orderInner .orderLeft ul li {
+    display: inline-block;
+    border-right: 1px solid #ccc;
+    padding: 0 10px;
+    color: #9398ac;
+    font-size: 14px;
+    font-family: 'SFUITextRegular';
+}
+
+.myOrder .orderBox .orderInner .orderLeft ul li:first-child {
+    padding-left: 0;
+}
+
+.myOrder .orderBox .orderInner .orderLeft ul li:last-child {
+    border-right: none;
+    padding-right: 0;
+}
+
+.myOrder .orderBox .orderInner .orderPrice {
+    border-bottom: 1px solid #dee0e6;
+    padding: 5px 0 10px;
+}
+
+.myOrder .orderBox .orderInner .orderPrice p {
+    color: #9398ac;
+    font-size: 14px;
+    font-family: 'SFUITextRegular';
+}
+
+.myOrder .orderBox .orderInner .orderPrice .listPrice .priceLeft {
+    display: inline-block;
+    width: 30%;
+    float: left;
+}
+
+.myOrder .orderBox .orderInner .orderPrice .listPrice .priceRgt {
+    display: inline-block;
+    width: 70%;
+}
+
+.myOrder .orderBox .orderInner .totalPrice {
+    padding: 10px 10px 0;
+}
+
+.myOrder .orderBox .orderInner .totalPrice p {
+    font-size: 14px;
+    color: #33353f;
+    font-family: 'SFUITextRegular';
+    width: 60%;
+    padding-left: 15px;
+}
+
+.myOrder .orderBox .orderInner .totalPrice p span {
+    float: right;
+}
+
+/*Order Detail Page End*/
+
+/*Index2 Page Start*/
+
+.header .cartBox ul li.signBox {
+    position: relative;
+}
+
+.header .cartBox ul li a.signBox img {
+    width: 14px;
+}
+
+.header .cartBox ul li .signoutBox {
+    display: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: absolute;
+    right: -5px;
+    top: 30px;
+    background: #fff;
+    width: 200px;
+    z-index: 9;
+}
+
+.header .cartBox ul li .signoutBox .signoutTop {
+    padding: 10px 20px;
+    background: #fbf0e0;
+}
+
+.header .cartBox ul li .signoutBox .signoutTop p {
+    font-size: 16px;
+    color: #000;
+    font-family: 'SFUITextMedium';
+}
+
+.header .cartBox ul li .signoutBox .signoutTop p span {
+    font-size: 14px;
+    color: #000;
+    font-family: 'SFUITextMedium';
+}
+
+.header .cartBox ul li .signoutBox .signoutBtm {
+    padding: 20px;
+}
+
+.header .cartBox ul li .signoutBox .signoutBtm a {
+    display: block;
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.header .cartBox ul li .signoutBox .signoutBtm a:last-child {
+    margin-bottom: 0;
+}
+
+.header .cartBox ul li .signoutBox .signoutBtm a:hover {
+    color: #019fb0;
+}
+
+.header .cartBox ul li .signoutBox .signoutBtm a span {
+    display: inline-block;
+    width: 25px;
+}
+
+.header .cartBox ul li .signoutBox .signoutBtm a span i {
+    color: #ccc;
+}
+
+.header .cartBox ul li .signoutBox span.triangle {
+    position: relative;
+    float: right;
+}
+
+.header .cartBox ul li .signoutBox span.triangle:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    right: -3px;
+    box-sizing: border-box;
+    border: 7px solid #000;
+    border-color: transparent transparent #fbf0e0 #fbf0e0;
+    transform-origin: 0 0;
+    transform: rotate(135deg);
+    box-shadow: -1px 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+/*Index2 Page End*/
+
+
+/*cart page*/
+
+.tabel_wrp table {
+    width: 100%;
+    border: 1px solid #dfe0e5;
+}
+
+.tabel_wrp table tr {
+    border-bottom: 1px solid #dfe0e5;
+    padding: 10px 30px;
+    display: inline-block;
+    width: 100%;
+}
+
+.tabel_wrp table tr:last-child {
+    border: none;
+}
+
+.tabel_wrp table td {
+    display: inline-block;
+}
+
+.tabel_wrp table tr th {
+    font-size: 15px;
+    color: #9197af;
+    font-family: 'SFUITextRegular';
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.width1 {
+    width: 30%;
+}
+
+.width2 {
+    width: 15%;
+}
+
+.width3 {
+    width: 10%;
+}
+
+.width4 {
+    width: 20%;
+}
+
+.width5 {
+    width: 15%;
+}
+
+.width6 {
+    width: 8%;
+}
+
+.itmdetails {
+    display: flex;
+    align-items: center;
+}
+
+.itmdetails p {
+    font-size: 18px;
+    font-family: ;
+    color: #1b1b1b;
+    font-family: 'SFUITextRegular';
+    margin-left: 40px;
+}
+
+.qunty_in {
+    border: 1px solid #dfe0e5;
+    padding: 5px 3px 5px 10px;
+    width: 148px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.qunty_in input {
+    width: 70px;
+    border: none;
+    outline: 0;
+    font-size: 15px;
+    color: #222;
+    font-family: 'AvenirLTStdBook';
+    text-align: center;
+}
+
+.qunty_in button {
+    border: none;
+    background: #fff;
+    outline: 0;
+}
+
+.qunty_in button.minus {
+    padding: 8px 8px;
+    border-left: 2px solid #e5e5ea;
+    border-right: 2px solid #e5e5ea;
+}
+
+.ditem a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.ditem a span {
+    font-size: 14px;
+    color: #9197af;
+    font-family: 'SFUITextRegular';
+}
+
+.ditem img {
+    margin-right: 8px;
+}
+
+.comprop p {
+    font-size: 16px;
+    color: #33353f;
+    font-family: 'SFUITextRegular';
+}
+
+.subtotl_in,
+.scharge {
+    width: 50%;
+    float: left;
+}
+
+.subtotal {
+    width: 372px;
+    float: right;
+}
+
+.amttotatbx {
+    padding: 25px 0;
+    border-bottom: 1px dashed #dfdfdf;
+}
+
+.subtotl_in h3 {
+    color: #9197af;
+    font-size: 18px;
+    font-family: 'SFUITextRegular';
+}
+
+.scharge h5 {
+    color: #33353f;
+    font-size: 18px;
+    font-family: 'SFUITextRegular';
+}
+
+.ammt_btm {
+    margin-top: 20px;
+
+}
+
+.ammt_btm .scharge h5 {
+    text-transform: uppercase;
+}
+
+.totalmnt {
+    padding-top: 20px;
+}
+
+
+.totalmnt .subtotal h3 {
+    color: #33353f;
+}
+
+.placeordr_btn {
+    margin-top: 30px;
+    padding: 15px 89px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.placeordr_btn:hover,
+.placeordr_btn:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.tabel_wrp .scroll2 {
+    overflow-y: auto;
+}
+
+.tabel_wrp .scroll {
+    overflow-x: hidden;
+    min-width: 1279px;
+}
+
+/*cart page end*/
+
+/*Order Details Page Start*/
+
+.myOrder.orderDetail .orderBox .orderInner .listPrice .priceLeft {
+    width: 45%;
+}
+
+.myOrder.orderDetail .orderBox .orderInner .listPrice .priceRgt {
+    width: 55%;
+}
+
+.myOrder.orderDetail .orderBox .orderInner .totalPrice p {
+    width: 70%;
+}
+
+.myOrder.orderDetail .orderBox {
+    margin-top: 0;
+}
+
+.myOrder.orderDetail .orderTop h3 {
+    margin-bottom: 20px;
+}
+
+.myOrder.orderDetail .orderdetailTop {
+    margin-bottom: 20px;
+}
+
+.myOrder.orderDetail .orderdetailTop:last-child {
+    margin-bottom: 0;
+}
+
+.myOrder.orderDetail .orderdetailTop .deliveryOrder {
+    width: 43%;
+    display: inline-block;
+    float: left;
+}
+
+.myOrder.orderDetail .orderdetailTop .deliveryOrder:nth-child(even) {
+    margin-left: 40px;
+}
+
+.myOrder.orderDetail .orderBox.summary .orderLeft {
+    margin-left: 0;
+}
+
+.myOrder.orderDetail .orderBox.summary .summaryDetail .orderpriceL {
+    float: left;
+}
+
+.myOrder.orderDetail .orderBox.summary .summaryDetail .orderPrice {
+    display: inline-block;
+    padding: 0;
+    margin-left: 10px;
+    width: 47%;
+    border-bottom: none;
+}
+
+.myOrder.orderDetail .orderBox.summary .orderLeft {
+    width: 100%;
+}
+
+.myOrder.orderDetail .orderBox.summary .listPrice .priceLeft {
+    width: 65%;
+}
+
+.myOrder.orderDetail .orderBox.summary .listPrice .priceRgt {
+    width: 35%;
+}
+
+.myOrder.orderDetail .orderBox.summary .orderInner .totalPrice {
+    padding: 0;
+    border-top: 1px solid #dee0e6;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.myOrder.orderDetail .orderBox.summary .orderInner .totalPrice p {
+    padding-left: 0;
+    color: #33353f;
+    font-size: 14px;
+    font-family: 'SFUITextRegular';
+}
+
+.myOrder.orderDetail .orderBox.summary .orderLeft .orderType p span {
+    color: #33353f;
+    font-size: 14px;
+    font-family: 'SFUITextRegular';
+}
+
+.myOrder.orderDetail .orderBox.summary .summaryDetail p {
+    color: #9398ac;
+    font-size: 14px;
+    font-family: 'SFUITextRegular';
+}
+
+.myOrder.orderDetail .orderBox.summary .orderInner .orderLeft .orderType p {
+    padding: 0;
+    padding-bottom: 5px;
+}
+
+.myOrder.orderDetail .orderBox.summary .orderInner .totalPrice p {
+    width: 180px;
+}
+
+.myOrder.orderDetail .orderBox.shipping h4 {
+    color: #33353f;
+    font-size: 16px;
+    font-family: 'SFUITextRegular';
+    margin-bottom: 10px;
+}
+
+.myOrder.orderDetail .orderBox.shipping p {
+    color: #9398ac;
+    font-size: 14px;
+    font-family: 'SFUITextRegular';
+}
+
+.myOrder.orderDetail .orderBox.shipping p span {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.myOrder.orderDetail .orderBox.shipping p span i {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.myOrder.orderDetail .orderBox.shipping a {
+    padding: 14px 22px;
+    border: 1px solid #019fb0;
+    display: inline-block;
+    color: #019fb0;
+    font-size: 14px;
+    font-family: 'SFUITextRegular';
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+    background: linear-gradient(to right, #019fb0 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .3s ease-out;
+}
+
+.myOrder.orderDetail .orderBox.shipping a:hover {
+    background-position: left bottom;
+    color: #fff;
+    border: 1px solid #019fb0;
+    text-decoration: none;
+    outline: none;
+}
+
+.myOrder.orderDetail .orderBox.orderTrack .orderType p {
+    padding: 0;
+    padding-bottom: 5px;
+}
+
+.myOrder.orderDetail .orderBox.orderTrack .orderType p span {
+    color: #33353f;
+    font-size: 14px;
+    font-family: 'SFUITextRegular';
+}
+
+.myOrder.orderDetail .orderBox.orderTrack .summaryDetail {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    padding-right: 10px;
+}
+
+.myOrder.orderDetail .orderBox.orderTrack .summaryDetail p {
+    color: #9398ac;
+    font-size: 14px;
+    font-family: 'SFUITextRegular';
+    padding-bottom: 5px;
+}
+
+.myOrder.orderDetail .orderBox.orderTrack .summaryDetail p span {
+    color: #33353f;
+    font-size: 14px;
+    font-family: 'SFUITextRegular';
+    margin-left: 5px;
+}
+
+
+/*Order Details Page End*/
+
+/*Order Return Page End*/
+
+.order_btnbx a {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'SFUITextRegular';
+    background-image: linear-gradient(to right, #00bba1, #00b5a9, #00afaf, #00a9b2, #00a2b4);
+    text-transform: uppercase;
+    padding: 17px 59px 17px;
+    text-decoration: none;
+    margin-top: 38px;
+    display: inline-block;
+}
+
+.hr_slide {
+
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.hr_slide:before {
+    content: '';
+    position: absolute;
+    left: -100%;
+    top: 0;
+    background: #019fb0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s;
+    z-index: -1;
+}
+
+.hr_slide:hover:before {
+    left: 0;
+}
+
+.return_mdl .modal-body {
+    padding: 30px;
+}
+
+.return_mdl form label {
+    color: #9398ac;
+    font-size: 16px;
+    font-family: 'SFUITextRegular';
+    font-weight: normal;
+}
+
+.return_mdl form label span {
+    color: #ff5d5d;
+}
+
+.return_mdl form .form-control {
+    color: #33353f;
+    font-size: 16px;
+    font-family: 'SFUITextRegular';
+    box-shadow: none;
+    outline: 0;
+    border: 1px solid #e6e6e8;
+    border-radius: 0;
+    /* height: 46px; */
+    height: auto;
+    padding: 11px 15px;
+}
+
+.return_mdl form .form-group {
+    margin-bottom: 35px;
+}
+
+.return_mdl form .form-control:focus {
+    border: 1px solid #019fb0;
+}
+
+.return_mdl form textarea.form-control {
+    resize: none;
+    height: 120px;
+}
+
+.sub_btn {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'SFUITextRegular';
+    background-image: linear-gradient(to right, #00bba1, #00b5a9, #00afaf, #00a9b2, #00a2b4);
+    text-transform: uppercase;
+    padding: 15px 59px 15px;
+    display: inline-block;
+    border: none;
+    outline: none;
+}
+
+.cancl_btn {
+    padding: 14px 60px;
+    border: 1px solid #019fb0;
+    display: inline-block;
+    color: #019fb0;
+    font-size: 14px;
+    font-family: 'SFUITextRegular';
+    background: #fff;
+    margin-left: 30px;
+    outline: 0;
+}
+
+.cancl_btn:hover {
+    color: #fff;
+}
+
+/*Order Return Page*/
+
+.orderImg {
+    display: inline-block;
+    width: auto;
+    float: left;
+}
+
+.myOrder .orderBox .orderLeft {
+    display: inline-block;
+    width: auto;
+
+}
+
+
+.myOrder .orderBox .orderLft2 {
+    display: block;
+}
+
+.myOrder.orderDetail .orderBox.orderTrack .orderLft2 .summaryDetail {
+    border: none;
+}
+
+.unline {
+    width: 350px;
+    height: 1px;
+    background: #dee0e6;
+    margin-top: 15px;
+}
+
+.progBar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.progBar h4 {
+    color: #9398ac;
+    font-size: 14px;
+    font-family: 'SFUITextRegular';
+    line-height: 22px;
+}
+
+.progress_s {
+    width: 100%;
+    background: #dee0e6;
+    height: 3px;
+    position: relative;
+    margin: 0 40px;
+}
+
+.progress_s:before,
+.progress_s:after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #019fb0;
+    border-radius: 50%;
+}
+
+.progress_s:before {
+    top: -6px;
+    left: -14px;
+}
+
+.progress_s:after {
+    top: -6px;
+    right: -12px;
+    border-color: #dee0e6;
+}
+
+.progress_tr {
+    background: #019fb0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    z-index: 9;
+}
+
+.progres_dsh {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 70%;
+    height: 100%;
+    border: 1.5px dashed #019fb0;
+}
+
+.porgress_rtrn .progress_tr {
+    width: 100%;
+}
+
+.porgress_rtrn:after {
+    border-color: #019fb0;
+}
+
+
+.myOrder.orderDetail .orderdetailTop .deliveryOrder {
+    width: 100%;
+}
+
+.order_in {
+    padding-right: 160px;
+}
+
+.ser_bx {
+    margin-bottom: 30px;
+}
+
+.ser_bx a {
+    font-family: 'SFUITextRegular';
+    font-size: 16px;
+    color: #9398ac;
+    text-decoration: none;
+    border-right: 1px solid #d5d5d5;
+    padding: 0px 5px;
+    line-height: 30px;
+}
+
+.ser_bx a:last-child {
+    border-right: none;
+}
+
+.slider .slick-next:hover:before {
+    content: url(../img/leftarrow.png);
+}
+
+.slider .slick-prev:hover:before {
+    content: url('../img/leftgrn.png');
+}
+
+.addCartBox a.addtoCart {
+    float: left;
+}
+
+.spclOffer {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.spclOffer h4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 21px;
+    color: #fff;
+    font-family: 'GothaProBold';
+    text-transform: uppercase;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.designTop_menu {
+    display: none;
+    margin-left: 30px;
+    border-top: 1px solid #e5e6ea;
+    border-bottom: 1px solid #e5e6ea;
+}
+
+.designTop_menu ul li a {
+    padding: 5px;
+    width: 21px;
+}
+
+.designTop_menu {
+    display: none;
+}
+
+.designList_inner {
+    margin-left: 30px;
+    display: none;
+}
+
+.designList_inner ul li {
+    width: 100%;
+    display: block;
+}
+
+.designList_inner ul li a {
+    width: 100%;
+}
+
+.register.payModal .modal-body .regis {
+    padding: 0 30px;
+}
+
+/*Payment Success/Faild Page Start*/
+
+.paymentStatus {
+    margin-top: 137px;
+}
+
+.paymentStatus .container {
+    width: 800px;
+    padding: 0;
+}
+
+.paymentStatus .innerPay {
+    background: url('../img/paymentModal.png') no-repeat center center;
+    background-size: cover;
+    margin: 50px 0;
+    padding: 50px 30px 100px;
+    text-align: center;
+    /*    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);*/
+}
+
+.paymentStatus .topImage img {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.paymentStatus .btmContent h2 {
+    font-size: 23px;
+    color: #32353e;
+    font-family: 'SFUITextMedium';
+    margin-bottom: 20px;
+}
+
+.paymentStatus .btmContent h3 {
+    font-size: 23px;
+    color: #32353e;
+    font-family: 'SFUITextRegular';
+    margin-bottom: 20px;
+}
+
+.paymentStatus .btmContent p {
+    font-size: 18px;
+    color: #777777;
+    font-family: 'SFUITextRegular';
+    margin-bottom: 20px;
+}
+
+.paymentStatus .btmContent p span {
+    font-family: 'AvenirLTStdMedium';
+    font-size: 18px;
+    color: #32353e;
+}
+
+.paymentStatus .btmButton a {
+    font-size: 14px;
+    color: #fff;
+    font-family: 'SFUITextRegular';
+    background: #00baa2;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 14px 0px;
+    display: inline-block;
+    width: 245px;
+}
+
+/*Payment Success/Failed Page End*/
+
+/*add designers page*/
+.addDes {
+    padding: 70px 0 80px;
+}
+
+.addDes_in h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'SFUITextBold';
+    color: #000;
+    margin-bottom: 80px;
+}
+
+.form_wraper {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 60px 35px;
+    z-index: 9;
+    position: relative;
+    background: #fff;
+}
+
+.form_container {
+    padding: 0 120px;
+}
+
+/*add designers page  end*/
+
+#prices {
+    display: none;
+}
+
+/*Terms Page Start*/
+
+.terms {
+    margin-top: 137px;
+    padding: 50px 0;
+}
+
+.terms h2 {
+    font-family: 'SFUITextMedium';
+    font-size: 24px;
+    color: #33353f;
+    padding: 0 0 30px;
+}
+
+.terms p {
+    font-family: 'SFUITextRegular';
+    font-size: 15px;
+    color: #9398ac;
+    line-height: 24px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.terms p:last-child {
+    margin-bottom: 0;
+}
+
+.terms p:after {
+    content: '\f101';
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: FontAwesome;
+    font-size: 18px;
+}
+
+.terms h3 {
+    font-family: 'SFUITextMedium';
+    font-size: 20px;
+    color: #33353f;
+    padding: 0 0 30px;
+}
+
+.terms.privacy p,
+.terms.faqs p {
+    padding-left: 0;
+}
+
+.terms.privacy p:after,
+.terms.faqs p:after {
+    content: none;
+}
+
+/*Terms Page End*/
+
+.listAleft ul li img {
+    display: none;
+}
