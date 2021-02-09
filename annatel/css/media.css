@@ -1,0 +1,543 @@
+@media(max-width: 1920px) and (min-width: 1300px)
+{
+	.banner
+	{
+		padding: 0 11vw;
+		height: 33vw;
+		background: none;
+		margin-top: 10vw;
+	}
+	.banner .banner_left
+	{
+		margin-right: 1.6vw;
+	}
+	.banner .col-sm-7
+	{
+		background: url('../img/banner.png')no-repeat;
+		background-size: contain;
+		height: 77vh;
+		width: 58%;
+	}
+	.banner .banner_left h1:after
+	{
+		width: 3vw;
+    	height: 0.20vw;
+    	bottom: -1.3vw;
+	}
+	.top_img
+	{
+		    width: fit-content;
+	}
+	.top_img img
+	{
+		width: 10vw;
+		display: none;
+	}
+	.top_img .round_image
+	{
+	    display: block;
+	    width: 10.5vw;
+	}
+	.container 	
+	{
+    	width: 65vw;
+	}
+	.banner .banner_left h1
+	{
+		font-size: 1.6vw;
+		line-height: 2vw;
+		margin: 2.4vw 0 2.5vw;
+	}
+	.banner .banner_left p
+	{
+		font-size: 1.2vw;
+		margin-bottom: .3vw;
+	}
+	.banner .banner_left a
+	{
+		font-size: 1vw;
+		padding: 1vw;
+		margin-top: 1vw;
+	}
+	.banner .banner_left a img
+	{
+		width: 2.8vw;
+	}
+	/*.btm
+	{
+		top: 2.5vw;
+	}*/
+	.btm img
+	{
+		width: 8%;
+	}
+
+	/*Inscription*/
+
+	.banner.inscription
+	{
+		margin-top: 10vw;
+	}
+	.banner.inscription .banner_left h1
+	{
+		margin: 1.7vw 0 2vw;
+	}
+	.banner.inscription form input.form-control
+	{
+		padding: .2vw 0;
+		margin-bottom: 0;
+		width: 90%;
+		font-size: 1.5vw;
+	}
+	.banner.inscription form input
+	{
+		font-size: 1.2vw;
+	}
+	.banner.inscription form input::placeholder
+	{
+		font-size: 1.2vw;
+	}
+	.banner.inscription form button
+	{
+		font-size: 1vw;
+		padding: 1vw 1vw .9vw;
+		margin-top: 1.3vw;
+		margin-right: 2.5vw;
+	}
+	.banner.inscription button span img
+	{
+		width: 2.7vw;
+	}
+
+
+
+	/*Inscription*/
+
+	/*Inscription2*/
+
+	.banner.inscription2
+	{
+		margin-top: 10vw;
+	}
+	.banner.inscription2 .banner_left h1
+	{
+		    margin: 1.7vw 0 2vw;
+	}
+	.banner.inscription2 form input.form-control
+	{
+		padding: .2vw 0;
+		margin-bottom: 0;
+		width: 90%;
+		font-size: 1.5vw;
+	}
+	.banner.inscription2 form input::placeholder
+	{
+		font-size: 1.2vw;
+	}
+	.banner.inscription2 form button
+	{
+		font-size: 1vw;
+		padding: 1vw 1vw .9vw;
+		margin-top: 1.3vw;
+		margin-right: 2.5vw;
+	}
+	.banner.inscription2 button span img
+	{
+		width: 2.7vw;
+	}
+	
+
+
+	/*Inscription2*/
+
+	/*Inscription3*/
+
+	.banner.inscription3 
+	{
+    	margin-top: 10vw;
+	}
+	.banner.inscription3  .banner_left h1
+	{
+		    
+		        margin: 1.7vw 0 2.5vw;
+	}
+
+
+
+	/*Inscription3*/
+
+
+}
+@media(max-width: 1299px) and (min-width: 1173px)
+{
+	.btm 
+	{
+	    position: relative;
+	    bottom: -3.9vw;
+	}
+	.footer 
+	{
+	    position: relative;
+	    bottom: 0;
+	}
+}
+
+@media (max-width: 1024px) , and (min-height: 768px)
+{
+	.btm 
+	{
+	    position: relative;
+	    bottom: -11.3vw;
+	}
+
+	.footer 
+	{
+	    position: relative;
+	    bottom: 0;
+	    margin-top: 7.7vw;
+	}
+}
+
+
+@media(max-width:767px){ 
+	.container
+	{
+		    width: 82vw;
+	}
+	.logo
+	{
+		text-align: center;
+	}
+	.header
+	{
+		padding: 3vw 0;
+	}
+	.header img
+	{
+		margin: 0 auto;
+	}
+	.banner
+	{
+		height: auto;
+		background: none;
+		margin-top: 18vw;
+		margin-bottom: 3vw;
+	}
+	.banner .banner_right img
+	{
+    	display: block;
+    	float: left;
+    	height: 67vw;
+	}
+	
+	.banner .banner_left h1
+	{
+		font-size: 6.4vw;
+		padding-right: 11vw;
+		margin: 3vw 0 17vw;
+		line-height: 7vw;
+	}
+	.banner .banner_left h1:after
+	{
+		width: 10vw;
+    	height: 1vw;
+    	bottom: -9vw;
+	}
+
+	.banner .banner_left p
+	{
+		font-size: 4.3vw;
+		margin-bottom: 1.5vw;
+	}
+	.banner .banner_left a
+	{
+		font-size: 4vw;
+		float: left;
+		padding: 3.5vw 0 3vw 5vw;
+		border-radius: 3vw;
+		margin-right: 0;
+		margin-top: 3vw;
+    	margin-bottom: 2vw;
+	}
+	.banner .banner_left a img
+	{
+		width: 7vw;
+		margin-right: 5vw;
+		    margin-top: -0.5vw;
+	}
+	.banner .banner_left span
+	{
+		padding-left: 39vw;
+	}
+	.banner .banner_right img.banner_img
+	{
+		display: none;
+	}
+	.header .logo img
+	{
+		width: 35vw;
+	}
+	
+	.footer .footer_left ul li a, .footer .footer_right ul li a
+	{
+		font-size: 4vw;
+		text-align: center;
+		padding: 0;
+	}
+	.footer .footer_right ul li:nth-child(1) a
+	{
+		padding-right: 12vw;
+	}
+
+	.footer .footer_right ul
+	{
+		float: left;
+	}
+	.footer .footer_right
+	{
+		border-bottom: 0.1vw solid #fff;
+		padding-bottom: 3vw;
+	}
+	.footer .footer_left
+	{
+		padding-top: 2.5vw;
+	}
+	.btm img
+	{
+		display: none;
+	}
+	.footer
+	{
+		margin-top: 1vw;
+		padding: 3vw 0;
+	}
+	.footer .footer_left ul li span
+	{
+		    font-size: 4.2vw;
+		        padding: 0 5vw;
+	}
+	
+	.banner .col-sm-7
+	{
+		padding: 0;
+		margin: 0;
+	}
+	.banner_right 
+	{
+		margin-top: -11vw;
+		margin-bottom: 1vw;
+	}
+	.banner.inscription .banner_right 
+	{
+		    margin-top: -12vw;
+	}
+	.banner.inscription2 .banner_right
+	{
+		    margin-top: -3vw;
+	}
+	.banner.inscription3 .banner_right
+	{
+		margin-top: -3vw;
+	}
+	.top_img
+	{
+		    top: 47vw;
+		    left: -10vw;
+	}
+	.banner.inscription 
+	{
+    	margin-top: 22vw;
+	}
+	.top_img img
+	{
+		    width: 33vw;
+	}
+	.footer .footer_right ul li
+	{
+		padding-left: 0;
+	}
+	.footer .footer_right ul li a i 
+	{
+    	margin-right: 3vw;
+	}
+	.footer .footer_left ul li:nth-child(1)
+	{
+		padding: 0 16vw;
+	}
+	.footer .footer_left ul li:nth-child(2)
+	{
+		padding: 0 33.6vw;
+	}
+	
+ 	.btm .btm2
+ 	{
+ 		display: block;
+    	right: 0;
+    	position: absolute;
+    	bottom: 58vw;
+    	margin: 0;
+    	width: 7vw;
+ 	}
+ 	.banner.inscription .banner_left h1
+	{
+    	margin: 0vw 0 14vw;
+	}
+	.footer .footer_right ul li:nth-child(1) a
+	{
+		margin-left: 0;
+	}
+	.footer .footer_right ul li a img
+	{
+    	width: 5vw;
+    	margin-right: 3vw;
+    	margin-top: -1.5vw;
+	}
+	.banner.inscription .banner_left
+	{
+		margin-top: 0;
+	}
+	
+
+
+	/*Inscription*/
+
+
+	.banner.inscription form button
+	{
+		font-size: 4vw;
+		padding: 3vw 0 2vw 4vw;
+		border: 0.2vw solid rgba(215, 0, 109, .5);
+		margin-top: 5vw;
+    	margin-bottom: 2vw;
+    	border-radius: 2vw;
+	}
+	.banner.inscription form button span
+	{
+		    padding-left: 46.5vw;
+	}
+	.banner.inscription form button span img
+	{
+		padding-left: 1.7vw;
+    	margin-top: -0.1vw;
+    	width: 7.1vw;
+    	margin-right: 4vw;
+	}
+	
+
+	.banner.inscription form input::placeholder
+	{
+	    font-size: 5vw;
+	    margin-bottom: 1.5vw;
+	}
+	.banner.inscription .banner_left form input
+	{
+		margin-bottom: 1.5vw;
+	}
+	.btm.inscription .btm2
+	{
+		bottom: 37vw;
+	}
+	.banner.inscription form input.form-control, .banner.inscription2 form input.form-control
+	{
+	    font-size: 5vw;
+	    color: #4a4a4a;
+	    font-family:'Nunito-Regular';
+	}
+	.banner.inscription form input.form-control, .banner.inscription2 form input.form-control
+	{
+		padding: 1.5vw 0;
+	}
+	.banner.inscription form input::placeholder
+	{
+		font-size: 4.5vw;
+	}
+	.footer.inscription, .footer.inscription2, .footer.inscription3
+	{
+		    margin-top: 3vw;
+	}
+
+	/*inscription*/
+
+
+	/*Inscription2*/
+
+
+	.banner.inscription2 form button
+	{
+		font-size: 4vw;
+		padding: 3vw 0 2vw 4vw;
+		border: 0.3vw solid #d7006d;
+		margin-top: 5vw;
+    	margin-bottom: 2vw;
+    	border-radius: 2vw;
+	}
+	.banner.inscription2 form button span
+	{
+		    padding-left: 46.5vw;
+	}
+	.banner.inscription2 form button span img
+	{
+		padding-left: 1.7vw;
+    	margin-top: -0.1vw;
+    	width: 7.1vw;
+    	margin-right: 4vw;
+	}
+	
+
+	.banner.inscription2 form input::placeholder
+	{
+	    font-size: 5vw;
+	    margin-bottom: 1.5vw;
+	}
+	.banner.inscription2 .banner_left form input
+	{
+		margin-bottom: 1.5vw;
+	}
+	.btm.inscription2 .btm2
+	{
+		bottom: 32vw;
+	}
+	.banner.inscription2 .banner_left h1
+	{
+    	margin: 0 0 14vw;
+	}
+	.banner.inscription2 .banner_left, .banner.inscription3 .banner_left
+	{
+		margin-top: 0;
+	}
+
+
+	/*inscription2*/
+
+
+	/*inscription3*/
+	
+	.banner.inscription3 .banner_left h1
+	{
+    	margin: 0 0 17vw;
+	}
+	.banner.inscription3 .banner_left a span
+	{
+		padding-left: 33vw;
+	}
+	
+	.banner.inscription3 .banner_left p:nth-child(6)
+	{
+		margin-bottom: 5vw;
+		line-height: 4vw;
+	}
+	.banner.inscription3 .banner_left a
+	{
+		margin-bottom: 2vw;
+	}
+	.banner.inscription3 .banner_left p:nth-child(5)
+	{
+		line-height: 8vw;
+		margin-top: 3vw;
+	}
+
+
+	/*inscription3*/	    
+
+}
+
