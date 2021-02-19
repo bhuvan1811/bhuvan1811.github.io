@@ -1,0 +1,532 @@
+@media(min-width:1920px)
+{
+    .container
+    {
+        width: 66vw;
+    }
+    .leftBtm .wapBox span img
+    {
+        width: 1.2vw;
+    }
+    .btmBox.wpBox span img
+    {
+        width: 1.2vw;
+    }
+    .btmBox.fbBox span img
+    {
+        width: 0.7vw;
+    }
+    .btmBox.mailBox span img
+    {
+        width: 1.2vw;
+    }
+    .btmBox.chatBox span img
+    {
+        width: 1.2vw;
+    } 
+    .modal .modal-body img
+    {
+        width: 30%;
+    }
+    .modal .modal-header img
+    {
+        width: 50%;
+    }
+}
+@media(max-width:1920px){
+    
+    .container
+    {
+        width: 66vw;
+    }
+    .leftBtm .wapBox span img
+    {
+        width: 1.2vw;
+    }  
+    .btmBox.wpBox span img
+    {
+        width: 1.2vw;
+    }
+    .btmBox.fbBox span img
+    {
+        width: 0.7vw;
+    }
+    .btmBox.mailBox span img
+    {
+        width: 1.2vw;
+    }
+    .btmBox.chatBox span img
+    {
+        width: 1.2vw;
+    }
+    .modal .modal-body img
+    {
+        width: 30%;
+    }
+    .modal .modal-header img
+    {
+        width: 50%;
+    }
+    
+}
+@media(max-width:1560px){
+    
+    .container
+    {
+        width: 66vw;
+    }  
+    .leftBtm .wapBox span
+    {
+        margin-top: 0.1vw;
+    }
+    .leftBtm .wapBox span img
+    {
+        width: 1.3vw;
+    }
+    
+}
+
+@media(max-width:1367px){
+    
+     .modal .modal-header img
+    {
+        width: 50%;
+    }
+}
+
+@media(max-width:1199px){
+    
+    .container
+    {
+        width: 79vw;
+    }
+    
+    .banner .bannerLeft p
+    {
+        font-size: 1.63vw;
+    }
+    .leftBtm .wapBox a
+    {
+        font-size: 1.4vw;
+    }
+    .leftBtm .btmBox a
+    {
+        font-size: 1.4vw;
+    }
+    .leftBtm .wapBox span
+    {
+        margin-top: 0.1vw;
+    }
+    .leftBtm .wapBox span img
+    {
+        width: 1.5vw;
+    }
+    .btmBox.fbBox span img
+    {
+        width: 0.9vw;
+    }
+    .btmBox.mailBox span img
+    {
+        width: 1.5vw;
+    }
+    .btmBox.chatBox span img
+    {
+        width: 1.5vw;
+    }
+    .btmBox.wpBox span img
+    {
+        width: 1.5vw;
+    }
+    .modal .cntryOptn
+    {
+        height: auto;
+        padding-bottom: 3vw;
+    }
+    .modal .modal-body img
+    {
+        width: 30%;
+    }
+    .modal .modal-header img
+    {
+        width: 55%;
+    }
+    
+}
+
+@media(max-width:991px){
+    
+    .container
+    {
+        width: 73vw;
+    }
+    .leftBtm .btmBox a
+    {
+        font-size: 1.2vw;
+    }
+    .leftBtm .wapBox a
+    {
+        font-size: 1.2vw;
+    }
+    .leftMid span
+    {
+        font-size: 1.2vw;
+    }
+    .banner .bannerLeft p
+    {
+        font-size: 1.5vw;
+    }
+    .bannerLeft h1
+    {
+        font-size: 2vw
+    }
+    .footer
+    {
+        margin-top: 12vw;
+    }
+    .btmImage img.btm1
+    {
+        bottom: -19vw;
+    }
+    
+    .bannerLeft h1:after
+    {
+        width: 3vw;
+        height: 0.3vw;
+    }
+    .btmImage img.btm1
+    {
+        width: 13%;
+    }
+    .footer .footInner p
+    {
+        font-size: 1.7vw;
+    }
+    .leftBtm .btmBox.wpBox img
+    {
+        width: 1.5vw;
+    }
+    .wapBox a span img
+    {
+        width: 1.5vw
+    }
+    .modal .cntryOptn
+    {
+        padding-bottom: 3vw;
+        height: auto;
+    }
+    
+    
+}
+
+@media(max-width:767px){
+    
+    .banner
+    {
+        background: none;
+        margin-top: 0;
+        height: auto;
+        width: 100%;
+        display: none;
+    }
+    .BannerMob
+    {
+        display: block;
+    }
+    .bannerRgt img.banner_img2
+    {
+        display: block;
+        width: 100%;
+        float: left;
+    }
+    .container
+    {
+        width: 88%;
+    }
+    .btmImage img.btm1
+    {
+        display: none;
+    }
+    
+    .BannerMob .bannerLeft:after
+    {
+        display: none;
+    }
+    .BannerMob .top_img
+    {
+        display: block;
+        position: absolute;
+    }
+    .BannerMob .top_img img
+    {
+        width: 25%;
+    }
+    .BannerMob .bannerLeft h1
+    {
+        font-size: 6.5vw;
+        margin-top: 1vw;
+        padding-bottom: 4vw;
+        margin-bottom: 4vw;
+    }
+    .BannerMob .bannerLeft p
+    {
+        font-size: 4.5vw;
+    }
+    .leftBtm .wapBox a
+    {
+        font-size: 3.5vw;
+        padding: 2vw 3vw;
+        border-radius: 2vw;
+    }
+    .leftBtm .btmBox a
+    {
+        font-size: 3.5vw;
+        padding: 2vw 3vw;
+        border-radius: 2vw;
+    }
+    .leftBtm .wapBox
+    {
+        width: 100%;
+    }
+    .leftBtm .btmBox
+    {
+        width: 100%;
+        margin-bottom: 2.5vw;
+    }
+    .leftMid
+    {
+        width: 100%;
+        margin: 3vw 0;
+    }
+    .leftMid span
+    {
+        font-size: 3.5vw;
+    }
+    .header
+    {
+        padding: 3vw 0;
+    }
+    .header .logo img
+    {
+        width: 35vw;
+    }
+    .bannerRgt
+    {
+        margin-top: 10vw;
+    }
+    .BannerMob .top_img
+    {
+        top: 49.5vw;
+    }
+    .BannerMob .bannerLeft h1:after
+    {
+        width: 9vw;
+        height: 0.7vw;
+    }
+    .footer .footInner p
+    {
+        font-size: 3vw;
+    }
+    .footer
+    {
+        padding: 2vw 0;
+        margin-top: 3vw;
+        text-align: center;
+    }
+    .leftBtm .wapBox a img
+    {
+        width: 3.5vw;
+    }
+    .leftBtm .btmBox a img
+    {
+        width: 3.5vw;
+    }
+    .leftBtm .btmBox.fbBox a img
+    {
+        width: 2.5vw;
+    }
+    .header .logo
+    {
+        text-align: center;
+    }
+    .BannerMob .bannerLeft p
+    {
+        margin-bottom: 5vw;
+    }
+    .footer:before
+    {
+        display: none;
+    }
+    .leftBtm .btmBox.wpBox img
+    {
+        width: 3.5vw;
+    }
+    .btmBox.mailBox span img, .btmBox.chatBox span img
+    {
+        margin-top: 1vw;
+    }
+    .footer
+    {
+        position: relative;
+    }
+    .footer .btmImage img.btm2
+    {
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 28vw;
+        width: 5.5vw;
+    }
+    .footer.frBottom .btmImage img.btm2
+    {
+        bottom: 29vw;
+        width: 6.5vw;
+    }
+    
+    .leftBtm .btmBox a:hover, .leftBtm .btmBox a:focus
+    {
+        border-radius: 2vw;
+    }
+    .leftBtm .wapBox a:hover, .leftBtm .wapBox a:focus
+    {
+        border-radius: 2vw;
+    }
+    .modal .cntryOptn
+    {
+        width: 65vw;
+    }
+    .modal .modal-body .modalTxt span
+    {
+        font-size: 3vw;
+    }
+    .modal .modal-body .modalTxt p
+    {
+        font-size: 3vw;
+    }
+    
+}
+
+@media(max-width:560px){
+    
+    .header
+    {
+        padding: 3vw 0;
+    }
+    .BannerMob .top_img
+    {
+        top: 48.5vw;
+    }
+    .BannerMob .bannerLeft p
+    {
+        font-size: 4.3vw;
+    }
+    .modal .modal-body img
+    {
+        width: 35%;
+    }
+    .modal .modal-header img
+    {
+        width: 55%;
+    }
+    
+}
+@media(max-width:414px){
+    
+    .BannerMob .bannerLeft p
+    {
+        font-size: 4.35vw;
+    }
+    .leftBtm .wapBox a
+    {
+        font-size: 3.7vw;
+        padding: 2.5vw 4vw;
+    }
+    .leftBtm .btmBox a
+    {
+        font-size: 3.7vw;
+        padding: 2.5vw 4vw;
+    }
+    .leftMid span
+    {
+        font-size: 4vw;
+    }
+    .leftBtm .wapBox a img
+    {
+        width: 4.5vw;
+    }
+    .BannerMob .bannerLeft h1:after
+    {
+        width: 9vw;
+        height: 1vw;
+    }
+    .header
+    {
+        padding: 4vw 0;
+    }
+    .bannerRgt img.banner_img2
+    {
+/*        margin-top: 14vw;*/
+    }
+    .footer
+    {
+        padding: 3.5vw 0;
+        margin-top: 5vw;
+    }
+    .btmBox span img
+    {
+/*        width: 3.5vw;*/
+    }
+    .BannerMob .top_img img
+    {
+        width: 26%;
+    }
+    .BannerMob .top_img
+    {
+        position: absolute;
+        top: 49vw;
+    } 
+    .BannerMob .bannerLeft h1
+    {
+        padding-bottom: 6vw;
+        margin-bottom: 6vw;
+        margin-top: 2vw;
+        font-size: 6.2vw;
+    }
+    .bannerRgt
+    {
+        margin-top: 12.5vw;
+    }
+    .footer .footInner p
+    {
+        font-size: 4vw;
+    }
+    .header .logo img
+    {
+        font-size: 37vw;
+    }
+    .leftMid
+    {
+        margin: 5vw 0;
+    }
+    .leftBtm .btmBox a img
+    {
+        width: 4.5vw;
+    }
+    .btmImage img.btm2
+    {
+        bottom: 38vw;
+    }
+    .footer.frBottom .btmImage img.btm2
+    {
+        bottom: 38vw;
+        width: 7.5vw;
+    }
+    .modal .modal-header img
+    {
+        width: 30vw;
+    }
+    .footer .btmImage img.btm2
+    {
+        bottom: 38vw;
+    }
+}
+    

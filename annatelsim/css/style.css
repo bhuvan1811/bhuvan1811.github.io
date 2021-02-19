@@ -1,0 +1,414 @@
+@font-face
+{
+    font-family:'Rubik-Regular';
+    src:url(../fonts/Rubik-Regular.ttf);
+}
+@font-face
+{
+    font-family:'Rubik-Bold';
+    src:url(../fonts/Rubik-Bold.ttf);
+}
+@font-face
+{
+    font-family:'Nunito-ExtraBold';
+    src:url(../fonts/Nunito-ExtraBold.ttf);
+}
+@font-face
+{
+    font-family:'Nunito-Regular';
+    src:url(../fonts/Nunito-Regular.ttf);
+}
+h1,h2,h3,h4,h5,h6,p,ul
+{
+    padding: 0;
+    margin: 0;
+}
+.noleft
+{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.noright
+{
+    padding-right: 0;
+    margin-right: 0;
+}
+.boxs
+{
+    display: block;
+    float: left;
+    width: 100%;
+}
+.header
+{
+    background: #000;
+    color: #fff;
+    padding: 1.5vw 0;
+    position: fixed;
+    z-index: 99;
+}
+.fixed_header
+{
+    position: fixed;
+
+}
+
+/*New Coding*/
+
+/*Banner Page Start*/
+
+.BannerMob
+{
+    display: none;
+}
+.banner .top_img
+{
+    display: none;
+}
+.banner .top_img
+{
+    position: absolute;
+}
+.banner
+{
+    background: url('../img/banner.png')no-repeat right 15px top;
+    background-size: 50% 100%;
+    margin-top: 15.5vw;
+}
+.banner .bannerLeft
+{
+    position: relative;
+}
+.banner .bannerLeft:after
+{
+    position: absolute;
+    content: '';
+    background-image: url('../img/banner2.png');
+    background-repeat: no-repeat;
+    left: -17.5vw;
+    top: -9vw;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-size: 22vw;
+}
+
+.bannerLeft h1
+{
+    font-family:'Rubik-Bold';
+    text-transform: uppercase;
+    font-size: 2.148vw;
+    color: #414141;
+    position: relative;
+    padding-bottom: 2vw;
+    margin-bottom: 2vw;
+}
+.bannerLeft h1:after
+{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    width: 3vw;
+    height: 0.3vw;
+    background: #d7006d;
+    left: 0;
+}
+.banner .bannerLeft p
+{
+    font-family:'Rubik-Regular';
+    font-size: 1.38vw;
+    line-height: 1.44;
+    color: #414141;
+    margin-bottom: 2vw;
+}
+.bannerRgt img.banner_img2
+{
+    display: none;
+}
+.bannerRgt img.banner_img
+{
+     display: none;
+}
+.leftBtm .wapBox span, .leftBtm .btmBox span
+{
+    display: inline-block;
+    float: right;
+}
+.leftBtm .wapBox span
+{
+    margin-top: 0.3vw;
+}
+
+.leftBtm .wapBox 
+{
+    width: 84%;
+    border-radius: 1vw;
+}
+.leftBtm .btmBox
+{
+    width: 84%;
+    margin-bottom: 1vw;
+    border-radius: 1vw;
+}
+.banner .leftBtm .btmBox:last-child
+{
+    margin-bottom: 0;
+    padding-bottom: 3vw;
+}
+.banner.bannerFr .leftBtm .btmBox:last-child
+{
+    margin-bottom: 0;
+    padding-bottom: 1vw;
+}
+.leftBtm .wapBox a
+{
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 1.2vw 1.5vw;
+    background: #e6007c;
+    border-radius: 1vw;
+    border: 1px solid transparent;
+    font-family:'Nunito-ExtraBold';
+    font-size: 1.2vw;
+    text-transform: uppercase;
+}
+.leftBtm .btmBox a
+{
+    background: #fff;
+    border: 1px solid #e6007c;
+    border-radius: 1vw;
+    padding: 1.2vw 1.5vw;
+    width: 100%;
+    display: block;
+    color: #e6007c;
+    font-family:'Nunito-ExtraBold';
+    font-size: 1.2vw;
+    text-transform: uppercase;
+}
+.leftBtm .wapBox a:hover, .leftBtm .wapBox a:focus
+{
+    text-decoration: none;
+    background: #b8005b;   
+    border-radius: 1vw;
+    border: 1px solid #b8005b;
+}
+.leftBtm .btmBox a:hover, .leftBtm .btmBox a:focus
+{
+    text-decoration: none;
+    background: #b8005b;   
+    border-radius: 1vw;
+    color: #fff;
+    border: 1px solid #b8005b;
+}
+
+.leftMid
+{
+    width: 84%;
+    margin: 15px 0;
+    text-align: center;
+}
+.leftMid span
+{
+    text-align: center;
+    position: relative;
+    display: block;
+    font-family:'Rubik-Regular';
+    font-size: 1.2vw;
+    color: #414141;
+    line-height: 1.44;
+}
+.leftMid span:after
+{
+    position: absolute;
+    content: '';
+    width: 30%;
+    height: 1px;
+    background: #979797;
+    top: 50%;
+    right: 0;
+}
+.leftMid span:before
+{
+    position: absolute;
+    content: '';
+    width: 30%;
+    height: 1px;
+    background: #979797;
+    top: 50%;
+    left: 0;
+}
+.leftBtm .btmBox a span.hoverImg
+{
+    display: none;
+}
+.leftBtm .btmBox a:hover span
+{
+    display: none;
+}
+.leftBtm .btmBox a:hover span.hoverImg
+{
+    display: block;
+}
+.header .logo a
+{
+    display: inline-block;
+}
+.header .logo img
+{
+    display: inline-block;
+    width: 12vw;
+}
+.footer
+{
+    padding: 1.2vw 0;
+    background: #000;
+    color: #fff;   
+    position: relative;
+    margin-top: 11.2vw;
+}
+
+.footer:before
+{
+    position: absolute;
+    content: '';
+    background-image: url(../img/bottom.svg);
+    background-repeat: no-repeat;
+    left: 41vw;
+    top: -6vw;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-size: 10vw;
+}
+
+.footer .footInner p
+{
+    font-family:'Nunito-Regular';
+    font-size: 1.25vw;
+}
+
+.btmImage img.btm1
+{
+    margin: 0 40%;
+    position: absolute;
+    z-index: -1;
+}
+.btmImage img.btm2
+{
+    display: none;
+}
+.btmBox.mailBox a span.compMail
+{
+    text-transform: lowercase;
+    float: none;
+}
+.btmBox.mailBox span img
+{
+    margin-top: 0.5vw;
+}
+.btmBox.mailBox a:hover span.compMail
+{
+    color: #fff;
+    display: inline;
+}
+.btmBox.fbBox span img
+{
+    margin-top: 0.3vw;
+}
+.btmBox.chatBox span img
+{
+    margin-top: 0.5vw;
+}
+
+/*Banner Page End*/
+
+/*Modal Box*/
+
+.modal .modal-content
+{
+    display: flex;
+    height: 100%;
+    background: transparent;
+    align-items: center;
+    box-shadow: none;
+    border: none;
+    justify-content: center;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 0 !important;
+}
+.modal .cntryOptn
+{
+    width: 45vw;
+/*    height: 40vw;*/
+    height: auto;
+    padding-bottom: 3vw;
+    border-radius: 3vw;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    box-shadow: 0 2px 34px 0 rgba(0, 0, 0, 0.24);
+}
+.modal .modal-header
+{
+    border-bottom: none;
+    margin-top: 2vw;
+}
+.modal .modal-header img
+{
+    margin: 0 auto;
+}
+.modal .modal-body img
+{
+    display: inline-block;
+}
+.modal .modal-body .modalBtn
+{
+    text-align: center;
+}
+.modal .modal-body .modalBtn a.frBtn
+{
+    margin-right: 1.5vw;
+}
+.modal .modal-body .modalTxt
+{
+    text-align: center;
+}
+.modal .modal-body .modalTxt p
+{
+    font-family:'Rubik-Regular';
+    color: #050303;
+    font-size: 2vw;
+    position: relative;
+    margin-bottom: 2vw;
+}
+.modal .modal-body .modalTxt span
+{
+    font-family:'Rubik-Regular';
+    color: #050303;
+    font-size: 2vw;
+    margin-bottom: 3vw;
+    display: inline-block;
+}
+
+.modal .modal-body .modalTxt p:after
+{
+    position: absolute;
+    content: '';
+    width: 4vw;
+    height: .3vw;
+    background: #d7006d;
+    bottom: -1.2vw;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.modal-open .modal
+{
+    padding-right: 0 !important;
+    border-radius: 0 !important;
+}
+
+/*Modal Box End*/

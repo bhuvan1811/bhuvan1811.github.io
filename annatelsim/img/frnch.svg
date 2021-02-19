@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="143" viewBox="0 0 112 143">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" stroke="#979797" d="M17 .5C7.887.5.5 7.887.5 17v109c0 9.113 7.387 16.5 16.5 16.5h78c9.113 0 16.5-7.387 16.5-16.5V17C111.5 7.887 104.113.5 95 .5H17z"/>
+        <text fill="#050303" font-family="Rubik-Bold, Rubik" font-size="15" font-weight="bold" transform="translate(17 19)">
+            <tspan x=".165" y="104">FRANÇAIS</tspan>
+        </text>
+        <g fill-rule="nonzero">
+            <path fill="#E60012" d="M66.68 21.091v65.904a34.719 34.719 0 0 0 13.146-8.35c13.564-13.71 13.464-35.84-.223-49.427a34.747 34.747 0 0 0-12.922-8.127z"/>
+            <path fill="#FFF" d="M43.274 21.136v65.805a34.96 34.96 0 0 0 23.407.054V21.09a34.965 34.965 0 0 0-23.407.045z"/>
+            <path fill="#0B318F" d="M43.274 21.09v65.903a34.703 34.703 0 0 1-13.144-8.35c-13.565-13.71-13.465-35.84.222-49.426a34.737 34.737 0 0 1 12.922-8.127z"/>
+        </g>
+    </g>
+</svg>
