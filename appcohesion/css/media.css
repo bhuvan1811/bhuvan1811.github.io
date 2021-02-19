@@ -1,0 +1,396 @@
+@media(max-width:1920px){
+	
+}
+@media(max-width:1560px){
+	
+}
+@media(max-width:1367px){
+	.banner p
+	{
+		padding-right: 190px;
+	}
+	
+}
+
+@media(max-width:1199px){
+	.banner h1
+	{
+		font-size: 43px;
+	}
+	.banner p
+	{
+		padding-right: 70px;
+	}
+	.detail
+	{
+		padding: 50px 0 50px;
+	}
+	.detail .col-sm-3
+	{
+		width: 50%;
+	}
+	.detail .detail_bottom
+	{
+		margin-bottom: 30px;
+	}
+	.detail .detail_bottom
+	{
+		height: 275px;
+	}
+	.nutshell img
+	{
+		width: 90%;
+	}
+	.experience
+	{
+		height: auto;
+	}
+	.bottom span
+	{
+		margin: 0 5px;
+	}
+	.bottom input
+	{
+		width: 31.9%;
+	}
+	.experience
+	{
+		padding-bottom: 80px;
+	}
+	.detail .detail_bottom img {
+    padding: 20px 0 10px;
+    margin: 0 auto;
+}
+
+}
+
+@media(max-width:991px){
+	.banner h1
+	{
+		font-size: 33px;
+	}
+	.banner p
+	{
+		padding-right: 0;
+	}
+	.nutshell p
+	{
+		padding-right: 0;
+	}
+	.experience
+	{
+		height: auto;
+	}
+	.nutshell img
+	{
+		width: 95%;
+	}
+	.experience h1, .nutshell h1, .detail h1, .bottom h1
+	{
+		font-size: 50px;
+
+	}
+	.experience h1
+	{
+	    padding-right: 15px;
+	}
+	.bottom input
+	{
+		width: 31.5%;
+	}
+	.experience
+	{
+		padding: 70px 0 80px;
+	}
+	
+	.detail p
+	{
+		padding: 0 5%;
+	}
+	.detail .detail_bottom img {
+    padding: 30px 0 10px;
+    margin: 0 auto;
+}
+
+	
+}
+@media(max-width:767px){  
+	.banner
+	{
+		background-image: none;
+		height: 90vh;
+	}
+	.banner h1
+	{
+		font-size: 38px;
+	}
+	.nutshell h1, .bottom h1, .detail h1, .experience h1
+	{
+		font-size: 46px;
+	}
+	.banner .bannerr
+	{
+		width: 100%;
+	}
+	.banner p
+	{
+		padding-right: 73px;
+	}
+    .detail .col-sm-3
+	{
+		width: 49%;
+		display: inline-block;
+
+	}
+	.detail .detail_bottom
+	{
+		height: 380px;
+	}
+	
+	.detail p
+	{
+		padding: 0 5%;
+	}
+	.nutshell img
+	{
+		width: 100%;
+		margin-top: 10px;
+	}
+	.nutshell p
+	{
+		padding-right: 0;
+	}
+	.panel-group .panel
+	{
+		width: 100%;
+		margin-top: 20px;
+	}
+	.nutshell
+	{
+		padding: 50px 0 70px
+	}
+	.experience
+	{
+		padding: 70px 0 70px;
+	}
+	.bottom
+	{
+		padding: 50px 0 50px;
+	}
+	.bottom input
+	{
+		width: 31.4%;
+	}
+	.bottom p
+	{
+		margin-bottom: 20px;
+	}
+	.bottom span
+	{
+		margin: 0 10px;
+	}
+	.experience
+	{
+		height: auto;
+	}
+	.detail_img
+	{
+		height: 25%;
+	}
+	.detail .detail_bottom img {
+    padding: 30px 0 10px;
+    margin: 0 auto;
+}
+
+}
+
+@media(max-width: 767px) and (min-width: 600px){
+	.detail .detail_bottom
+	{
+		height: 325px;
+	}
+	.detail_img
+	{
+		height: auto;
+	}
+}
+
+@media(max-width: 696px){
+	.footer .footer_right p
+	{
+		width: 100%;
+    	text-align: center;
+    	margin-top: 10px;
+	}
+	.footer .footer_right ul
+	{
+		text-align: center;
+		width: 100%;
+		padding: 0;
+	}
+	.footer .footer_right ul li
+	{
+		float: unset;
+	}
+
+}
+
+
+@media(max-width:560px){
+	.banner
+	{
+		height: 80vh;
+	}
+	.banner p 
+	{
+    	padding-right: 0;
+	}
+	.banner h1, .nutshell h1, .bottom h1
+	{
+		font-size: 29px;
+	}
+	.bottom p
+	{
+		margin-bottom: 15px;
+	}
+
+	.nutshell 
+	{
+		padding-bottom: 70px;
+	}
+	.nutshell img
+	{
+		width: 100%;
+		margin-top: 10px;
+	}
+	.detail h1
+	{
+		font-size: 29px;
+	}
+	.detail p
+	{
+		padding: 0 3%;
+	}
+	.detail .detail_bottom
+	{
+		height: auto;
+    	padding: 0 15px 15px;
+    	float: left;
+	}
+	.header .header_btn a
+	{
+		padding: 10px 20px;
+	}
+	.nutshell p 
+	{
+		padding-right: 0;
+	}
+	.experience h1
+	{
+		font-size: 33px;
+	}
+	.experience .experience_left p
+	{
+		padding: 30px 3px 20px 0;
+	}
+	.panel-group .panel
+	{
+		width: 100%;
+		margin-top: 20px;
+	}
+	.experience 
+	{
+		height: auto;
+		padding: 70px 0 60px;
+	}
+	.bottom input
+	{
+		width: 100%;
+	}
+	.bottom span
+	{
+		margin: 0;
+	}
+	.bottom span input
+	{
+		margin: 10px 0;
+	}
+	.footer .footer_right p
+	{
+		width: 100%;
+    	text-align: center;
+    	margin-top: 10px;
+	}
+	.footer .footer_right ul
+	{
+		text-align: center;
+		width: 100%;
+		padding: 0;
+	}
+	.footer .footer_right ul li
+	{
+		float: unset;
+	}
+	.bottom 
+	{
+    padding: 50px 0 50px;
+	}
+	.detail .col-sm-3
+	{
+		width: 100%;
+	}
+	.detail_img 
+	{
+    	height: auto;
+	}
+
+
+
+}
+@media(max-width:414px){
+	.banner h1
+	{
+		font-size: 26px;
+	}
+	.banner span a
+	{
+		padding: 8px 40px;
+	}
+	.banner a
+	{
+		padding: 8px 28px;
+	}
+	.detail .detail_bottom img
+	{
+		padding: 20px 0 5px;
+		width: 17%;
+	}
+	.logo
+	{
+		width: 57%;
+	}
+	.header_btn
+	{
+		width: 34%;
+	}
+	.header .header_btn a 
+	{
+    	padding: 8px 10px;
+	}
+	.header img
+	{
+		margin-top: 8px;
+	}
+	.experience a
+	{
+		padding: 8px 28px;
+	}
+	.detail .detail_bottom 
+	{
+    	height: auto;
+	}
+	.experience
+	{
+		height: auto;
+	}
+}
