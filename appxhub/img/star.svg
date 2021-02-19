@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Rectangle_456" d="M0 0H24V24H0z" data-name="Rectangle 456" transform="translate(171 3711)" style="fill:#737373"/>
+        </clipPath>
+    </defs>
+    <g id="prefix__Mask_Group_92" data-name="Mask Group 92" transform="translate(-171 -3711)">
+        <path id="prefix__star" d="M23.363 8.584l-7.378-1.127L12.678.413a.781.781 0 0 0-1.357 0L8.015 7.457.637 8.584a.75.75 0 0 0-.423 1.265l5.36 5.494-1.267 7.767a.751.751 0 0 0 1.1.777L12 20.245l6.59 3.643a.75.75 0 0 0 1.1-.777l-1.267-7.767 5.36-5.494a.751.751 0 0 0-.423-1.266z" transform="translate(171 3711)" style="fill:#ffc107"/>
+    </g>
+</svg>

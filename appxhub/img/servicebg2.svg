@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="190" viewBox="0 0 200 190">
+    <g id="prefix__Group_6909" data-name="Group 6909" transform="translate(-.138)" style="opacity:.1">
+        <circle id="prefix__Ellipse_65" cx="70" cy="70" r="70" data-name="Ellipse 65" transform="translate(60.138 50)" style="fill:#fff"/>
+        <g id="prefix__Ellipse_66" data-name="Ellipse 66" transform="translate(.138)" style="stroke:#fff;stroke-width:4px;fill:none">
+            <circle cx="70" cy="70" r="70" style="stroke:none"/>
+            <circle cx="70" cy="70" r="68" style="fill:none"/>
+        </g>
+    </g>
+</svg>

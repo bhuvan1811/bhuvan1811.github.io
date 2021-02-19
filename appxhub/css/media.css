@@ -1,0 +1,1192 @@
+@media(max-width:1920px){
+    .container
+    {
+        max-width: 1310px;
+    }
+    .contactForm .iti__country-list
+    {
+        width: 405px;
+    }
+}
+@media(max-width:1600px){
+    .container
+    {
+        max-width: 1310px;
+    }
+}
+@media(max-width:1560px){
+    h1
+    {
+        font-size: 42px;
+    }
+    .serviceOptions .serviceList h2
+    {
+        font-size: 24px;
+    }
+    h2.mainHeading {
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .contactForm .sectionTop h2 {
+        font-size: 43px;
+        line-height: 55px;
+    }
+    .reviewSlider .slick-prev, 
+    .reviewSlider .slick-next
+    {
+        top: inherit;
+        bottom: -70px;
+    }
+    .reviewSlider .slick-next
+    {
+        right: 40%;
+    }
+    .reviewSlider .slick-prev
+    {
+        left: 40%;
+    }
+    .testimonialBox.paddingSpace
+    {
+        padding-bottom: 100px;
+    }
+}
+@media(max-width:1367px){
+    .container {
+        max-width: 1100px;
+    }
+    h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    h2.mainHeading {
+        font-size: 34px;
+        line-height: 46px;
+    }
+    h2.smallHeading
+    {
+        font-size: 24px;
+    }
+    .overviewRight .deliveredProject p {
+        font-size: 110px;
+    }
+    .overviewRight .rightOverview p {
+        font-size: 70px;
+    }
+    .overviewRight .deliveredProject span {
+        font-size: 22px;
+    }
+    .overviewRight .rightOverview span {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .overviewRight .deliveredProject span.bgImage {
+        width: 67%;
+        top: -130px;
+    }
+    p.headingSize
+    {
+        font-size: 19px;
+    }
+    .paddingSpace {
+        padding: 45px 0;
+    }
+    .sectionTop
+    {
+        margin-bottom: 50px;
+    }
+    .countriesInfo ul li {
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .countriesInfo ul li span
+    {
+        font-size: 23px;
+    }
+    .contactForm .sectionTop h2 {
+        font-size: 41px;
+        line-height: 50px;
+    }
+    .serviceOptions .col-xl-3
+    {
+        flex: 0 0 33.3%;
+        max-width: 33.3%;
+    }
+    .serviceOptions .col-sm-6{
+        margin-bottom: 50px;
+    }
+    .serviceOptions span.bgImage
+    {
+        width: 180px;
+    }
+    .formInner .bgImage
+    {
+        width: 180px;
+        left: -40px;
+    }
+    .videoSlider  
+    {
+        height: 56vh;
+    }
+    .serviceOptions .col-sm-6:last-child
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .serviceOptions .col-sm-6:last-child .servBoxInner {
+        width: 32%;
+        margin-left: 34%;
+    }
+    .certifiedBy ul li
+    {
+        width: 80px;
+        height: 90px;
+    }
+    .videoSlider .slick-slide{
+        margin: 0 15px;
+      }
+      .videoSection .bgImage {
+        bottom: 70px;
+        right: 16%;
+        width: 180px;
+    }
+    .contactForm .iti__country-list
+    {
+        width: 335px;
+    }
+
+}
+@media(max-width:1199px){
+    .container {
+        max-width: 950px;
+    }
+    h1 {
+        font-size: 37px;
+        line-height: 45px;
+    }
+    a.btnStyle, button.btnStyle
+    {
+        padding: 11px 0;
+    }
+    .overviewRight .deliveredProject p {
+        font-size: 90px;
+        line-height: 90px;
+    }
+    .overviewRight .deliveredProject span {
+        font-size: 18px;
+    }
+    .overviewRight .rightOverview p {
+        font-size: 55px;
+        line-height: 60px;
+    }
+    .overviewRight .rightOverview span {
+        font-size: 16px;
+    }
+    .overviewRight .deliveredProject span.bgImage {
+        width: 63%;
+        top: -110px;
+    }
+    .nav-item {
+        margin-right: 30px;
+    }
+    h2.mainHeading {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    h2.smallHeading {
+        font-size: 23px;
+    }
+    p.headingSize {
+        font-size: 18px;
+    }
+    .banner
+    {
+        padding-bottom: 40px;
+    }
+    .paddingSpace {
+        padding: 40px 0;
+    }
+    p.prodTop {
+        font-size: 18px;
+        line-height: 48px;
+    }
+    p.subheading
+    {
+        font-size: 17px;
+    }
+    .countriesInfo ul li {
+        font-size: 46px;
+        line-height: 55px;
+    }
+    .countriesInfo ul li span {
+        font-size: 21px;
+    }
+    .countriesChart .countriesInfo
+    {
+        bottom: -40px;
+    }
+    .sectionTop {
+        margin-bottom: 40px;
+    }
+    /* .certifiedBy ul li
+    {
+        width: 84px;
+        height: 100px;
+    } */
+    .serviceStack.paddingSpace {
+        margin: 40px 0;
+    }
+    .stepsProcess .stepsCount h2 {
+        font-size: 23px;
+        line-height: 32px;
+        margin-bottom: 17px;
+    }
+    .stepsProcess .stepsCount
+    {
+        padding: 40px 30px;
+    }
+    .servCountries.paddingSpace {
+        padding-bottom: 90px;
+    }
+    .serviceOptions .col-xl-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .formInner .bgImage {
+        width: 160px;
+        left: 0;
+        bottom: -5px;
+    }
+    /* .videoSlider  
+    {
+        height: 46vh;
+    } */
+    .videoSection.paddingSpace {
+        padding: 70px 0 130px;
+    }
+    .videoSlider .slick-dots
+    {
+        bottom: -65px;
+    }
+    .serviceOptions .col-sm-6:last-child
+    {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .serviceOptions .col-sm-6:last-child .servBoxInner {
+        width: 100%;
+        margin-left: 0;
+    }
+    .videoSlider .slick-slide{
+        margin: 0 10px;
+      }
+      .videoSlider .videoBox.slick-slide.slick-current a.videoBtn
+      {
+          width: 70px;
+      }
+      .videoSection .bgImage {
+        bottom: 60px;
+        right: 15%;
+        width: 150px;
+    }
+    .contactForm .iti__country-list
+    {
+        width: 286px;
+    }
+
+}
+@media(max-width:991px){
+
+    .container {
+        max-width: 100%;
+        padding: 0 50px;
+    }
+    .header
+    {
+        padding: 10px 0;
+    }
+    .banner {
+        margin-top: 67px;
+    }
+    .banner .bannerInner {
+        padding-top: 150px;
+    }
+    h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    a.btnStyle, button.btnStyle
+    {
+        width: 150px;
+    }
+    .navbar-brand
+    {
+        width: 110px;
+        height: 47px;
+    }
+    .navbar-brand img
+    {
+        width: 100%;
+    }
+    .productsBoxs
+    {
+        display: block;
+    }
+    .ourProductsInner .productInfo, 
+    .ourProductsInner:last-child .productInfo
+    {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    .ourProductsInner .productImg
+    {
+        width: 43%;
+        float: right;
+    }
+    .partnerInner .partnerLeft
+    {
+        width: 100%;
+    }
+    .partnerImg .partnerImgs
+    {
+        position: initial;
+        width: 60%;
+    }
+    .stepsProcess .stepsCount::after
+    {
+        right: -27px;
+        font-size: 14px;
+    }
+    .onDemandInner .onDemandSol
+    {
+        display: block;
+    }
+    .onDemandSol .solLeft
+    {
+        width: 100%;
+    }
+    .onDemandInner .onDemandSol:nth-child(even) .solLeft
+    {
+        padding-left: 0;
+    }
+    .onDemandInner .onDemandSol:nth-child(odd) .solLeft
+    {
+        padding-right: 0;
+    }
+    .onDemandInner .onDemandSol:nth-child(even) .solRight
+    {
+        /* float: right; */
+    }
+    .onDemandSol .solRight
+    {
+        width: 60%;
+    }
+    .onDemandSol .solLeft
+    {
+        padding: 30px 0;
+    }
+    h2.mainHeading {
+        font-size: 29px;
+        line-height: 35px;
+    }
+    .onDemandSol .solLeft h2 {
+        margin-bottom: 20px;
+    }
+    .reviewsBox
+    {
+        margin: 29px 15px;
+    }
+    .contactForm .sectionTop h2 {
+        font-size: 38px;
+        line-height: 44px;
+    }
+    .sectionTop {
+        margin-bottom: 35px;
+    }
+    .footerBottom .col-sm-6:nth-child(-n+2)
+    {
+        margin-bottom: 20px;
+    }
+    .footerLogo.parentComp a
+    {
+        width: 120px;
+        display: inline-block;
+    }
+    .footerLogo.parentComp a img
+    {
+        width: 100%;
+    }
+    .footLogoBox .parentComp span
+    {
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+    .footMenu .footmenuInner h4
+    {
+        font-size: 21px;
+    }
+    .footMenu .footmenuInner ul li span, 
+    .footMenu .footmenuInner ul li a
+    {
+        font-size: 17px;
+    }
+    .countriesInfo ul li {
+        font-size: 40px;
+        line-height: 50px;
+        margin-right: 40px;
+    }
+    .countriesInfo ul li span {
+        font-size: 18px;
+    }
+    .onDemandInner .onDemandSol:last-child .solLeft
+    {
+        padding-bottom: 0;
+    }
+    h2.smallHeading {
+        font-size: 21px;
+    }
+    .overviewRight
+    {
+        width: 80%;
+        float: unset;
+        margin: 0 auto;
+    }
+    .overviewRight .deliveredProject p {
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .overviewRight .deliveredProject span.bgImage {
+        width: 50%;
+        top: -110px;
+        left: 20%;
+    }
+    .stepsProcess .stepsCount h2 {
+        font-size: 21px;
+        line-height: 28px;
+        margin-bottom: 14px;
+    }
+    .stepsProcess .col-sm-4
+    {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .stepsProcess .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .footMenu 
+    {
+        margin-top: 10px;
+    }
+    .serviceOptions .col-sm-6{
+        margin-bottom: 40px;
+    }
+
+    /* Sidenav Start */
+
+    .menuLogo
+    {
+        display: block;
+        float: unset;
+        margin-bottom: 40px;
+    }
+
+    .menuLogo a
+    {
+        display: inline-block;
+        width: 110px;
+    }
+        
+    .headerBox 
+    {
+        display: block !important;
+        float: left !important;
+        width: 100%;
+    }
+    .navbar-expand-md .navbar-nav .nav-link
+    {
+        padding: 0;
+        display: inline-block;
+    }
+    .nav-item
+    {
+        margin-bottom: 22px;
+    }
+    .navbar-expand-md .navbar-nav .dropdown-menu
+    {
+        position: relative;
+        background: transparent;
+        border: none;
+        padding-bottom: 0;
+    }
+    .topBoxs {
+        margin-top: 85px;
+    }
+    .navbar-expand-md .navbar-toggler {
+        display: block;
+    }
+    .navbar-expand-md .navbar-collapse {
+        position: fixed;
+        width: 250px;
+        top: 0;
+        left: -250px;
+        background: var(--colorWhite);
+        height: 100%;
+        transition: all 0.3s ease;
+        display: initial !important;
+        margin-top: 0px;
+        padding: 10px 15px 0px 30px;
+        z-index: 9;
+        box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.5);
+    }    
+    .nav-link:hover, .nav-link:focus
+    {
+        border-bottom: none;
+    }
+    .navbar-expand-md .navbar-nav {
+        flex-direction: column;
+    }
+    .navbar-light .navbar-nav .nav-item {
+        margin-bottom: 5px;
+    }
+
+    .navbar-expand-md .navbar-nav .dropdown-menu.show
+    {
+        transition: all 0.3s ease;
+    }
+    
+    .dropdown-item
+    {
+        color: #fff;
+    }
+
+    /* Sidenav End */
+    .reviewSlider .slick-next
+    {
+        right: 37%;
+        height: 50px;
+        width: 50px;
+    }
+    .reviewSlider .slick-prev
+    {
+        left: 37%;
+        height: 50px;
+        width: 50px;
+    }
+    .reviewSlider .slick-prev:before,
+    .reviewSlider .slick-next:before
+    {
+        height: 50px;
+        width: 50px;
+    }
+    .testimonialBox.paddingSpace
+    {
+        padding-bottom: 80px;
+    }
+    .serviceOptions span.bgImage {
+        width: 170px;
+    }
+    .videoSlider.slick-slider .slick-list {
+        padding: 0 15% !important;
+    }
+    /* .videoSlider {
+        height: 42vh;
+    } */
+    .videoSection.paddingSpace {
+        padding: 50px 0 120px;
+    }
+    .videoSection .bgImage {
+        bottom: 85px;
+        right: 10%;
+        width: 130px;
+    }
+    .contactForm .iti__country-list
+    {
+        width: 319px;
+    }
+    .col-sm-6.briefMessage
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+} 
+@media(max-width:767px){ 
+    
+    .bannerContent h1 br
+    {
+        display: none;
+    }
+    .banner .bannerInner
+    {
+        padding-top: 30px;
+    }
+    .banner .bannerContent
+    {
+        position: inherit;
+        top: 0;
+        margin-bottom: 30px;
+    }
+    h1 {
+        font-size: 28px;
+        line-height: 39px;
+    }
+    a.btnStyle, button.btnStyle {
+        padding: 9px 0;
+    }
+    .banner {
+        padding-bottom: 35px;
+    }
+    .paddingSpace {
+        padding: 35px 0;
+    }
+    h2.mainHeading {
+        font-size: 27px;
+        line-height: 34px;
+    }
+    h2.smallHeading {
+        font-size: 19px;
+    }
+    .hubOverview .overviewLeft h2.smallHeading {
+        margin-bottom: 20px;
+    }
+    .overviewRight
+    {
+        width: 100%;
+    }
+    a.btnStyle.btnStyle2, button.btnStyle.btnStyle2 {
+        width: 180px;
+    }
+    .serviceOptions .col-sm-6, .serviceOptions .col-sm-6:last-child
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .serviceOptions .servBoxInner, .serviceOptions .col-sm-6:last-child .servBoxInner
+    {
+        float: unset;
+        margin: 0 auto;
+        width: 74%;
+    }
+    .serviceTop .col-sm-7
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .sectionTop h2 br
+    {
+        display: none;
+    }
+    .stepsProcess .col-sm-4
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .stepsProcess .stepsCount
+    {
+        margin-bottom: 30px;
+        height: auto;
+        margin-right: 10px;
+    }
+    .stepsProcess .col-sm-4:last-child .stepsCount
+    {
+        margin-bottom: 0;
+    }
+    .stepsProcess .stepsCount:after
+    {
+        display: none;
+    }
+    .onDemandSol .solRight {
+        width: 70%;
+    }
+    .countriesInfo ul li {
+        font-size: 36px;
+        line-height: 46px;
+        margin-right: 30px;
+    }
+    .countriesChart .countriesInfo {
+        position: inherit;
+        bottom: 0;
+    }
+    .servCountries.paddingSpace {
+        padding-bottom: 35px;
+    }
+    .countriesInfo ul li span {
+        font-size: 17px;
+    }
+    .contactForm .sectionTop h2 {
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .footerBtm .copyRight, .footerBtm .socialIcon
+    {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .footerBtm .copyRight
+    {
+        margin-bottom: 20px;
+    }
+    .footerBtm .socialIcon span,
+    .socialIcon ul,
+    .socialIcon ul li
+    {
+        float: unset;
+    }
+    .reviewsBox h2.brandName
+    {
+        font-size: 26px;
+    }
+    .reviewsBox p.headingSize {
+        font-size: 17px;
+    }
+    .serviceOptions .col-sm-6:last-child
+    {
+        margin-bottom: 0;
+    }
+    .footerBottom .col-sm-6
+    {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    
+    .footmenuInner ul li span, .footmenuInner ul li a
+    {
+        font-size: 17px;
+    }
+    .reviewSlider .slick-next
+    {
+        right: 35%;
+    }
+    .reviewSlider .slick-prev
+    {
+        left: 35%;
+    }
+    .testimonialBox.paddingSpace {
+        padding-bottom: 65px;
+    }
+    .overviewRight .deliveredProject span.bgImage
+    {
+        width: 140px;
+    }
+    .overviewRight
+    {
+        padding-top: 60px;
+    }
+    .serviceStack .serviceBg
+    {
+        width: 45%;
+    }
+    .serviceOptions span.bgImage
+    {
+        width: 150px;
+        top: -120px;
+    }
+
+    .contactForm .formBtm
+    {
+        display: initial;
+        margin-top: 15px;
+        float: left;
+        width: 100%;
+    }
+    .sendBtn
+    {
+        margin-top: 25px;
+        text-align: center;
+    }
+    .contactForm .formBtm button
+    {
+        margin-left: 0;
+    }
+    .contactForm .g-recaptcha div
+    {
+        margin: 0 auto;
+    }
+    .formInner .col-sm-6
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .videoSlider.slick-slider .slick-list {
+        padding: 0 12% !important;
+    }
+    .videoSlider {
+        height: 43vh;
+    }
+    .videoSlider .slick-dots
+    {
+        bottom: -55px;
+    }
+    .videoSlider .slick-dots li button:before {
+        content: '';
+        height: 10px;
+        width: 10px;
+    }
+    .videoSlider .slick-dots li button, .videoSlider .slick-dots li {
+        width: 10px !important;
+        height: 10px !important;
+        margin: 0 6px !important;
+    }
+    .videoSection.paddingSpace {
+        padding: 50px 0 100px;
+    }
+    .videoSlider .videoBox.slick-slide.slick-current a.videoBtn {
+        width: 55px;
+    }
+    .contactForm .iti__country-list {
+        width: 460px;
+    }
+    .getQuote .iti__country-list
+{
+    width: 395px;
+}
+.modal.show .modal-dialog
+{
+    width: 85%;
+}
+.modal-dialog {
+    margin: 10% auto;
+}
+    
+}
+@media(max-width:560px){
+    .container {
+        padding: 0 30px;
+    }
+    .footMenu .footmenuInner {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .overviewRight .deliveredProject p {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .overviewRight .deliveredProject span {
+        line-height: 23px;
+    }
+    .overviewRight .rightOverview p {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .overviewRight .rightOverview span {
+        line-height: 20px;
+    }
+    .serviceOptions {
+        padding: 0 30px;
+        margin-top: 40px;
+    }
+    .serviceOptions .servBoxInner, .serviceOptions .col-sm-6:last-child .servBoxInner {
+        width: 100%;
+    }
+    h2.mainHeading {
+        font-size: 26px;
+    }
+    .onDemandSol .solRight
+    {
+        width: 100%;
+    }
+    .contactForm .sectionTop h2 {
+        font-size: 31px;
+        line-height: 37px;
+    }
+    .partnerImg .partnerImgs {
+        width: 100%;
+    }
+    .footerBottom .col-sm-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .footerBottom .col-sm-6:nth-child(n)
+    {
+        margin-bottom: 30px;
+    }
+    .footmenuInner h4 {
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+    .footmenuInner ul li span.footmenuHead {
+        margin-bottom: 10px;
+    }
+    .footerBottom .col-sm-6:last-child
+    {
+        margin-bottom: 0;
+    }
+    .reviewSlider .slick-prev,
+    .reviewSlider .slick-next {
+        height: 40px;
+        width: 40px;
+        bottom: -40px;
+    }
+    .reviewSlider .slick-prev:before,
+    .reviewSlider .slick-next:before
+    {
+        height: 40px;
+        width: 40px;
+    }
+    .testimonialBox.paddingSpace {
+        padding-bottom: 40px;
+    }
+    .overviewRight .deliveredProject span.bgImage {
+        width: 120px;
+    }
+    .overviewRight .deliveredProject span.bgImage
+    {
+        top: -90px;
+    }
+    .overviewRight
+    {
+        padding-top: 30px;
+    }
+    .formInner .bgImage {
+        width: 130px;
+        left: 0;
+        bottom: -30px;
+    }
+    .videoSlider.slick-slider .slick-list {
+        padding: 0 10% !important;
+    }
+    .videoSlider {
+        height: 35vh;
+    }
+    .videoSlider .slick-dots {
+        bottom: -40px;
+    }
+    .videoSection.paddingSpace {
+        padding: 40px 0 70px;
+    }
+    .countriesInfo ul li {
+        font-size: 33px;
+        line-height: 43px;
+        margin-right: 25px;
+    }
+    .countriesInfo ul li span {
+        font-size: 16px;
+    }
+    .contactForm .iti__country-list {
+        width: 355px;
+    }
+    .modal.show .modal-dialog {
+        width: 90%;
+    }
+    .getQuote .iti__country-list {
+        width: 290px;
+    }
+
+}
+@media(max-width:414px){
+    .container {
+        padding: 0 15px;
+    }
+    a.btnStyle, button.btnStyle {
+        width: 130px;
+        padding: 8px 0;
+        font-size: 14px;
+    }
+    .bannerContent a.blackBtn {
+        margin-right: 15px;
+    }
+    h1 {
+        font-size: 27px;
+        line-height: 36px;
+    }
+    .banner {
+        padding-bottom: 30px;
+    }
+    .paddingSpace {
+        padding: 25px 0;
+    }
+    h2.smallHeading {
+        font-size: 18px;
+    }
+    p.subheading {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .hubOverview .overviewLeft h2.smallHeading {
+        margin-bottom: 15px;
+    }
+    .overviewRight .deliveredProject, .overviewRight .rightOverview
+    {
+        width: 50%;
+    }
+    .overviewRight .deliveredProject p {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .overviewRight .deliveredProject span {
+        font-size: 16px;
+        line-height: 20px;
+        display: inline-block;
+    }
+    .overviewRight .rightOverview p {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .overviewRight .rightOverview span {
+        font-size: 14px;
+        line-height: normal;
+        display: inline-block;
+    }
+    .overviewRight .rightOverview .developers,
+    .overviewRight .rightOverview .investmentRaised {
+        padding: 15px 0 15px 15px;
+    }
+    .overviewRight .deliveredProject
+    {
+        text-align: right;
+    }
+    .overviewRight {
+        padding-top: 40px;
+    }
+    .certifiedBy ul li {
+        width: 70px;
+        height: 80px;
+        margin: 0 10px;
+    }
+    .certifiedBy {
+        margin-top: 30px;
+    }
+    p.headingSize {
+        font-size: 17px;
+    }
+    h2.mainHeading {
+        font-size: 25px;
+        line-height: 31px;
+    }
+    .serviceStack.paddingSpace {
+        margin: 30px 0;
+    }
+    .serviceOptions .col-sm-6 {
+        margin-bottom: 30px;
+    }
+    .serviceOptions .serviceList h2 {
+        font-size: 22px;
+    }
+    .serviceInner {
+        padding: 22px;
+    }
+    .sectionTop {
+        margin-bottom: 25px;
+    }
+    .reviewsBox h2.brandName {
+        font-size: 24px;
+    }
+    .reviewsBox p.headingSize {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .reviewsBox
+    {
+        padding: 20px 20px 25px;
+    }
+    .reviewsBox .ratingStar li {
+        width: 18px;
+    }
+    .reviewsBox .ratingStar {
+        margin: 10px 0;
+    }
+    .contactForm .sectionTop h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .contactForm input, .contactForm textarea
+    {
+        padding: 16px 0;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .bootstrap-select>.dropdown-toggle.bs-placeholder
+    {
+        padding: 17px 0;
+    }
+    .countriesChart .countriesInfo
+    {
+        position: initial;
+        margin-top: 10px;
+    }
+    .countriesInfo ul li {
+        font-size: 30px;
+        line-height: 40px;
+        margin-right: 20px;
+    }
+    .countriesInfo ul li span {
+        font-size: 15px;
+    }
+    .servCountries.paddingSpace {
+        padding-bottom: 25px;
+    }
+    .footmenuInner h4 {
+        font-size: 20px;
+    }
+    .reviewSlider .slick-prev {
+        left: 30%;
+    }
+    .reviewSlider .slick-next {
+        right: 30%;
+    }
+    .stepsProcess .stepsCount::before
+    {
+        height: 58px;
+    width: 58px;
+    }
+    .socialIcon span
+    {
+        font-size: 17px;
+    }
+    .socialIcon ul li {
+        margin-left: 20px;
+    }
+    .socialIcon ul li a
+    {
+        font-size: 18px;
+    }
+    .footerBtm .copyRight p {
+        font-size: 15px;
+    }
+    .footerBtm .copyRight {
+        margin-bottom: 10px;
+    }
+    .overviewRight .deliveredProject span.bgImage
+    {
+        left: 0;
+    }
+    .formInner .bgImage {
+        width: 120px;
+        bottom: -15px;
+    }
+    .videoSlider {
+        height: 26vh;
+    }
+    .footerEnd {
+        padding: 20px 0;
+    }
+    .videoSlider .videoBox.slick-slide.slick-current a.videoBtn {
+        width: 55px;
+    }
+    .contactForm .iti__country-list {
+        width: 290px;
+    }
+    .contactForm .g-recaptcha div
+    {
+        transform: scale(0.98);
+        -webkit-transform: scale(0.98);
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+    }
+    .getQuote .iti__country-list {
+        width: 255px;
+    }
+    .modal-body {
+        padding: 20px 15px;
+    }
+}

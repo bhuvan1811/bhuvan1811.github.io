@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Rectangle_452" d="M0 0H72V72H0z" data-name="Rectangle 452" transform="translate(92 3545)" style="fill:#737373"/>
+        </clipPath>
+    </defs>
+    <g id="prefix__Mask_Group_89" data-name="Mask Group 89" transform="translate(-92 -3545)">
+        <g id="prefix__Page-1" transform="translate(107.6 3545)">
+            <g id="prefix___002---Fountain-Pen" data-name="002---Fountain-Pen">
+                <rect id="prefix__Rectangle-path" width="26.079" height="7.2" rx="1.2" transform="translate(8.722 19.2)" style="fill:#7f8e94"/>
+                <path id="prefix__Shape" d="M33.6 19.2H30a1.2 1.2 0 0 1 1.2 1.2v4.8a1.2 1.2 0 0 1-1.2 1.2h3.6a1.2 1.2 0 0 0 1.2-1.2v-4.8a1.2 1.2 0 0 0-1.2-1.2z" style="fill:#545c60"/>
+                <path id="prefix__Shape-2" d="M29.721 1.2H8.358a1.026 1.026 0 0 0-.787.379 1.286 1.286 0 0 0-.288.9l1 16.72h21.512l1-16.72a1.286 1.286 0 0 0-.288-.9 1.027 1.027 0 0 0-.786-.38z" data-name="Shape" transform="translate(2.722)" style="fill:#f4ab38"/>
+                <path id="prefix__Shape-3" d="M32.317 1.2h-3.6a1.2 1.2 0 0 1 1.2 1.28L28.8 19.2h3.6l1.115-16.72a1.2 1.2 0 0 0-1.2-1.28z" data-name="Shape" style="fill:#fec108"/>
+                <path id="prefix__Shape-4" d="M10.217 26.4s0 13.2-6.617 18l11.028 26.4h2.206V49.752a4.984 4.984 0 0 1-2.055-5.4 4.491 4.491 0 0 1 4.26-3.552 4.491 4.491 0 0 1 4.261 3.553 4.984 4.984 0 0 1-2.055 5.4V70.8h2.206l11.028-26.4c-6.617-4.8-6.617-18-6.617-18z" data-name="Shape" transform="translate(2.722)" style="fill:#9e9e9e"/>
+                <path id="prefix__Shape-5" d="M30 26.4h-3.6s0 13.2 7.2 18L22.8 68.16v2.64h2.4l12-26.4c-7.2-4.8-7.2-18-7.2-18z" data-name="Shape" style="fill:#707070"/>
+                <g id="prefix__Group_6851" data-name="Group 6851">
+                    <path id="prefix__Shape-6" d="M13.736 69.6H8.4a1.2 1.2 0 1 0 0 2.4h24a1.2 1.2 0 1 0 0-2.4h-5.336l11.228-24.7a1.2 1.2 0 0 0-.426-1.5c-5.366-3.577-6.413-12.551-6.617-15.8H33.6a2.4 2.4 0 0 0 2.4-2.4v-4.8a2.4 2.4 0 0 0-2.318-2.392L34.711 2.56a2.4 2.4 0 0 0-2.4-2.56H8.483a2.4 2.4 0 0 0-2.394 2.56l1.03 15.449A2.4 2.4 0 0 0 4.8 20.4v4.8a2.4 2.4 0 0 0 2.4 2.4h2.351c-.2 3.251-1.25 12.224-6.617 15.8a1.2 1.2 0 0 0-.426 1.5zM18.6 48.712a3.6 3.6 0 1 1 3.6 0 1.2 1.2 0 0 0-.6 1.04V69.6h-2.4V49.752a1.2 1.2 0 0 0-.6-1.04zM32.317 2.4L31.277 18H14.3L13.2 5.892a1.2 1.2 0 0 0-2.4.216L11.88 18H9.523L8.483 2.4zM7.2 20.4h26.4v4.8H7.2zm4.76 7.2h16.88c.18 3.325 1.192 12.641 6.865 17.19L24.427 69.6H24V50.4a6 6 0 1 0-7.2 0v19.2h-.427L5.093 44.79c5.676-4.549 6.688-13.865 6.868-17.19z" data-name="Shape"/>
+                    <path id="prefix__Shape-7" d="M1.2 72h2.4a1.2 1.2 0 1 0 0-2.4H1.2a1.2 1.2 0 1 0 0 2.4z" data-name="Shape"/>
+                    <path id="prefix__Shape-8" d="M36 70.8a1.2 1.2 0 0 0 1.2 1.2h2.4a1.2 1.2 0 1 0 0-2.4h-2.4a1.2 1.2 0 0 0-1.2 1.2z" data-name="Shape"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
