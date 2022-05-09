@@ -1,0 +1,1107 @@
+@media (max-width: 1920px) {}
+
+@media (max-width: 1560px) {
+
+}
+
+@media (max-width: 1367px) {
+    /* Landing Page Start */
+    .container {
+        max-width: 1050px;
+    }
+    .bannerLeft {
+        padding-right: 0;
+    }
+    .techLists .techListBox{
+        width: 25%;
+    }
+    .buildTeamInner .buildTeamLeft{
+        width: 50%;
+    }
+    .buildTeamInner .buildTeamRight{
+        width: 50%;
+    }
+    .sectionPoints {
+        padding-right: 0;
+    }
+    .sectionPoints .col-sm-6 {
+        margin-bottom: 38px;
+        /* padding: 20px 20px; */
+    }
+    .becomePartners {
+        padding: 25px 0 50px;
+    }
+    .slidesBtm {
+        margin-top: 45px;
+    }
+    .formSections .bodyLeftContent {
+        padding-right: 50px;
+    }
+    /* Landing Page End */
+    .buildTeamInner .buildTeamLeft{
+        padding-right: 50px;
+    }
+    /* Contact Us Start */
+    .contactBannerContent .contactBannerIcon{
+        right: 0px;
+    }
+    .contactBannerContent{
+        padding-left: 0px;
+    }
+    /* Contact Us End */
+    /* Thankyou Page Start */
+    .frameLeft{
+        padding-right: 50px;
+    }
+    /* Thankyou Page End */
+    .statsSection {
+        padding: 0 140px;
+    }
+    .bannerLeft h4 {
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 1199px) {
+    /* Landing Page Start */
+    .container {
+        max-width: 100%;
+        padding: 0px 50px;
+    }
+    .headingFont,
+    .fontSize48{
+        font-size: 42px;
+    }
+    .fontSize36 {
+        font-size: 32px;
+    }
+    .fontSize28 {
+        font-size: 25px;
+    }
+    .fontSize26 {
+        font-size: 23px;
+    }
+    .fontSize18 {
+        font-size: 16px;
+    }
+    .bannerLeft h4 {
+        /* padding-right: 20px; */
+    }
+    .bannerLeft .banerBottom {
+        margin-top: 35px;
+    }
+    .statsSection .statsBox{
+        padding: 20px 20px;
+    }
+    .forClientsTable thead tr th{
+        font-size: 18px;
+    }
+    .forClientsTable tbody tr td{
+        font-size: 16px;
+    }
+    .buildTeamInner .buildTeamLeft{
+        width: 49%;
+    }
+    .buildTeamInner .buildTeamRight{
+        width: 51%;
+    }
+    .teamCards{
+        /* max-width: 220px; */
+        padding: 15px;
+    }
+    .becomePartnersRight {
+        padding-left: 0;
+    }
+    .sectionPoints .col-sm-6{
+        margin-bottom: 15px;
+    }
+    .easyHiringBox  .col-lg-6{
+        margin-bottom: 30px;
+    }
+    .easyHiringBox  .col-lg-6:nth-last-child(-n+2){
+        margin-bottom: 0px;
+    }
+    .btnStyle{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .btnStyle2{
+        font-size: 14px;
+        line-height: 14px;
+    }
+    /* Landing Page End */
+    /* Steps Pages Start */
+    .multipleOption .selectOption label{
+        padding: 24px 18px;
+    }
+    .sectionTop {
+        margin-top: 70px;
+    }
+    .formSections {
+        padding: 50px 0px 135px;
+    }
+    /* Steps Pages End */
+
+    /* Login/Signup Pages Start */
+    .formSections .bodyLeftContent {
+        padding-right: 30px;
+    }
+    .formBox{
+        padding: 30px;
+    }
+    .formTopBox {
+        margin-bottom: 38px;
+    }
+    .formTopBox .subHeadBox {
+        margin-bottom: 28px;
+    }
+    /* Login/Signup Pages End */
+    /* Thankyou Page Start */
+    .fontSize26 {
+        font-size: 22px;
+    }
+    /* Thankyou Page End */
+    .statsSection {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    /* Landing Page Start */
+    .headingFont, 
+    .fontSize48 {
+        font-size: 38px;
+    }
+    .subHeadingFont{
+        font-size: 17px;
+    }
+    .smallHeading{
+        font-size: 16px;
+    }
+    .sectionTop {
+        margin-top: 71px;
+    }
+    .mainBanner {
+        padding: 60px 0px 60px;
+    }
+    .padding75,
+    .padding110{
+        padding: 55px 0;
+    }
+    .fontSize22 {
+        font-size: 19px;
+    }
+    .fontSize36 {
+        font-size: 28px;
+    }
+    .fontSize28 {
+        font-size: 23px;
+    }
+    .fontSize26 {
+        font-size: 22px;
+    }
+    .statsInner p br{
+        display: none;
+    }
+    .tecnologyStack {
+        /* padding: 60px 0px 0px; */
+    }
+    .techLists .techListBox {
+        width: 33%;
+    }
+    .buildTeamInner .buildTeamLeft,
+    .buildTeamInner .buildTeamRight {
+        width: 100%;
+    }
+    .teamCards {
+        /* max-width: 250px; */
+        padding: 15px;
+    }
+    .teamCardBox{
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .teamCards{
+        /* height: 100%; */
+    }
+    /* .teamCardBox .teamCards:last-child{
+        right: 120px;
+    } */
+    .easyHiring .hiringArror,
+    .becomePartnersLeft .becomePartnersBtm{
+        display: none;
+    }
+    .aboutDeveloper{
+        padding-right: 5px;
+    }
+    .becomePartnersRight {
+        margin-top: 50px;
+    }
+    .fontSize16{
+        font-size: 14px;
+    }
+    .buildTeamInner .buildTeamRight{
+        margin-top: 30px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link, .navbar-nav .nav-link{
+        margin-right: 25px;
+    }
+    .teamCardBox{
+        /* padding: 0 90px; */
+    }
+    .forClientsTable{
+        overflow-x: auto;
+    }
+    .forClientsTable tbody tr td{
+        white-space: nowrap;
+    }
+    .forClientsTable tbody tr td:first-child{
+        white-space: inherit;
+    }
+    /* Landing Page End */
+    /* Become Partner Page Start */
+    .shareServiceRight span {
+        padding-right: 0px;
+    }
+    .becomePartnersRight .becomePartnersTile{
+        padding: 25px 20px;
+    }
+    .easyHiring2 .easyHiringBox .hiringSteps p {
+        padding-right: 0;
+    }
+    .profileViewBox2 .profileViewInner .col-md-6{
+        margin-bottom: 20px;
+    }
+    /* Become Partner Page End */
+    /* Steps Pages Start */
+    .selectedItems.techLists.techLists .techListItem{
+        padding-right: 20px;
+    }
+    .selectedItems .form-control{
+        padding: 12px 10px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .selectedItems .counterBox {
+        margin: 0px 5px;
+        min-width: 80px;
+        width: 80px;
+    }
+    /* Steps Pages End */
+    /* Login/Signup Pages Start */
+    .formSections .bodyLeftContent {
+        padding-right: 0px;
+        margin-top: 0px;
+    }
+    /* Login/Signup Pages End */
+    .statsInner {
+        margin-bottom: 50px;
+    }
+    .teamCardBox .col-md-8 .teamCards{
+        width: 46%;
+    }
+    .teamCardBox .col-md-8 .teamCards:first-child{
+        margin-right: 15px;
+    }
+    .teamCardBox .col-md-8 .teamCards:last-child{
+        margin-left: 15px;
+    }
+    .buildTeamInner .buildTeamLeft{
+        padding-right: 0px;
+    }
+    .teamCards{
+        margin-bottom: 0px;
+    }
+    /* Contact Us Start */
+    .formDesignNew{
+        padding: 40px 30px;
+    }
+    .contactBannerContent{
+        padding-right: 32vw;
+    }
+    .contactBannerContent br{
+        display: none;
+    }
+    .contactBannerContent .contactBannerIcon{
+        width: 180px;
+    }
+    .contactUsBanner{
+        margin-bottom: 60px;
+    }
+    .formDesign .form-control{
+        padding: 12px 16px;
+    }
+    /* Contact Us End */
+    .selectedItems.techLists{
+        padding-right: 10px;
+    }
+    /* Terms and privacy page */
+    .contentSectionDetail .sideSection {
+        min-width: 220px;
+        width: 220px;
+        margin-right: 35px;
+    }
+    .companyStats{
+        padding: 75px 0px 75px;
+    }
+    .statsSection {
+        padding: 0 0px;
+    }
+    .statsSection .statsBox {
+        padding: 20px 2px;
+    }
+    .bannerLeft h4 {
+        padding-right: 0;
+    }
+    .scalieInfoInner span {
+        margin: 0px 18px;
+    }
+    .footerLogo a {
+        width: 180px;
+    }
+    .frameLeft{
+        /*width: 100%;*/
+        padding-right: 20px;
+    }
+    .frameLeft{
+        margin-bottom: 0px;
+    }
+    .frameRight2{
+        padding: 50px 30px;
+    }
+    .thankyouPage2 .thankyouHeading br{
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    /* Sidebar Start */
+    .navbar-expand-md .navbar-collapse {
+        display: none;
+        position: fixed;
+        background: var(--colorWhite);
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: -100%;
+        height: auto;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 50px 0px;
+    }
+    .navbar-expand-md .navbar-collapse.showBox {
+        top: -100%;
+    }
+    .navbar-expand-md .navbar-collapse.show{
+        top: 56px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        box-shadow: 0px 5px 3px -4px rgb(0 0 0 / 30%);
+    }
+    .headerRight{
+        width: auto;
+    }
+    .navbar-expand-md .navbar-nav .nav-link, 
+    .navbar-nav .nav-link{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .headerBtn .btnStyle{
+        animation: none;
+        box-shadow: none;
+    }
+    /* Sidebar End */
+
+    /* Landing Page Start */
+    .forClientsTable{
+        overflow-x: auto;
+    }
+    .bannerRight{
+        margin-top: 40px;
+    }
+    .headingFont, .fontSize48 {
+        font-size: 36px;
+    }
+    .mainBanner {
+        padding: 40px 0px 40px;
+    }
+    .statsSection .col-sm-4{
+        width: 50%;
+    }
+    .fontSize22 {
+        font-size: 18px;
+    }
+    .tecnologyStack {
+        /* padding: 50px 0px 0px; */
+    }
+    .techLists .techListBox {
+        width: 50%;
+    }
+    .buildTeamLeft{
+        margin-top: 0px;
+    }
+    .fontSize36 {
+        font-size: 25px;
+    }
+    .fontSize28 {
+        font-size: 20px;
+    }
+    .fontSize26 {
+        font-size: 19px;
+    }
+    .sectionPoints .col-sm-6 {
+        /*margin-bottom: 0px;*/
+        /* padding: 20px 15px; */
+    }
+    .sectionHeading2 {
+        margin-bottom: 30px;
+    }
+    .teamCards {
+        max-width: 227px;
+    }
+    .hiringSteps .hiringCounter{
+        font-size: 14px;
+        height: 30px;
+        width: 38px;
+        min-width: 38px;
+    }
+    .easyHiringBox .col-lg-6,
+    .easyHiringBox .col-lg-6:nth-last-child(-n+2) {
+        margin-bottom: 20px;
+    }
+    .easyHiringBox .col-lg-6:nth-child(){
+        margin-bottom: 0px;
+    }
+    .fontSize20 {
+        font-size: 18px;
+    }
+    .profileView .col-sm-4{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .profileView .col-sm-4:last-child{
+        margin-bottom: 0px;
+    }
+    .profileViewTop .viewTopDeveloper{
+        margin-bottom: 13px;
+    }
+    .footerSection .footerBox{
+        padding: 50px 0px 50px;
+    }
+    .footerRight{
+        margin-top: 40px;
+    }
+    .footerRight .col-sm-12{
+        width: 33%;
+    }
+    .padding75,
+    .padding110{
+        padding: 50px 0;
+    }
+    .becomePartnersRight .col-sm-6{
+        width: 50%;
+    }
+    .teamCardBox {
+        padding: 0 0;
+    }
+    /* Landing Page End */
+
+    /* Become Partner Page Start */
+    .shareServicesBox .shareServiceLeft{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .shareServicesBox .shareServiceRight{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .shareServicesBox{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .shareServiceRight.sectionHeading h2 br{
+        display: none;
+    }
+    .outStaffBanner {
+        margin-bottom: 40px;
+    }
+    .easyHiringBox .col-sm-12{
+        margin-bottom: 20px;
+    }
+    .viewBottomLists .col-sm-6{
+        width: 50%;
+    }
+    .profileViewBox2 .profileViewTop .viewTopDeveloper {
+        margin-bottom: 13px;
+    }
+    .shareServiceLeft .leftHeading{
+        text-align: left;
+    }
+    .servicesLists ul{
+        justify-content: flex-start;
+    }
+    .servicesLists ul li{
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    /* Become Partner Page End */
+    /* Steps Pages Start */
+    .sectionTop {
+        margin-top: 62px;
+    }
+    .bannerLeft h4{
+        padding-right: 0px;
+    }
+    .multipleOption .col-sm-6{
+        width: 33%;
+    }
+    .multipleOption .selectOption label {
+        padding: 20px 10px;
+    }
+    .multipleOption .selectOption .optionName {
+        font-size: 14px;
+        margin-top: 14px;
+    }
+    .partnerDetailsStep {
+        width: 460px;
+    }
+    .formGroupSec{
+        width: 50%;
+    }
+    .formDesign label{
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 9px;
+    }
+    .formDesign .form-group {
+        margin-bottom: 22px;
+    }
+    .formHeading {
+        margin-bottom: 15px;
+    }
+    .selectedTechs .selectedTechbox.webViewSection{
+        display: none;
+    }
+    .mobileSection{
+        display: block;
+    }
+    .selectedTechbox .col-sm-4{
+        width: 50%;
+    }
+    .selectedTechbox .col-sm-4:first-child{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .selectedTechbox .col-sm-4:last-child{
+        margin-bottom: 0px;
+    }
+    .selectedTechs .selectedTechbox{
+        padding: 20px;
+        background: var(--colorWhite);
+        border-radius: 12px;
+    }
+    .selectedItems button,
+    .selectedItems .form-control{
+        border: 1px solid var(--colorGrey6);
+    }
+    .selectedItems button{
+        padding: 8px 15px;
+    }
+    .selectedItems .form-control{
+        padding: 9px 10px;
+    }
+    .selectedItems.techLists .techListItem{
+        width: auto;
+    }
+    /* Steps Pages End */
+    .statsSection .col-sm-3{
+        width: 50%;
+    }
+    .teamCardBox .col-md-4.col-lg-6{
+        display: none;
+    }
+    .navbar-brand{
+        width: 120px;
+        display: inline-block;
+        float: left;
+        padding: 0;
+    }
+    .footerBtmInner{
+        flex-direction: column;
+    }
+    .copyRight{
+        margin-bottom: 10px;
+    }
+    .footerBottomMenu ul li {
+        margin-right: 35px;
+    }
+    /* Contact Us Start */
+    .contactUsSection {
+        margin-bottom: 30px;
+    }
+    .contactUsRight{
+        margin-top: 20px;
+    }
+    .contactBannerContent {
+        padding-right: 27vw;
+    }
+    .contactBannerContent .contactBannerIcon {
+        width: 130px;
+        top: 14vh;
+    }
+    .contactUsBanner{
+        padding: 60px 0px;
+    }
+    /* Contact Us End */
+    /* Terms and privacy page */
+    .contentSectionDetail .sideSection {
+        display: none;
+    }
+    .contentSecDetails .secContents {
+        margin-bottom: 20px;
+    }
+    .statsSection {
+        padding: 0 10%;
+    }
+    .container {
+        padding: 0px 30px;
+    }
+    .joinUsBtm span {
+        margin-right: 18px;
+    }
+    .sectionHeading h2 {
+        margin-bottom: 13px;
+    }
+    .buildTeamInner .buildTeamLeft .sectionHeading span {
+        margin-bottom: 0;
+    }
+    .scalieInfoInner{
+        flex-wrap: wrap;
+    }
+    .scalieInfoInner span{
+        width: 50%;
+        margin: 0px 10px;
+        margin: 0px;
+        padding: 0px 10px;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 21px;
+    }
+    .scalieInfoInner span:nth-last-child(-n+2){
+        margin-bottom: 0px;
+    }
+    .frameLeft,
+    .frameRight{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .frameLeft{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 560px) {
+    /* Landing Page Start */
+    .container {
+        padding: 0px 30px;
+    }
+    .headingFont, .fontSize48 {
+        font-size: 32px;
+    }
+    .teamCards {
+        max-width: 184px;
+        padding: 10px;
+    }
+    .teamCardBox .teamCards:first-child{
+        margin-left: 0px;
+    }
+    .teamCardBox {
+        padding-left: 0;
+    }
+    /* .teamCardBox{
+        padding-left: 70px;
+    } */
+    .fontSize16 {
+        /* font-size: 13px; */
+        font-size: 14px;
+    }
+    .fontSize20 {
+        font-size: 16px;
+    }
+    .profileView{
+        padding: 20px 20px;
+    }
+    .joinUsBtm{
+        flex-direction: column;
+    }
+    .joinUsBtm span{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .joinUsBtm span:last-child{
+        margin-bottom: 0px;
+    }
+    .footerRight .col-sm-12 {
+        /* width: 100%; */
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .footerRight .col-sm-12:last-child{
+        margin-bottom: 0px;
+    }
+    .footerBtmInner{
+        flex-direction: column;
+    }
+    .copyRight {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .footerBottom{
+        padding: 30px 0 30px;
+    }
+    .becomePartnersRight .col-sm-6{
+        width: 100%;
+    }
+    .becomePartnersRight .col-sm-6,
+    .becomePartnersRight .col-sm-6:nth-last-child(-n+2){
+        margin-bottom: 20px;
+    }
+    .becomePartnersRight .col-sm-6:last-child{
+        margin-bottom: 0px;
+    }
+    .joinUsInner h2 br{
+        display: none;
+    }
+    .becomePartnersRight .col-sm-6{
+        width: 50%;
+    }
+    .becomePartnersRight .becomePartnersTile{
+        padding: 25px 15px;
+    }
+    .startUpSliderTop  .sectionHeading h2 br{
+        display: none;
+    }
+    .becomePartnersLeft .becomePartnerLogo {
+        margin-left: 10px;
+        margin-bottom: 25px;
+    }
+    .becomePartnersLeft .becomePartnersContent {
+        margin-bottom: 38px;
+    }
+    .viewBottomLists .row .col-sm-6{
+        width: 50%;
+    }
+    .companyStats{
+        /* padding: 45px 0px 20px; */
+    }
+    .techLists .techListItem{
+        height: 100%;
+        margin-bottom: 0px;
+    }
+    .techLists .techListBox{
+        margin-bottom: 15px;
+    }
+    .fontSize18 {
+        /* font-size: 14px; */
+        font-size: 15px;
+    }
+    .forClientsTable thead tr th {
+        font-size: 15px;
+    }
+    .forClientsTable tbody tr td {
+        font-size: 14px;
+    }
+    .forClientsTable thead tr th,
+    .forClientsTable tbody tr td:not(:first-child){
+        white-space: nowrap;
+    }
+    .padding75,
+    .padding110{
+        padding: 40px 0;
+    }
+    .bannerLeft h1 br{
+        display: none;
+    }
+    .techLists .techListItem span{
+        display: inline-block;
+        width: 22px;
+        margin-right: 8px;
+    }
+    .servicesLists ul li{
+        font-size: 12px;
+        padding: 12px 14px;
+    }
+    .servicesLists ul li span img{
+        width: 22px;
+        margin-right: 8px;
+    }
+    .techLists .techListItem span img{
+        width: 100%;
+    }
+    .footerMenus .footerMenuList ul li:not(:last-child) {
+        margin-bottom: 12px;
+    }
+    /* Landing Page End */
+    /* Become Partner Page Start */
+    .easyHiringBox .hiringSteps h5 {
+        margin-bottom: 8px;
+    }
+    .profileViewBox2 .profileView{
+        padding: 20px 20px;
+    }
+    .profileViewBox2 .profileView .profileViewTop, 
+    .profileViewBox2 .profileView .profileViewMid {
+        margin-bottom: 20px;
+    }
+    /* Become Partner Page End */
+    /* Steps Pages Start */
+    .multipleOption .col-sm-6{
+        width: 50%;
+    }
+    .formSections {
+        padding: 30px 0px 80px;
+    }
+    .formHeading .formHeadingSec{
+        margin-bottom: 10px;
+    }
+    .partnerDetailsStep {
+        width: 100%;
+    }
+    .formDesign .form-control{
+        padding: 10px 15px;
+    }
+    .formDesign .form-control{
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .selectedTechbox .col-sm-4{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .selectedTechbox .col-sm-4:last-child{
+        margin-bottom: 0px;
+    }
+    /* Steps Pages End */
+    /* Login/Signup Pages Start */
+    .formSecBanner{
+        display: none;
+    }
+    .formBox {
+        padding: 30px 20px;
+    }
+    .fontSize24 {
+        font-size: 20px;
+    }
+    /* Login/Signup Pages End */
+    .footerBottomMenu ul li {
+        margin-right: 25px;
+    }
+    .statsInner {
+        margin-bottom: 30px;
+    }
+    .teamCardBox .col-md-8 .teamCards {
+        width: 48%;
+    }
+    .teamCardBox .col-md-8 .teamCards:first-child {
+        margin-right: 5px;
+    }
+    .teamCardBox .col-md-8 .teamCards:last-child {
+        margin-left: 5px;
+    }
+    .sectionPoints .col-sm-6 {
+        margin-bottom: 0px;
+        /* padding: 12px 15px; */
+    }
+    .sectionPointbox h5{
+        margin-bottom: 6px;
+    }
+    /* Contact Us Start */
+    .contactBannerContent h2 {
+        margin-bottom: 26px;
+    }
+    .contactBannerContent {
+        padding-right: 0;
+    }
+    .contactUsBanner {
+        padding: 50px 0px 150px;
+    }
+    .contactBannerContent .contactBannerIcon {
+        top: 18vh;
+    }
+    /* Contact Us End */
+    .selectedItems .form-control{
+        padding: 7px 10px;
+    }
+    .selectedItems button{
+        padding: 9px 15px;
+        line-height: 18px;
+    }
+    .statsSection {
+        padding: 0 7%;
+    }
+    .servicesLists ul li{
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 414px) {
+    /* Landing Page Start */
+    .container {
+        padding: 0px 20px;
+    }
+    .headingFont, 
+    .fontSize48 {
+        font-size: 28px;
+    }
+    .bannerLeft h1, 
+    .bannerLeft h4 {
+        margin-bottom: 20px;
+    }
+    .smallHeading {
+        font-size: 15px;
+    }
+    .smallFont{
+        font-size: 13px;
+    }
+    .btnStyle,
+    .btnStyle2 {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .fontSize22 {
+        font-size: 16px;
+    }
+    .fontSize36 {
+        font-size: 24px;
+    }
+    .statsBox h6{
+        font-size: 14px;
+    }
+    .statsSection .statsBox {
+        padding: 20px 20px;
+    }
+    .techLists .techListItem{
+        font-size: 12px;
+    }
+    
+    .sectionPoints .col-sm-6{
+        /* padding: 15px 15px; */
+    }
+    .teamCards{
+        max-width: 100%;
+    }
+    .teamCardBox{
+        padding: 0px;
+        /* padding: 0px 50px; */
+    }
+    .teamCardBox .teamCards:nth-child(2){
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .teamCardBox .teamCards:last-child{
+        right: 0px;
+        margin-top: 0px;
+    }
+    .teamCardBox .teamCards:first-child .memberDetail{
+        padding-right: 0px;
+    }
+    /* .teamCardBox .teamCards{
+        margin-bottom: 15px;
+    } */
+    .teamCardBox .teamCards:last-child{
+        margin-bottom: 0px;
+    }
+    .sectionHeading h2 {
+        margin-bottom: 12px;
+    }
+    .hiringSteps .hiringCounter {
+        font-size: 12px;
+        height: 24px;
+        width: 24px;
+        min-width: 24px;
+    }
+    .fontSize14{
+        font-size: 12px;
+    }
+    .expertListing .expertListBox{
+        font-size: 12px;
+    }
+    .profileView .col-sm-4 {
+        margin-bottom: 20px;
+    }
+    .becomePartnersLeft .becomePartnersHeading {
+        margin-bottom: 15px;
+    }
+    .socialLists ul li a {
+        font-size: 18px;
+    }
+    .subHeadingFont {
+        font-size: 16px;
+    }
+    .mainBanner {
+        padding: 28px 0px 40px;
+    }
+    /* Landing Page End */
+    /* Become Partner Page Start */
+    .becomePartnersRight .col-sm-6{
+        width: 100%;
+    }
+    /* Become Partner Page End */
+    /* Steps Pages Start */
+    .multipleOption .selectOption .optionName {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .formGroupSec {
+        width: 100%;
+        margin-bottom: 13px;
+    }
+    .formGroupSec:last-child{
+        margin-bottom: 0px;
+    }
+    /* Steps Pages End */
+
+    /* Login/Signup Pages Start */
+    .formDesign label {
+        font-size: 13px;
+        line-height: 19px;
+        margin-bottom: 9px;
+    }
+    .formTopBox {
+        margin-bottom: 30px;
+    }
+    .formTopBox .subHeadBox {
+        margin-bottom: 22px;
+    }
+    .formDesign .form-group {
+        margin-bottom: 18px;
+    }
+    /* .fontSize20 {
+        font-size: 14px;
+    } */
+    /* Login/Signup Pages End */
+    /* Contact Us Start */
+    .contactBannerContent h2 br{
+        display: initial;
+    }
+    .contactBannerContent .contactBannerIcon {
+        top: 23vh;
+    }
+    /* Contact Us End */
+    .statsSection {
+        padding: 0px 0px;
+    }
+    .statsSection .statsBox {
+        padding: 20px 10px;
+    }
+    .companyStats {
+        padding: 50px 0px 40px;
+    }
+    .scalieInfoInner span{
+        padding: 0px 11%;
+    }
+}
