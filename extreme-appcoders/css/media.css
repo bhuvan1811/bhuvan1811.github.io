@@ -1,0 +1,402 @@
+@media (max-width: 1920px) {}
+
+@media (max-width: 1560px) {
+
+}
+
+@media (max-width: 1367px) {
+    .container {
+        max-width: 1110px;
+    }
+    html {
+        font-size: 54%;
+    }
+    .expressiveUiSlider .expressiveUiRight,
+    .expressiveUiSlider .expressiveUiLeft{
+        width: 50%;
+    }
+    .expressiveUiSlider .expressiveUiLeft{
+        padding-right: 3rem;
+    }
+
+    /* Home Page Start */
+    /* .headingMainBanner{
+        font-size: 8.6rem;
+        line-height: 8.1rem;
+        top: 24rem;
+        padding-left: 16.5rem;
+    }
+    .statsSecInner .statsCount{
+        font-size: 8.6rem;
+    }
+    .whyUsBox .whyusSecDetail br,
+    .whyUsBox .whyusSecHeading br{
+        display: none;
+    } */
+    /* Home Page End */
+}
+
+@media (max-width: 1199px) {
+    .container {
+        max-width: 100%;
+        padding: 0px 50px;
+    }
+    /* Home Page Start */
+
+    /* Home Page End */
+}
+
+@media (max-width: 991px) {
+    
+    /* Home Page Start */
+
+    /* Home Page End */
+}
+
+@media (max-width: 767px) {
+    /* Sidebar Start */
+    .navbar-expand-md .navbar-collapse {
+        display: none;
+        position: fixed;
+        background: var(--colorWhite);
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: -100%;
+        height: auto;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 50px 0px;
+    }
+    .navbar-expand-md .navbar-collapse.showBox {
+        top: -100%;
+    }
+    .navbar-expand-md .navbar-collapse.show{
+        top: 56px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        box-shadow: 0px 5px 3px -4px rgb(0 0 0 / 30%);
+    }
+    .headerRight{
+        width: auto;
+    }
+    .navbar-expand-md .navbar-nav .nav-link, 
+    .navbar-nav .nav-link{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .headerBtn .btnStyle{
+        animation: none;
+        box-shadow: none;
+    }
+    /* Sidebar End */
+
+    /* Landing Page Start */
+    .forClientsTable{
+        overflow-x: auto;
+    }
+    .bannerRight{
+        margin-top: 40px;
+    }
+    .headingFont, .fontSize48 {
+        font-size: 36px;
+    }
+    .mainBanner {
+        padding: 40px 0px 40px;
+    }
+    .statsSection .col-sm-4{
+        width: 50%;
+    }
+    .fontSize22 {
+        font-size: 18px;
+    }
+    .tecnologyStack {
+        /* padding: 50px 0px 0px; */
+    }
+    .techLists .techListBox {
+        width: 50%;
+    }
+    .buildTeamLeft{
+        margin-top: 0px;
+    }
+    .fontSize36 {
+        font-size: 25px;
+    }
+    .fontSize28 {
+        font-size: 20px;
+    }
+    .fontSize26 {
+        font-size: 19px;
+    }
+    .sectionPoints .col-sm-6 {
+        /*margin-bottom: 0px;*/
+        /* padding: 20px 15px; */
+    }
+    .sectionHeading2 {
+        margin-bottom: 30px;
+    }
+    .teamCards {
+        max-width: 227px;
+    }
+    .hiringSteps .hiringCounter{
+        font-size: 14px;
+        height: 30px;
+        width: 38px;
+        min-width: 38px;
+    }
+    .easyHiringBox .col-lg-6,
+    .easyHiringBox .col-lg-6:nth-last-child(-n+2) {
+        margin-bottom: 20px;
+    }
+    .easyHiringBox .col-lg-6:nth-child(){
+        margin-bottom: 0px;
+    }
+    .fontSize20 {
+        font-size: 18px;
+    }
+    .profileView .col-sm-4{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .profileView .col-sm-4:last-child{
+        margin-bottom: 0px;
+    }
+    .profileViewTop .viewTopDeveloper{
+        margin-bottom: 13px;
+    }
+    .footerSection .footerBox{
+        padding: 50px 0px 50px;
+    }
+    .footerRight{
+        margin-top: 40px;
+    }
+    .footerRight .col-sm-12{
+        width: 33%;
+    }
+    .padding75,
+    .padding110{
+        padding: 50px 0;
+    }
+    .becomePartnersRight .col-sm-6{
+        width: 50%;
+    }
+    .teamCardBox {
+        padding: 0 0;
+    }
+    /* Landing Page End */
+
+    /* Become Partner Page Start */
+    .shareServicesBox .shareServiceLeft{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .shareServicesBox .shareServiceRight{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .shareServicesBox{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .shareServiceRight.sectionHeading h2 br{
+        display: none;
+    }
+    .outStaffBanner {
+        margin-bottom: 40px;
+    }
+    .easyHiringBox .col-sm-12{
+        margin-bottom: 20px;
+    }
+    .viewBottomLists .col-sm-6{
+        width: 50%;
+    }
+    .profileViewBox2 .profileViewTop .viewTopDeveloper {
+        margin-bottom: 13px;
+    }
+    .shareServiceLeft .leftHeading{
+        text-align: left;
+    }
+    .servicesLists ul{
+        justify-content: flex-start;
+    }
+    .servicesLists ul li{
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    /* Become Partner Page End */
+    /* Steps Pages Start */
+    .sectionTop {
+        margin-top: 62px;
+    }
+    .bannerLeft h4{
+        padding-right: 0px;
+    }
+    .multipleOption .col-sm-6{
+        width: 33%;
+    }
+    .multipleOption .selectOption label {
+        padding: 20px 10px;
+    }
+    .multipleOption .selectOption .optionName {
+        font-size: 14px;
+        margin-top: 14px;
+    }
+    .partnerDetailsStep {
+        width: 460px;
+    }
+    .formGroupSec{
+        width: 50%;
+    }
+    .formDesign label{
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 9px;
+    }
+    .formDesign .form-group {
+        margin-bottom: 22px;
+    }
+    .formHeading {
+        margin-bottom: 15px;
+    }
+    .selectedTechs .selectedTechbox.webViewSection{
+        display: none;
+    }
+    .mobileSection{
+        display: block;
+    }
+    .selectedTechbox .col-sm-4{
+        width: 50%;
+    }
+    .selectedTechbox .col-sm-4:first-child{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .selectedTechbox .col-sm-4:last-child{
+        margin-bottom: 0px;
+    }
+    .selectedTechs .selectedTechbox{
+        padding: 20px;
+        background: var(--colorWhite);
+        border-radius: 12px;
+    }
+    .selectedItems button,
+    .selectedItems .form-control{
+        border: 1px solid var(--colorGrey6);
+    }
+    .selectedItems button{
+        padding: 8px 15px;
+    }
+    .selectedItems .form-control{
+        padding: 9px 10px;
+    }
+    .selectedItems.techLists .techListItem{
+        width: auto;
+    }
+    /* Steps Pages End */
+    .statsSection .col-sm-3{
+        width: 50%;
+    }
+    .teamCardBox .col-md-4.col-lg-6{
+        display: none;
+    }
+    .navbar-brand{
+        width: 120px;
+        display: inline-block;
+        float: left;
+        padding: 0;
+    }
+    .footerBtmInner{
+        flex-direction: column;
+    }
+    .copyRight{
+        margin-bottom: 10px;
+    }
+    .footerBottomMenu ul li {
+        margin-right: 35px;
+    }
+    /* Contact Us Start */
+    .contactUsSection {
+        margin-bottom: 30px;
+    }
+    .contactUsRight{
+        margin-top: 20px;
+    }
+    .contactBannerContent {
+        padding-right: 27vw;
+    }
+    .contactBannerContent .contactBannerIcon {
+        width: 130px;
+        top: 14vh;
+    }
+    .contactUsBanner{
+        padding: 60px 0px;
+    }
+    /* Contact Us End */
+    /* Terms and privacy page */
+    .contentSectionDetail .sideSection {
+        display: none;
+    }
+    .contentSecDetails .secContents {
+        margin-bottom: 20px;
+    }
+    .statsSection {
+        padding: 0 10%;
+    }
+    .container {
+        padding: 0px 30px;
+    }
+    .joinUsBtm span {
+        margin-right: 18px;
+    }
+    .sectionHeading h2 {
+        margin-bottom: 13px;
+    }
+    .buildTeamInner .buildTeamLeft .sectionHeading span {
+        margin-bottom: 0;
+    }
+    .scalieInfoInner{
+        flex-wrap: wrap;
+    }
+    .scalieInfoInner span{
+        width: 50%;
+        margin: 0px 10px;
+        margin: 0px;
+        padding: 0px 10px;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 21px;
+    }
+    .scalieInfoInner span:nth-last-child(-n+2){
+        margin-bottom: 0px;
+    }
+    .frameLeft,
+    .frameRight{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .frameLeft{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 560px) {
+    .container {
+        padding: 0px 30px;
+    }
+
+    /* Home Page Start */
+
+    /* Home Page End */
+}
+
+@media (max-width: 414px) {
+    .container {
+        padding: 0px 20px;
+    }
+
+    /* Home Page Start */
+
+    /* Home Page End */
+}
