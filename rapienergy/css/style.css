@@ -2060,6 +2060,10 @@ ul.featuresListings {
     text-decoration: underline;
 }
 
+.developedBy a{
+    color: var(--colorOrange);
+}
+
 .footBtmText {
     display: block;
     width: 100%;
