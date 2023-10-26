@@ -3808,3 +3808,43 @@ input[type=number] {
 .formDesign select.form-control{
     padding-right: 30px;
 }
+
+/* Terms And Privacy Pages Start */
+.companyDetailsInner{
+    padding: 7rem 0rem;
+}
+.companyContentSec ul{
+    list-style: disc;
+    margin-bottom: 15px;
+}
+.companyContentSec ul li{
+    padding-left: 50px;
+    margin-bottom: 15px;
+    position: relative;
+    font-family: var(--poppinsRegularFont);
+}
+.companyContentSec ul li:last-child{
+    margin-bottom: 0px;
+}
+.companyContentSec ul li::before{
+    position: absolute;
+    content: '';
+    height: 5px;
+    width: 5px;
+    background-color: var(--colorBlack);
+    border-radius: 50%;
+    left: 30px;
+    top: 10px;
+}
+.companyContentSec h4{
+    margin-bottom: 30px;
+    font-family: var(--poppinsSemiboldFont);
+}
+.companyContentSec p{
+    margin-bottom: 15px;
+    font-family: var(--poppinsRegularFont);
+}
+.companyContentSec{
+    margin-bottom: 50px;
+}
+/* Terms And Privacy Pages End */

@@ -97,6 +97,12 @@
         height: 280px;
     }
 
+    /* Terms and Privacy Start */
+    .companyContentSec ul li::before{
+        top: 8px;
+    }
+    /* Terms and Privacy End */
+
 }
 
 @media (max-width: 1199px) {
@@ -292,6 +298,17 @@
     }
     /* Services End */
 
+    /* Terms and Privacy Start */
+    .companyContentSec {
+        margin-bottom: 35px;
+    }
+    .companyContentSec h4{
+        margin-bottom: 22px;
+    }
+     .companyContentSec ul li::before{
+        top: 7px;
+    }
+    /* Terms and Privacy End */
 }
 
 @media (max-width: 991px) {
@@ -701,6 +718,22 @@
     .form-group.formIconSec .formFieldIcon.formFieldIcon2 {
         top: 2rem;
     }
+    /* Terms And Privacy Page Start */
+    .companyContentSec h4 {
+        margin-bottom: 20px;
+    }
+    .companyContentSec ul li{
+        padding-left: 35px;
+    }
+    .companyContentSec ul li::before{
+        left: 20px;
+        height: 4px;
+        width: 4px;
+    }
+    .companyContentSec:last-child{
+        margin-bottom: 0px;
+    }
+    /* Terms And Privacy Page End */
 }
 
 @media (max-width: 767px) {
@@ -1518,6 +1551,15 @@
     .form-group.formIconSec .formFieldIcon.formFieldIcon2 {
         top: 3rem;
     }
+
+    /* Terms and Privacy Page Start */
+    .companyContentSec {
+        margin-bottom: 15px;
+    }
+    .companyContentSec ul li{
+        margin-bottom: 13px;
+    }
+    /* Terms and Privacy Page End */
 }
 
 @media (max-width: 560px) { 
